@@ -1,1 +1,5 @@
-/README.md
+.github/
+*.exe
+*.jar
+*.mrpack
+README.md

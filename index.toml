@@ -1,18 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".github/FUNDING.yml"
-hash = "9d3a5971222d9db24a1fff94de945e965f4b906fc54ac8782f13bd0daadab156"
-
-[[files]]
-file = ".github/ISSUE_TEMPLATE/bug-report.md"
-hash = "d96040f1d5d8a0a93bd04a9a260180e413f073548574b29daa83d75498abba19"
-
-[[files]]
-file = ".github/ISSUE_TEMPLATE/feature-request.md"
-hash = "28f6c9904f4f4c9faf31b6be4ec655ae91728b45d143d7910c3746ad1bf281fc"
-
-[[files]]
 file = "LICENSE"
 hash = "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809"
 
