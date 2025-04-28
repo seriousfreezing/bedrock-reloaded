@@ -1,6 +1,0 @@
-[client]
-	[client.advanced]
-			[client.advanced.graphics.quality]
-				lodChunkRenderDistanceRadius = 96
-			[client.advanced.graphics.genericRendering]
-				enableCloudRendering = false
