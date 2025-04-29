@@ -1,2 +1,4 @@
+*.exe
+*.jar
+*.mrpack
 archived/
-/README.md
