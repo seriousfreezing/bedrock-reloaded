@@ -1,0 +1,13 @@
+name = "Angled Particles"
+filename = "angledparticles-1.1.0+1.21.5.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/vNE2awPg/versions/MUFKot0A/angledparticles-1.1.0%2B1.21.5.jar"
+hash-format = "sha1"
+hash = "b8d8f27190dca7c508e2ce9c481a09d96c02b2f7"
+
+[update]
+[update.modrinth]
+mod-id = "vNE2awPg"
+version = "MUFKot0A"
