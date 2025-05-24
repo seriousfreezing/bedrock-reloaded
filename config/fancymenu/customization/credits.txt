@@ -65,6 +65,18 @@ element {
 
 element {
   element_type = custom_button
+  anchor_point = top-left
+  width = 230
+  height = 25
+  x = 4
+  y = 141
+  label = {"placeholder":"local","values":{"key":"br.controller.title"}}
+  [executable_action_instance:17][action_type:set_variable] = main_menu:false
+  [executable_action_instance:18][action_type:mimicbutton] = controls_screen:65837
+}
+
+element {
+  element_type = custom_button
   anchor_point = top-centered
   width = 65
   height = 30
@@ -365,18 +377,6 @@ element {
   x = 12
   y = 253
   source = [source:local]/config/fancymenu/assets/icons/video.png
-}
-
-element {
-  element_type = custom_button
-  anchor_point = top-left
-  width = 230
-  height = 25
-  x = 4
-  y = 141
-  label = {"placeholder":"local","values":{"key":"br.controller.title"}}
-  [executable_action_instance:22][action_type:set_variable] = main_menu:false
-  [executable_action_instance:23][action_type:mimicbutton] = controls_screen:65837
 }
 
 element {

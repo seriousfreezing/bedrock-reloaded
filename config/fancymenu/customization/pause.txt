@@ -64,7 +64,7 @@ element {
   x = -10
   y = 37
   label = {"placeholder":"local","values":{"key":"br.menu.skin"}}
-  [executable_action_instance:0][action_type:opengui] = com.mineblock11.skinshuffle.client.gui.LargeCarouselScreen
+  [executable_action_instance:0][action_type:opengui] = dev.imb11.skinshuffle.client.gui.carousels.CompactCarouselScreen
 }
 
 element {
@@ -149,7 +149,7 @@ element {
   x = 4
   y = 4
   label = {"placeholder":"local","values":{"key":"br.pause.return"}}
-  [executable_action_instance:4][action_type:mimicbutton] = pause_screen:mc_pausescreen_return_to_game_button
+  [executable_action_instance:4][action_type:mimicbutton] = pause_screen:pause_return_to_game_button
 }
 
 element {
@@ -161,7 +161,7 @@ element {
   x = 4
   y = 48
   label = {"placeholder":"local","values":{"key":"br.options.title"}}
-  [executable_action_instance:3][action_type:mimicbutton] = pause_screen:mc_pausescreen_options_button
+  [executable_action_instance:3][action_type:mimicbutton] = pause_screen:pause_options_button
 }
 
 element {
@@ -173,7 +173,7 @@ element {
   x = 4
   y = 92
   label = {"placeholder":"local","values":{"key":"br.pause.stats"}}
-  [executable_action_instance:2][action_type:mimicbutton] = pause_screen:mc_pausescreen_stats_button
+  [executable_action_instance:2][action_type:mimicbutton] = pause_screen:pause_stats_button
 }
 
 element {
@@ -185,7 +185,7 @@ element {
   x = 4
   y = 136
   label = {"placeholder":"local","values":{"key":"br.pause.quit"}}
-  [executable_action_instance:1][action_type:mimicbutton] = pause_screen:mc_pausescreen_disconnect_button
+  [executable_action_instance:1][action_type:mimicbutton] = pause_screen:pause_disconnect_button
 }
 
 element {
@@ -306,7 +306,7 @@ element {
 }
 
 vanilla_button {
-  instance_identifier = mc_pausescreen_advancements_button
+  instance_identifier = pause_advancements_button
   anchor_point = bottom-left
   width = 30
   height = 30
@@ -316,22 +316,22 @@ vanilla_button {
 }
 
 vanilla_button {
-  instance_identifier = mc_pausescreen_return_to_game_button
+  instance_identifier = pause_return_to_game_button
   is_hidden = true
 }
 
 vanilla_button {
-  instance_identifier = mc_pausescreen_stats_button
+  instance_identifier = pause_stats_button
   is_hidden = true
 }
 
 vanilla_button {
-  instance_identifier = mc_pausescreen_feedback_button
+  instance_identifier = pause_send_feedback_button
   is_hidden = true
 }
 
 vanilla_button {
-  instance_identifier = mc_pausescreen_options_button
+  instance_identifier = pause_options_button
   is_hidden = true
 }
 
@@ -341,7 +341,7 @@ vanilla_button {
 }
 
 vanilla_button {
-  instance_identifier = mc_pausescreen_disconnect_button
+  instance_identifier = pause_disconnect_button
   is_hidden = true
 }
 
@@ -356,6 +356,6 @@ vanilla_button {
 }
 
 vanilla_button {
-  instance_identifier = mc_pausescreen_report_bugs_button
+  instance_identifier = pause_report_bugs_button
   is_hidden = true
 }

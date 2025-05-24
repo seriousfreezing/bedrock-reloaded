@@ -69,7 +69,7 @@ element {
   height = 28
   x = -123
   y = -48
-  [executable_action_instance:2][action_type:opengui] = com.mineblock11.skinshuffle.client.gui.LargeCarouselScreen
+  [executable_action_instance:2][action_type:opengui] = dev.imb11.skinshuffle.client.gui.carousels.CompactCarouselScreen
 }
 
 element {
@@ -154,25 +154,18 @@ element {
 element {
   element_type = shape
   anchor_point = bottom-left
-  advanced_posx = {"placeholder":"elementposx","values":{"id":"5474c4d0-de59-4ef7-a8f4-d2299e6361a2-1725410766384"}}
-  advanced_posy = {"placeholder":"elementposy","values":{"id":"5474c4d0-de59-4ef7-a8f4-d2299e6361a2-1725410766384"}}
-  advanced_width = {"placeholder":"elementwidth","values":{"id":"5474c4d0-de59-4ef7-a8f4-d2299e6361a2-1725410766384"}}
-  advanced_height = {"placeholder":"elementheight","values":{"id":"5474c4d0-de59-4ef7-a8f4-d2299e6361a2-1725410766384"}}
+  advanced_posx = {"placeholder":"elementposx","values":{"id":"title_screen_copyright_button"}}
+  advanced_posy = {"placeholder":"elementposy","values":{"id":"title_screen_copyright_button"}}
+  advanced_width = {"placeholder":"elementwidth","values":{"id":"title_screen_copyright_button"}}
+  advanced_height = {"placeholder":"elementheight","values":{"id":"title_screen_copyright_button"}}
   color = #00000075
 }
 
-element {
-  instance_identifier = 5474c4d0-de59-4ef7-a8f4-d2299e6361a2-1725410766384
-  element_type = text_v2
+vanilla_button {
+  instance_identifier = title_screen_copyright_button
   anchor_point = bottom-left
-  width = 70
-  height = 13
   x = 0
   y = -14
-  source = © Mojang AB
-  source_mode = direct
-  shadow = false
-  enable_scrolling = false
 }
 
 vanilla_button {
