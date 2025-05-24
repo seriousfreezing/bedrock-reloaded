@@ -1,10 +1,9 @@
 version:4325
 fullscreen:false
 showAutosaveIndicator:false
-darkMojangStudiosBackground:true
 maxFps:260
 simulationDistance:8
-resourcePacks:["fabric","file/Bedrock Edition Music.zip","file/Bedrocking.zip","file/SodiumTranslations.zip","file/dynamic-rain-shader_0.1.2_1.21.4.zip","visual-snowy-leaves:blue-jungle-leaves-fix"]
+resourcePacks:["fabric","file/Bedrock Edition Music.zip","file/Bedrocking.zip","file/SodiumTranslations.zip","visual-snowy-leaves:blue-jungle-leaves-fix"]
 menuBackgroundBlurriness:0.0
 key_key.swapOffhand:key.keyboard.unknown
 key_key.saveToolbarActivator:key.keyboard.unknown

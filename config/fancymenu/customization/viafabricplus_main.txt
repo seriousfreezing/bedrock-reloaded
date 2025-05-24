@@ -1,0 +1,46 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = com.viaversion.viafabricplus.screen.impl.ProtocolSelectionScreen
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+vanilla_button {
+  instance_identifier = 55
+  anchor_point = top-left
+  width = 8
+  height = 12
+  x = 4
+  y = 6
+  backgroundnormal = [source:location]fancymenu:icons/back.png
+  backgroundhovered = [source:location]fancymenu:icons/back_highlight.png
+  label = 
+}
+
+vanilla_button {
+  instance_identifier = 8975
+  anchor_point = bottom-centered
+  width = 130
+  height = 25
+  x = -65
+  y = -28
+}
+
+vanilla_button {
+  instance_identifier = 897975
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 39025
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 5975
+  is_hidden = true
+}

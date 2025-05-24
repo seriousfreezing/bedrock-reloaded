@@ -1,0 +1,10 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = dev.isxander.yacl3.gui.YACLScreen
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}

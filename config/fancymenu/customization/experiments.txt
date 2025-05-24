@@ -1,0 +1,42 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = experiments_screen
+  render_custom_elements_behind_vanilla = true
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+vanilla_button {
+  instance_identifier = 346974
+  anchor_point = bottom-centered
+  width = 150
+  height = 30
+  x = -75
+  y = -32
+}
+
+element {
+  element_type = shape
+  anchor_point = mid-centered
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposx","values":{"id":"34563"}} - 4","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposy","values":{"id":"34563"}} - 4","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"34563"}} + 8","decimal":"true"}}
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementheight","values":{"id":"34563"}} + 8","decimal":"true"}}
+  color = #00000075
+}
+
+vanilla_button {
+  instance_identifier = 504974
+  anchor_point = top-left
+  width = 8
+  height = 12
+  x = 4
+  y = 6
+  backgroundnormal = [source:location]fancymenu:icons/back.png
+  backgroundhovered = [source:location]fancymenu:icons/back_highlight.png
+  label = 
+}
