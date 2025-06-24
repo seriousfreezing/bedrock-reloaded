@@ -1,0 +1,53 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = io.github.gaming32.worldhost.gui.screen.FriendsScreen
+  custom_menu_title = {"placeholder":"stringify","values":{"text":""}}
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+vanilla_button {
+  instance_identifier = 502970
+  anchor_point = top-left
+  width = 8
+  height = 12
+  x = 4
+  y = 6
+  backgroundnormal = [source:location]fancymenu:icons/back.png
+  backgroundhovered = [source:location]fancymenu:icons/back_highlight.png
+  label = 
+}
+
+vanilla_button {
+  instance_identifier = 346946
+  anchor_point = bottom-centered
+  width = 100
+  height = 30
+  x = -154
+  y = -53
+  label = {"placeholder":"local","values":{"key":"bedrockreloaded.friends_add"}}
+}
+
+vanilla_button {
+  instance_identifier = 502946
+  anchor_point = bottom-centered
+  width = 100
+  height = 30
+  x = 54
+  y = -53
+  label = {"placeholder":"local","values":{"key":"bedrockreloaded.friends_remove"}}
+}
+
+vanilla_button {
+  instance_identifier = 346970
+  anchor_point = bottom-centered
+  width = 100
+  height = 30
+  x = -50
+  y = -53
+  label = {"placeholder":"local","values":{"key":"bedrockreloaded.friends_info"}}
+}

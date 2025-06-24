@@ -1,0 +1,37 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = preset_flat_world_screen
+  custom_menu_title = {"placeholder":"stringify","values":{"text":""}}
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+element {
+  element_type = custom_button
+  anchor_point = top-left
+  width = 8
+  height = 12
+  x = 4
+  y = 6
+  backgroundnormal = [source:location]fancymenu:icons/back.png
+  backgroundhovered = [source:location]fancymenu:icons/back_highlight.png
+  [executable_action_instance:0][action_type:mimicbutton] = preset_flat_world_screen:505972
+}
+
+vanilla_button {
+  instance_identifier = 345972
+  anchor_point = bottom-centered
+  width = 130
+  height = 30
+  x = -65
+  y = -32
+}
+
+vanilla_button {
+  instance_identifier = 505972
+  is_hidden = true
+}

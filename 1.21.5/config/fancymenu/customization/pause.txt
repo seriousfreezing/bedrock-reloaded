@@ -1,0 +1,336 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = pause_screen
+  render_custom_elements_behind_vanilla = true
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+element {
+  instance_identifier = 0
+  element_type = image
+  anchor_point = mid-centered
+  width = 175
+  height = 129
+  x = -210
+  y = -76
+  source = [source:local]/config/fancymenu/assets/bg/pause_shadow.png
+  nine_slice_texture = true
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+}
+
+element {
+  instance_identifier = 1
+  element_type = image
+  anchor_point = mid-right
+  width = 172
+  height = 100
+  x = -151
+  stretch_y = true
+  source = [source:local]/config/fancymenu/assets/bg/pause_player.png
+  nine_slice_texture = true
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+}
+
+element {
+  instance_identifier = 2
+  element_type = image
+  anchor_point = element
+  anchor_point_element = 504330
+  width = 141
+  height = 28
+  y = -30
+  source = [source:local]/config/fancymenu/assets/bg/pause_shadow.png
+  nine_slice_texture = true
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+}
+
+element {
+  element_type = fancymenu_customization_player_entity
+  anchor_point = element
+  anchor_point_element = 3
+  width = 30
+  height = 90
+  x = 15
+  y = -93
+  copy_client_player = true
+  scale = 50
+}
+
+
+element {
+  instance_identifier = 4
+  element_type = custom_button
+  anchor_point = bottom-left
+  width = 24
+  height = 24
+  x = 72
+  y = -28
+  [executable_action_instance:1][action_type:mimicbutton] = pause_screen:pause_advancements_button
+}
+
+element {
+  element_type = image
+  anchor_point = element
+  anchor_point_element = 4
+  width = 9
+  height = 12
+  x = 8
+  y = 6
+  source = [source:local]/config/fancymenu/assets/icons/achievements.png
+}
+
+element {
+  instance_identifier = 6
+  element_type = custom_button
+  anchor_point = element
+  anchor_point_element = 5
+  width = 24
+  height = 24
+  x = -30
+  [executable_action_instance:6][action_type:openlink] = https://aka.ms/minecraftfb?OCID=Ingamefeedbackpausecta
+}
+
+element {
+  element_type = image
+  anchor_point = element
+  anchor_point_element = 6
+  width = 12
+  height = 12
+  x = 6
+  y = 6
+  source = [source:local]/config/fancymenu/assets/icons/feedback.png
+}
+
+element {
+  instance_identifier = 5
+  element_type = custom_button
+  anchor_point = element
+  anchor_point_element = 4
+  width = 24
+  height = 24
+  x = -30
+  [executable_action_instance:7][action_type:mimicbutton] = pause_screen:606258
+}
+
+element {
+  element_type = image
+  anchor_point = element
+  anchor_point_element = 5
+  width = 12
+  height = 9
+  x = 6
+  y = 8
+  source = [source:local]/config/fancymenu/assets/icons/screenshots.png
+}
+
+element {
+  element_type = shape
+  anchor_point = element
+  anchor_point_element = 7
+  width = 16
+  height = 16
+  x = 1
+  y = 1
+  color = #3F3F3F
+}
+
+element {
+  instance_identifier = 7
+  element_type = image
+  anchor_point = element
+  anchor_point_element = 2
+  width = 16
+  height = 16
+  x = 5
+  y = 5
+  source = [source:web]https://mc-heads.net/avatar/{"placeholder":"playeruuid"}
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 2
+  width = 119
+  height = 15
+  x = 21
+  y = 7
+  source = {"placeholder":"playername"}
+  source_mode = direct
+  enable_scrolling = false
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 2
+  width = 153
+  height = 16
+  x = -2
+  y = -15
+  [loading_requirement:fancymenu_loading_requirement_is_multiplayer][requirement_mode:if][req_id:0] = 
+  source = {"placeholder":"current_server_ip"}
+  source_mode = direct
+  enable_scrolling = false
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 2
+  width = 153
+  height = 16
+  x = -2
+  y = -15
+  [loading_requirement:fancymenu_visibility_requirement_is_survival][requirement_mode:if][req_id:1] = 
+  [loading_requirement:fancymenu_loading_requirement_is_singpleplayer][requirement_mode:if][req_id:2] = 
+  source = {"placeholder":"local","values":{"key":"selectWorld.gameMode.survival"}}
+  source_mode = direct
+  enable_scrolling = false
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 2
+  width = 153
+  height = 16
+  x = -2
+  y = -15
+  [loading_requirement:fancymenu_visibility_requirement_is_creative][requirement_mode:if][req_id:3] = 
+  [loading_requirement:fancymenu_loading_requirement_is_singpleplayer][requirement_mode:if][req_id:4] = 
+  source = {"placeholder":"local","values":{"key":"selectWorld.gameMode.creative"}}
+  source_mode = direct
+  enable_scrolling = false
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 2
+  width = 153
+  height = 16
+  x = -2
+  y = -15
+  [loading_requirement:fancymenu_visibility_requirement_is_spectator][requirement_mode:if][req_id:5] = 
+  [loading_requirement:fancymenu_loading_requirement_is_singpleplayer][requirement_mode:if][req_id:6] = 
+  source = {"placeholder":"local","values":{"key":"selectWorld.gameMode.spectator"}}
+  source_mode = direct
+  enable_scrolling = false
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 2
+  width = 153
+  height = 16
+  x = -2
+  y = -15
+  [loading_requirement:fancymenu_visibility_requirement_is_adventure][requirement_mode:if][req_id:7] = 
+  [loading_requirement:fancymenu_loading_requirement_is_singpleplayer][requirement_mode:if][req_id:8] = 
+  source = {"placeholder":"local","values":{"key":"selectWorld.gameMode.adventure"}}
+  source_mode = direct
+  enable_scrolling = false
+}
+
+vanilla_button {
+  instance_identifier = pause_options_button
+  anchor_point = element
+  anchor_point_element = 0
+  width = 166
+  height = 28
+  x = 5
+  y = 36
+  label = {"placeholder":"local","values":{"key":"bedrockreloaded.options_title"}}
+}
+
+vanilla_button {
+  instance_identifier = pause_stats_button
+  anchor_point = element
+  anchor_point_element = 0
+  width = 166
+  height = 28
+  x = 5
+  y = 66
+  label = {"placeholder":"local","values":{"key":"bedrockreloaded.pause_stats"}}
+}
+
+vanilla_button {
+  instance_identifier = 504330
+  anchor_point = top-right
+  width = 141
+  height = 28
+  x = -146
+  y = 47
+  label = {"placeholder":"local","values":{"key":"bedrockreloaded.pause_invite"}}
+}
+
+vanilla_button {
+  instance_identifier = pause_return_to_game_button
+  anchor_point = element
+  anchor_point_element = 0
+  width = 166
+  height = 28
+  x = 5
+  y = 6
+  label = {"placeholder":"local","values":{"key":"bedrockreloaded.pause_return"}}
+}
+
+vanilla_button {
+  instance_identifier = pause_disconnect_button
+  anchor_point = element
+  anchor_point_element = 0
+  width = 166
+  height = 28
+  x = 5
+  y = 96
+  label = {"placeholder":"local","values":{"key":"bedrockreloaded.pause_quit"}}
+}
+
+vanilla_button {
+  instance_identifier = 617354
+  anchor_point = mid-centered
+  width = 60
+  height = 27
+  x = -8
+  y = 26
+  label = {"placeholder":"local","values":{"key":"bedrockreloaded.menu_skin"}}
+}
+
+vanilla_button {
+  instance_identifier = 606258
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 40
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = pause_advancements_button
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = pause_report_bugs_button
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = pause_send_feedback_button
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  is_hidden = true
+}
