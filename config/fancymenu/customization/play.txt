@@ -86,7 +86,7 @@ element {
   x = -1
   y = -30
   label = {"placeholder":"local","values":{"key":"bedrockreloaded.play_create"}}
-  [executable_action_instance:3][action_type:mimicbutton] = select_world_screen:554948
+  [executable_action_instance:3][action_type:mimicbutton] = select_world_screen:504948
   [executable_action_instance:4][action_type:set_variable] = create_world:true
 }
 
@@ -153,6 +153,11 @@ vanilla_button {
 
 vanilla_button {
   instance_identifier = 554948
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 504948
   is_hidden = true
 }
 

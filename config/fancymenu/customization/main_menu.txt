@@ -117,7 +117,7 @@ element {
   height = 8
   x = 5
   y = 8
-  source = [source:local]/config/fancymenu/assets/icons/language.png
+  source = [source:location]minecraft:textures/icons/language.png
 }
 
 element {
@@ -140,7 +140,7 @@ element {
   height = 12
   x = 9
   y = 6
-  source = [source:local]/config/fancymenu/assets/icons/accessibility.png
+  source = [source:location]minecraft:textures/icons/accessibility.png
 }
 
 element {

@@ -1,7 +1,7 @@
 type = fancymenu_layout
 
 layout-meta {
-  identifier = com.viaversion.viafabricplus.screen.impl.settings.SettingsScreen
+  identifier = com.viaversion.viafabricplus.screen.impl.SettingsScreen
 }
 
 customization {

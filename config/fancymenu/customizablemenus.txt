@@ -75,25 +75,10 @@ net.minecraft.class_9246 {
 net.minecraft.class_525 {
 }
 
-io.github.gaming32.worldhost.gui.screen.OnlineFriendsScreen {
-}
-
-io.github.gaming32.worldhost.gui.screen.FriendsScreen {
-}
-
-dev.dediamondpro.resourcify.gui.browsepage.BrowseScreen {
-}
-
 net.caffeinemc.mods.sodium.client.gui.SodiumOptionsGUI {
 }
 
-org.minepedia.screen.MinepediaIndexScreen {
-}
-
 me.shedaniel.clothconfig2.gui.ClothConfigScreen {
-}
-
-loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.gui.ClassicConfigGUI$ConfigScreen {
 }
 
 net.minecraft.class_419 {
@@ -111,25 +96,7 @@ net.minecraft.class_457 {
 net.minecraft.class_458 {
 }
 
-net.minecraft.class_524 {
-}
-
 net.minecraft.class_8032 {
-}
-
-io.github.gaming32.worldhost.gui.screen.PlayerInfoScreen {
-}
-
-io.github.gaming32.worldhost.gui.screen.AddFriendScreen {
-}
-
-com.mineblock11.skinshuffle.client.gui.CompactCarouselScreen {
-}
-
-com.mineblock11.skinshuffle.client.gui.PresetEditScreen {
-}
-
-net.minecraft.class_429 {
 }
 
 net.minecraft.class_5375 {
@@ -213,18 +180,6 @@ dev.isxander.yacl3.gui.YACLScreen {
 net.minecraft.class_433 {
 }
 
-de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
-}
-
-com.viaversion.viafabricplus.screen.impl.ProtocolSelectionScreen {
-}
-
-com.viaversion.viafabricplus.screen.impl.settings.SettingsScreen {
-}
-
-com.mineblock11.skinshuffle.client.gui.LargeCarouselScreen {
-}
-
 net.minecraft.class_436 {
 }
 
@@ -237,8 +192,15 @@ net.minecraft.class_6777 {
 net.minecraft.class_477 {
 }
 
-io.github.gaming32.worldhost.gui.screen.WorldHostConfigScreen {
+net.minecraft.class_429 {
 }
 
-dev.dediamondpro.resourcify.gui.update.UpdateGui {
+com.viaversion.viafabricplus.screen.impl.ProtocolSelectionScreen {
 }
+
+com.viaversion.viafabricplus.screen.impl.SettingsScreen {
+}
+
+net.minecraft.class_524 {
+}
+

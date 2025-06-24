@@ -4,8 +4,8 @@ side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/8DAnZMWQ/versions/9GT7Bi20/Bedrock%20Edition%20Music.zip"
-hash-format = "sha1"
-hash = "563d9ce33cad9e244589f7f98718d00beebe4785"
+hash-format = "sha512"
+hash = "36029ded7af3657db2181ec83d36eb3589e98c69e94dde819718bb44534cb88e20f88c22a9c66db9c5b7b6fe44666889ca394a8e6736751490b6405e9ae81d56"
 
 [update]
 [update.modrinth]

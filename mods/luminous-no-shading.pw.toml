@@ -1,13 +1,13 @@
 name = "Luminous No Shading"
-filename = "luminous-no-shading-0.2.2+mc1.21.5.jar"
+filename = "luminous-no-shading-0.2.3+mc1.21.6.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/2XWYuoNB/versions/snOZpb1a/luminous-no-shading-0.2.2%2Bmc1.21.5.jar"
-hash-format = "sha1"
-hash = "80304365292ebbf05a2f0162be6f562dfd18e3bf"
+url = "https://cdn.modrinth.com/data/2XWYuoNB/versions/BVLuYE2b/luminous-no-shading-0.2.3%2Bmc1.21.6.jar"
+hash-format = "sha512"
+hash = "92b8be4dcabcf3c376634684ef819e0d584af8d3d179948c8176f8729e6e76438395a97f3d4d249ef969a981c601f16c925e1ce428845ff87f9628ebfc873cfc"
 
 [update]
 [update.modrinth]
 mod-id = "2XWYuoNB"
-version = "snOZpb1a"
+version = "BVLuYE2b"

@@ -35,32 +35,26 @@ element {
   nine_slice_texture_border_y = 20
 }
 
-vanilla_button {
-  instance_identifier = 505100
-  anchor_point = top-centered
-  width = 150
-  height = 25
+element {
+  element_type = custom_button
+  anchor_point = bottom-centered
+  width = 130
+  height = 30
   x = 3
-  y = 96
+  y = -38
+  label = {"placeholder":"local","values":{"key":"bedrockreloaded.online_options"}}
+  [executable_action_instance:1][action_type:opengui] = io.github.gaming32.worldhost.gui.screen.WorldHostConfigScreen
+  [executable_block:0][type:generic] = [executables:1;]
 }
 
 vanilla_button {
   instance_identifier = 345972
   anchor_point = bottom-centered
-  width = 150
+  width = 130
   height = 30
-  x = -75
-  y = -37
+  x = -133
+  y = -38
   label = {"placeholder":"local","values":{"key":"gui.done"}}
-}
-
-vanilla_button {
-  instance_identifier = 345100
-  anchor_point = top-centered
-  width = 150
-  height = 25
-  x = -154
-  y = 96
 }
 
 vanilla_button {
@@ -73,6 +67,15 @@ vanilla_button {
 }
 
 vanilla_button {
+  instance_identifier = 505100
+  anchor_point = top-centered
+  width = 150
+  height = 25
+  x = 3
+  y = 96
+}
+
+vanilla_button {
   instance_identifier = 505972
   anchor_point = top-centered
   width = 5
@@ -82,4 +85,13 @@ vanilla_button {
   backgroundnormal = [source:local]/config/fancymenu/assets/icons/close.png
   backgroundhovered = [source:local]/config/fancymenu/assets/icons/close_highlighted.png
   label = 
+}
+
+vanilla_button {
+  instance_identifier = 345100
+  anchor_point = top-centered
+  width = 150
+  height = 25
+  x = -154
+  y = 96
 }

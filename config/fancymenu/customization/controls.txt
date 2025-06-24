@@ -41,28 +41,6 @@ element {
 }
 
 element {
-  instance_identifier = 1
-  element_type = custom_button
-  anchor_point = mid-centered
-  width = 20
-  height = 20
-  x = 160
-  y = -89
-  [executable_action_instance:0][action_type:mimicbutton] = controls_screen:65837
-}
-
-element {
-  element_type = image
-  anchor_point = element
-  anchor_point_element = 1
-  width = 14
-  height = 9
-  x = 3
-  y = 5
-  source = [source:location]fancymenu:icons/controller.png
-}
-
-element {
   element_type = custom_button
   anchor_point = element
   anchor_point_element = 0
@@ -78,10 +56,5 @@ element {
 
 vanilla_button {
   instance_identifier = 400974
-  is_hidden = true
-}
-
-vanilla_button {
-  instance_identifier = 65837
   is_hidden = true
 }
