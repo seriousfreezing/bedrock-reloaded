@@ -1,0 +1,10 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = com.mineblock11.skinshuffle.client.gui.LargeCarouselScreen
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}

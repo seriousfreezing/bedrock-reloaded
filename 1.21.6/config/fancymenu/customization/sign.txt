@@ -1,0 +1,20 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = sign_edit_screen
+  custom_menu_title = {"placeholder":"stringify","values":{"text":""}}
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+vanilla_button {
+  instance_identifier = 400394
+  anchor_point = bottom-centered
+  width = 130
+  height = 30
+  x = -65
+  y = -43
+}

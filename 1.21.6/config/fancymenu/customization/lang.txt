@@ -1,0 +1,88 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = language_select_screen
+}
+
+menu_background {
+  background_type = color_fancymenu
+  color = #313233
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+element {
+  source = [source:location]fancymenu:bg/header.png
+  image_tint = #FFFFFF
+  element_type = image
+  instance_identifier = 0
+  anchor_point = top-centered
+  width = 100
+  height = 32
+  stretch_x = true
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 0
+  width = 524
+  height = 20
+  x = -22
+  y = 5
+  interactable = false
+  source = ^^^%n%{"placeholder":"local","values":{"key":"bedrockreloaded.lang_options"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  scale = 1.5
+  base_color = #4c4c4c
+  enable_scrolling = false
+}
+
+element {
+  element_type = custom_button
+  anchor_point = element
+  anchor_point_element = 0
+  width = 8
+  height = 12
+  x = 4
+  y = 6
+  element_loading_requirement_container_identifier = 9
+  [loading_requirement_container_meta:9] = [groups:][instances:]
+  backgroundnormal = [source:location]fancymenu:icons/back.png
+  backgroundhovered = [source:location]fancymenu:icons/back_highlight.png
+  button_element_executable_block_identifier = 0
+  [executable_action_instance:1][action_type:mimicbutton] = language_select_screen:505972
+  [executable_action_instance:2][action_type:opengui] = title_screen
+  [executable_action_instance:3][action_type:set_variable] = main_menu:false
+  [executable_block:4][type:if] = [executables:2;3;][appended:5]
+  [executable_action_instance:6][action_type:opengui] = options_screen
+  [executable_block:5][type:else] = [executables:6;]
+  [if_executable_block_body:4] = 7
+  [loading_requirement_container_meta:7] = [groups:][instances:8;]
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:8] = main_menu:true
+  [executable_block:0][type:generic] = [executables:1;4;]
+}
+
+vanilla_button {
+  instance_identifier = 346972
+  anchor_point = bottom-centered
+  width = 100
+  height = 25
+  x = -50
+  y = -30
+  label = {"placeholder":"local","values":{"key":"bedrockreloaded.fonts_title"}}
+}
+
+vanilla_button {
+  instance_identifier = 504972
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 37911
+  is_hidden = true
+}

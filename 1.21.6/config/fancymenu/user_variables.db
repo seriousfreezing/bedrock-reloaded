@@ -1,0 +1,13 @@
+type = user_variables
+
+variable {
+  name = create_world
+  value = false
+  reset_on_launch = false
+}
+
+variable {
+  name = main_menu
+  value = false
+  reset_on_launch = false
+}

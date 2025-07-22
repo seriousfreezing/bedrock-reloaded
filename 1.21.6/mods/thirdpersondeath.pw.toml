@@ -1,0 +1,13 @@
+name = "Third Person Death"
+filename = "ThirdPersonDeath-1.21.6.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/ZW7gB2of/versions/sfYhAxsX/ThirdPersonDeath-1.21.6.jar"
+hash-format = "sha512"
+hash = "74521bb4633c57265e6f55006f75a56592c71740792d403ee423a2fa61d69a561083aba9ee1c4d1dc1c81945b4cd71c9b33e6ada97f02221706fdcbf98a5761e"
+
+[update]
+[update.modrinth]
+mod-id = "ZW7gB2of"
+version = "sfYhAxsX"
