@@ -1,13 +1,13 @@
 name = "Third Person Death"
-filename = "ThirdPersonDeath-1.21.6.jar"
+filename = "ThirdPersonDeath1.0.1+1.21.x.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/ZW7gB2of/versions/sfYhAxsX/ThirdPersonDeath-1.21.6.jar"
+url = "https://cdn.modrinth.com/data/ZW7gB2of/versions/wV3y8BYS/ThirdPersonDeath1.0.1%2B1.21.x.jar"
 hash-format = "sha512"
-hash = "74521bb4633c57265e6f55006f75a56592c71740792d403ee423a2fa61d69a561083aba9ee1c4d1dc1c81945b4cd71c9b33e6ada97f02221706fdcbf98a5761e"
+hash = "575b769cbde787b3afa3c927da401b808cfcc9b78a2521b41454a69e19800dd317adbc9475cffb8b2c6f00a6eb1fedfdeb3ad5a0b2b5291f2139cefc7af69ef4"
 
 [update]
 [update.modrinth]
 mod-id = "ZW7gB2of"
-version = "sfYhAxsX"
+version = "wV3y8BYS"

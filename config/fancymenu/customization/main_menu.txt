@@ -41,10 +41,10 @@ element {
   width = 100
   height = 20
   x = 211
-  y = 26
+  y = 20
   source = [source:local]/config/fancymenu/assets/texts/splashes.txt
   source_mode = text_file
-  rotation = -20.0
+  rotation = 20.0
 }
 
 element {
@@ -85,16 +85,28 @@ element {
 }
 
 element {
+  instance_identifier = 6
   element_type = custom_button
   anchor_point = element
   anchor_point_element = mc_titlescreen_options_button
-  width = 148
+  width = 146
   height = 30
+  x = 1
   y = 31
   backgroundnormal = [source:local]/config/fancymenu/assets/bg/bt_market.gif
   backgroundhovered = [source:local]/config/fancymenu/assets/bg/bt_market_hover.gif
   label = {"placeholder":"local","values":{"key":"bedrockreloaded.menu_shop"}}
   [executable_action_instance:3][action_type:mimicbutton] = pack_selection_screen:69510
+}
+
+element {
+  element_type = image
+  anchor_point = element
+  anchor_point_element = 6
+  width = 31
+  height = 14
+  x = 127
+  source = [source:local]/config/fancymenu/assets/icons/flag.png
 }
 
 element {

@@ -35,17 +35,28 @@ element {
 }
 
 element {
+  instance_identifier = 5
+  element_type = custom_button
+  anchor_point = element
+  anchor_point_element = 504115
+  width = 100
+  height = 30
+  y = 34
+  label = {"placeholder":"local","values":{"key":"bedrockreloaded.resourcepacks"}}
+  [executable_action_instance:11][action_type:opengui] = pack_selection_screen
+  [executable_action_instance:12][action_type:set_variable] = create_world:false
+}
+
+element {
   instance_identifier = 1
   element_type = custom_button
   anchor_point = element
   anchor_point_element = 504187
   width = 100
   height = 30
-  x = 3
-  y = 84
+  y = 34
   label = {"placeholder":"local","values":{"key":"bedrockreloaded.howtoplay"}}
   [executable_action_instance:0][action_type:opengui] = org.minepedia.screen.MinepediaIndexScreen
-  [executable_block:1][type:generic] = [executables:0;]
 }
 
 element {
@@ -58,7 +69,7 @@ element {
   x = -22
   y = 5
   interactable = false
-  source = ^^^%n%{"placeholder":"local","values":{"key":"bedrockreloaded.options_title"}}%n%^^^
+  source = ^^^%n%{"placeholder":"local","values":{"key":"bedrockreloaded.online_title"}}%n%^^^
   source_mode = direct
   shadow = false
   scale = 1.5
@@ -72,7 +83,7 @@ element {
   anchor_point = top-left
   width = 100
   height = 15
-  x = 3
+  x = 4
   y = 36
   source = {"placeholder":"local","values":{"key":"bedrockreloaded.general_title"}}
   source_mode = direct
@@ -85,7 +96,7 @@ element {
   anchor_point = top-left
   width = 100
   height = 15
-  x = 107
+  x = 112
   y = 36
   source = {"placeholder":"local","values":{"key":"bedrockreloaded.options_title"}}
   source_mode = direct
@@ -115,70 +126,6 @@ element {
   [executable_block:2][type:generic] = [executables:4;]
 }
 
-element {
-  element_type = custom_button
-  anchor_point = top-left
-  width = 100
-  height = 30
-  x = 3
-  y = 118
-  label = {"placeholder":"local","values":{"key":"bedrockreloaded.controls_title"}}
-  [executable_action_instance:8][action_type:opengui] = controls_screen
-}
-
-element {
-  element_type = custom_button
-  anchor_point = top-left
-  width = 100
-  height = 30
-  x = 107
-  y = 118
-  label = {"placeholder":"local","values":{"key":"bedrockreloaded.resourcepacks"}}
-  [executable_action_instance:9][action_type:opengui] = pack_selection_screen
-  [executable_action_instance:10][action_type:set_variable] = create_world:false
-  [executable_block:11][type:generic] = [executables:9;10;]
-}
-
-vanilla_button {
-  instance_identifier = 50491
-  anchor_point = top-left
-  width = 100
-  height = 28
-  x = 107
-  y = 84
-  label = {"placeholder":"local","values":{"key":"bedrockreloaded.sounds_title"}}
-}
-
-vanilla_button {
-  instance_identifier = 34691
-  anchor_point = top-left
-  width = 100
-  height = 30
-  x = 3
-  y = 152
-  label = {"placeholder":"local","values":{"key":"bedrockreloaded.account_title"}}
-}
-
-vanilla_button {
-  instance_identifier = 346115
-  anchor_point = top-left
-  width = 100
-  height = 30
-  x = 107
-  y = 50
-  label = {"placeholder":"local","values":{"key":"bedrockreloaded.video_title"}}
-}
-
-vanilla_button {
-  instance_identifier = 504163
-  anchor_point = top-left
-  width = 100
-  height = 30
-  x = 3
-  y = 50
-  label = {"placeholder":"local","values":{"key":"bedrockreloaded.accessibility_title"}}
-}
-
 vanilla_button {
   instance_identifier = 34629
   anchor_point = top-left
@@ -189,22 +136,90 @@ vanilla_button {
 }
 
 vanilla_button {
-  instance_identifier = 346139
-  anchor_point = top-left
+  instance_identifier = 345139
+  anchor_point = element
+  anchor_point_element = 4
   width = 100
   height = 30
-  x = 107
-  y = 152
-  label = {"placeholder":"local","values":{"key":"bedrockreloaded.lang_title"}}
+  y = 14
+  label = {"placeholder":"local","values":{"key":"bedrockreloaded.video_title"}}
 }
 
 vanilla_button {
   instance_identifier = 504139
-  is_hidden = true
+  anchor_point = element
+  anchor_point_element = 1
+  width = 100
+  height = 30
+  y = 34
+  label = {"placeholder":"local","values":{"key":"bedrockreloaded.controls_title"}}
 }
 
 vanilla_button {
   instance_identifier = 504115
+  anchor_point = element
+  anchor_point_element = 345139
+  width = 100
+  height = 30
+  y = 34
+  label = {"placeholder":"local","values":{"key":"bedrockreloaded.sounds_title"}}
+}
+
+vanilla_button {
+  instance_identifier = 35629
+  anchor_point = element
+  anchor_point_element = 34591
+  x = 154
+  y = 5
+}
+
+vanilla_button {
+  instance_identifier = 345115
+  anchor_point = element
+  anchor_point_element = 504139
+  width = 100
+  height = 30
+  y = 34
+  label = {"placeholder":"local","values":{"key":"bedrockreloaded.accessibility_title"}}
+}
+
+vanilla_button {
+  instance_identifier = 504187
+  anchor_point = element
+  anchor_point_element = 3
+  width = 100
+  height = 30
+  y = 14
+  label = {"placeholder":"local","values":{"key":"bedrockreloaded.accessibility_title"}}
+}
+
+vanilla_button {
+  instance_identifier = 345163
+  anchor_point = element
+  anchor_point_element = 5
+  width = 100
+  height = 30
+  y = 34
+  label = {"placeholder":"local","values":{"key":"bedrockreloaded.lang_title"}}
+}
+
+vanilla_button {
+  instance_identifier = 34591
+  anchor_point = element
+  anchor_point_element = 34629
+  width = 150
+  height = 30
+  y = 29
+  label = {"placeholder":"local","values":{"key":"bedrockreloaded.options_bedrockify"}}
+}
+
+vanilla_button {
+  instance_identifier = 504211
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 504163
   is_hidden = true
 }
 
@@ -214,12 +229,17 @@ vanilla_button {
 }
 
 vanilla_button {
-  instance_identifier = 346187
+  instance_identifier = 345235
   is_hidden = true
 }
 
 vanilla_button {
-  instance_identifier = 346163
+  instance_identifier = 345211
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 345187
   is_hidden = true
 }
 

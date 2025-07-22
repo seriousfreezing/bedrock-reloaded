@@ -1,0 +1,13 @@
+name = "Visual Snowy Leaves"
+filename = "visual-snowy-leaves-0.5.1+mc1.21.6.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Ff2M7Ii7/versions/ziYeY9IG/visual-snowy-leaves-0.5.1%2Bmc1.21.6.jar"
+hash-format = "sha512"
+hash = "d6a4b5bcfa13f16f46210ef4f9170cfb0d80b367e5fa0679411e7d8308f0980649bb763fd562157a9191bf9adc651cf55030cc1b6fa2b52adeb8592fb51a33c0"
+
+[update]
+[update.modrinth]
+mod-id = "Ff2M7Ii7"
+version = "ziYeY9IG"

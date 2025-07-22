@@ -204,3 +204,5 @@ com.viaversion.viafabricplus.screen.impl.SettingsScreen {
 net.minecraft.class_524 {
 }
 
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}

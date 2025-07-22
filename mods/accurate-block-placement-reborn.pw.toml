@@ -1,13 +1,13 @@
 name = "Accurate Block Placement Reborn"
-filename = "accurate-block-placement-1.3.7-mc1.21.2-1.21.6.jar"
+filename = "accurate-block-placement-1.3.9-mc1.21.2-1.21.7.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/kzwxhsjp/versions/SW6j2nrN/accurate-block-placement-1.3.7-mc1.21.2-1.21.6.jar"
+url = "https://cdn.modrinth.com/data/kzwxhsjp/versions/2NnVKitl/accurate-block-placement-1.3.9-mc1.21.2-1.21.7.jar"
 hash-format = "sha512"
-hash = "90e208a8dd366f7b84206e83e8adb9d13ddd226dc15c889e07e4876f9512757512ae0caae98fae3b0daf5c03ca2e9a7330c7bedb5c4fe02bb347fd47e51a5f5a"
+hash = "2d52c17d2373d421cc8c96c5bf9f52286ed5ff45bff350bf1c3cffc2c6518591bb55894ea82dbe174db00fc2a81f0f7c85d7539b7d4882e990065daf255dd258"
 
 [update]
 [update.modrinth]
 mod-id = "kzwxhsjp"
-version = "SW6j2nrN"
+version = "2NnVKitl"
