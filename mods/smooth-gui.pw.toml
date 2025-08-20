@@ -1,0 +1,13 @@
+name = "Smooth Gui"
+filename = "smoothgui-0.1.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/j6yrZogB/versions/FXPZ5Lyu/smoothgui-0.1.2.jar"
+hash-format = "sha512"
+hash = "69413c6e259d4f49aa61b5dca371a86b08fd1f7d1d7b68f4c795f96fae2b3e0ebfffa7d3801d0fa4ed347cadd96bca06674c699f007385fb1f050f4effd9c06a"
+
+[update]
+[update.modrinth]
+mod-id = "j6yrZogB"
+version = "FXPZ5Lyu"

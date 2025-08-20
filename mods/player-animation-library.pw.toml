@@ -1,0 +1,13 @@
+name = "Player Animation Library"
+filename = "PlayerAnimationLib-1.0.7+mc1.21.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ha1mEyJS/versions/DsUGTV3s/PlayerAnimationLib-1.0.7%2Bmc1.21.7.jar"
+hash-format = "sha512"
+hash = "3ed794e0582af3b7004e7105e2b072df86fc2faf2930eb8bf2d44969e472e608ca2a4460e5ebe69a331aebd3677210912d0ba5c223aec216654c805837ae2465"
+
+[update]
+[update.modrinth]
+mod-id = "ha1mEyJS"
+version = "DsUGTV3s"
