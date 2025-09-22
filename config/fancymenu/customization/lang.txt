@@ -15,31 +15,12 @@ customization {
 }
 
 element {
-  source = [source:location]fancymenu:bg/header.png
-  image_tint = #FFFFFF
-  element_type = image
   instance_identifier = 0
+  element_type = image
   anchor_point = top-centered
-  width = 100
   height = 32
   stretch_x = true
-}
-
-element {
-  element_type = text_v2
-  anchor_point = element
-  anchor_point_element = 0
-  width = 524
-  height = 20
-  x = -22
-  y = 5
-  interactable = false
-  source = ^^^%n%{"placeholder":"local","values":{"key":"bedrockreloaded.lang_options"}}%n%^^^
-  source_mode = direct
-  shadow = false
-  scale = 1.5
-  base_color = #4c4c4c
-  enable_scrolling = false
+  source = [source:location]fancymenu:textures/widget/header.png
 }
 
 element {
@@ -52,8 +33,8 @@ element {
   y = 6
   element_loading_requirement_container_identifier = 9
   [loading_requirement_container_meta:9] = [groups:][instances:]
-  backgroundnormal = [source:location]fancymenu:icons/back.png
-  backgroundhovered = [source:location]fancymenu:icons/back_highlight.png
+  backgroundnormal = [source:location]fancymenu:textures/icon/back.png
+  backgroundhovered = [source:location]fancymenu:textures/icon/back_highlight.png
   button_element_executable_block_identifier = 0
   [executable_action_instance:1][action_type:mimicbutton] = language_select_screen:505972
   [executable_action_instance:2][action_type:opengui] = title_screen
@@ -65,6 +46,21 @@ element {
   [loading_requirement_container_meta:7] = [groups:][instances:8;]
   [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:8] = main_menu:true
   [executable_block:0][type:generic] = [executables:1;4;]
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 0
+  stretch_x = true
+  y = 5
+  interactable = false
+  source = ^^^%n%{"placeholder":"local","values":{"key":"bedrockreloaded.lang_options"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  scale = 1.5
+  base_color = #4c4c4c
+  enable_scrolling = false
 }
 
 vanilla_button {
@@ -83,6 +79,11 @@ vanilla_button {
 }
 
 vanilla_button {
-  instance_identifier = 37911
+  instance_identifier = 47612
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 33611
   is_hidden = true
 }

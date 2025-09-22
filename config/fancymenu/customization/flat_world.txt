@@ -10,21 +10,15 @@ customization {
 }
 
 vanilla_button {
-  instance_identifier = 346970
-  anchor_point = element
-  anchor_point_element = 504946
-  width = 130
-  height = 30
-  x = 134
-}
-
-vanilla_button {
-  instance_identifier = 504946
-  anchor_point = element
-  anchor_point_element = 346946
-  width = 130
-  height = 30
-  x = 134
+  instance_identifier = 504970
+  anchor_point = top-left
+  width = 8
+  height = 12
+  x = 4
+  y = 6
+  backgroundnormal = [source:location]fancymenu:textures/icon/back.png
+  backgroundhovered = [source:location]fancymenu:textures/icon/back_highlight.png
+  label = 
 }
 
 vanilla_button {
@@ -37,13 +31,19 @@ vanilla_button {
 }
 
 vanilla_button {
-  instance_identifier = 504970
-  anchor_point = top-left
-  width = 8
-  height = 12
-  x = 4
-  y = 6
-  backgroundnormal = [source:location]fancymenu:icons/back.png
-  backgroundhovered = [source:location]fancymenu:icons/back_highlight.png
-  label = 
+  instance_identifier = 504946
+  anchor_point = element
+  anchor_point_element = 346946
+  width = 130
+  height = 30
+  x = 134
+}
+
+vanilla_button {
+  instance_identifier = 346970
+  anchor_point = element
+  anchor_point_element = 504946
+  width = 130
+  height = 30
+  x = 134
 }

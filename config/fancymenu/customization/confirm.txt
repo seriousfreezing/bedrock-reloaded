@@ -12,29 +12,29 @@ customization {
 element {
   element_type = image
   anchor_point = element
-  anchor_point_element = 505262
+  anchor_point_element = 502515
   width = 5
   height = 5
   x = 7
   y = 7
-  [loading_requirement:fancymenu_visibility_requirement_is_element_hovered][requirement_mode:if_not][req_id:] = 505262
-  source = [source:local]/config/fancymenu/assets/icons/close.png
+  [loading_requirement:fancymenu_visibility_requirement_is_element_hovered][requirement_mode:if_not][req_id:] = 502515
+  source = [source:location]fancymenu:textures/icon/close.png
 }
 
 element {
   element_type = image
   anchor_point = element
-  anchor_point_element = 505262
+  anchor_point_element = 502515
   width = 5
   height = 5
   x = 7
   y = 7
-  [loading_requirement:fancymenu_visibility_requirement_is_element_hovered][requirement_mode:if][req_id:] = 505262
-  source = [source:local]/config/fancymenu/assets/icons/close_highlighted.png
+  [loading_requirement:fancymenu_visibility_requirement_is_element_hovered][requirement_mode:if][req_id:] = 502515
+  source = [source:location]fancymenu:textures/icon/close_highlighted.png
 }
 
 vanilla_button {
-  instance_identifier = 505262
+  instance_identifier = 502515
   anchor_point = mid-centered
   width = 19
   height = 19
@@ -44,10 +44,10 @@ vanilla_button {
 }
 
 vanilla_button {
-  instance_identifier = 345262
-  anchor_point = top-centered
+  instance_identifier = 348515
+  anchor_point = mid-centered
   width = 120
   height = 30
   x = -60
-  y = 180
+  y = 40
 }

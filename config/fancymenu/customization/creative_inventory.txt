@@ -10,13 +10,25 @@ customization {
 }
 
 element {
-  element_type = custom_button
+  instance_identifier = 0
+  element_type = image
   anchor_point = mid-centered
+  width = 16
+  height = 16
+  x = 97
+  y = -65
+  source = [source:location]fancymenu:textures/widget/tab.png
+}
+
+element {
+  element_type = custom_button
+  anchor_point = element
+  anchor_point_element = 0
   width = 5
   height = 5
-  x = 82
-  y = -61
-  backgroundnormal = [source:local]/config/fancymenu/assets/icons/close.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/icons/close_highlighted.png
+  x = 4
+  y = 6
+  backgroundnormal = [source:location]fancymenu:textures/icon/close_alt.png
+  backgroundhovered = [source:location]fancymenu:textures/icon/close_highlighted.png
   [executable_action_instance:0][action_type:closegui] = 
 }

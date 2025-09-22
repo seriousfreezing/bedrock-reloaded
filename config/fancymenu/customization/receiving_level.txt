@@ -1,8 +1,7 @@
 type = fancymenu_layout
 
 layout-meta {
-  identifier = sign_edit_screen
-  custom_menu_title = 
+  identifier = receiving_level_screen
 }
 
 customization {
@@ -11,6 +10,6 @@ customization {
 }
 
 vanilla_button {
-  instance_identifier = 400394
+  instance_identifier = downloading_terrain
   is_hidden = true
 }

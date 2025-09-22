@@ -15,8 +15,8 @@ element {
   width = 5
   height = 5
   x = 76
-  y = -76
-  backgroundnormal = [source:local]/config/fancymenu/assets/icons/close.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/icons/close_highlighted.png
+  y = -75
+  backgroundnormal = [source:location]fancymenu:textures/icon/close.png
+  backgroundhovered = [source:location]fancymenu:textures/icon/close_highlighted.png
   [executable_action_instance:0][action_type:closegui] = 
 }

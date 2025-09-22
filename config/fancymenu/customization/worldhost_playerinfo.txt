@@ -29,7 +29,7 @@ element {
   height = 172
   x = -51
   y = -86
-  source = [source:local]/config/fancymenu/assets/bg/command.png
+  source = [source:location]fancymenu:textures/widget/frame.png
   nine_slice_texture = true
   nine_slice_texture_border_x = 8
   nine_slice_texture_border_y = 15
@@ -43,8 +43,8 @@ vanilla_button {
   height = 5
   x = 92
   y = 6
-  backgroundnormal = [source:local]/config/fancymenu/assets/icons/close.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/icons/close_highlighted.png
+  backgroundnormal = [source:location]fancymenu:textures/icon/close.png
+  backgroundhovered = [source:location]fancymenu:textures/icon/close_highlighted.png
   label = 
 }
 

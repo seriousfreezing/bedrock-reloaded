@@ -3,7 +3,7 @@ type = fancymenu_layout
 layout-meta {
   identifier = io.github.gaming32.worldhost.gui.screen.AddFriendScreen
   render_custom_elements_behind_vanilla = true
-  custom_menu_title = {"placeholder":"stringify","values":{"text":""}}
+  custom_menu_title = 
 }
 
 customization {
@@ -32,7 +32,7 @@ element {
   nine_slice_texture = true
   nine_slice_texture_border_x = 8
   nine_slice_texture_border_y = 15
-  source = [source:local]/config/fancymenu/assets/bg/command.png
+  source = [source:location]fancymenu:textures/widget/frame.png
 }
 
 element {
@@ -58,7 +58,7 @@ vanilla_button {
   height = 5
   x = 214
   y = 6
-  backgroundnormal = [source:local]/config/fancymenu/assets/icons/close.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/icons/close_highlighted.png
+  backgroundnormal = [source:location]fancymenu:textures/icon/close.png
+  backgroundhovered = [source:location]fancymenu:textures/icon/close_highlighted.png
   label = 
 }

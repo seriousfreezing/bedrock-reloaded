@@ -36,13 +36,7 @@ net.minecraft.class_403 {
 net.minecraft.class_8219 {
 }
 
-net.minecraft.class_8134 {
-}
-
 net.minecraft.class_5235 {
-}
-
-net.minecraft.class_447 {
 }
 
 net.minecraft.class_410 {
@@ -69,9 +63,6 @@ net.minecraft.class_430 {
 net.minecraft.class_408 {
 }
 
-net.minecraft.class_9246 {
-}
-
 net.minecraft.class_525 {
 }
 
@@ -82,9 +73,6 @@ me.shedaniel.clothconfig2.gui.ClothConfigScreen {
 }
 
 net.minecraft.class_419 {
-}
-
-net.minecraft.class_4189 {
 }
 
 net.minecraft.class_404 {
@@ -100,9 +88,6 @@ net.minecraft.class_8032 {
 }
 
 net.minecraft.class_5375 {
-}
-
-net.minecraft.class_442 {
 }
 
 net.minecraft.class_426 {
@@ -124,9 +109,6 @@ net.minecraft.class_3979 {
 }
 
 net.minecraft.class_495 {
-}
-
-net.minecraft.class_498 {
 }
 
 net.minecraft.class_472 {
@@ -174,12 +156,6 @@ net.minecraft.class_492 {
 net.minecraft.class_490 {
 }
 
-dev.isxander.yacl3.gui.YACLScreen {
-}
-
-net.minecraft.class_433 {
-}
-
 net.minecraft.class_436 {
 }
 
@@ -187,12 +163,6 @@ net.minecraft.class_440 {
 }
 
 net.minecraft.class_6777 {
-}
-
-net.minecraft.class_477 {
-}
-
-net.minecraft.class_429 {
 }
 
 com.viaversion.viafabricplus.screen.impl.ProtocolSelectionScreen {
@@ -205,4 +175,55 @@ net.minecraft.class_524 {
 }
 
 de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+net.minecraft.class_4189 {
+}
+
+net.minecraft.class_9246 {
+}
+
+net.minecraft.class_447 {
+}
+
+dev.imb11.skinshuffle.client.gui.PresetEditScreen {
+}
+
+dev.isxander.yacl3.gui.YACLScreen {
+}
+
+dev.imb11.skinshuffle.client.gui.carousels.CompactCarouselScreen {
+}
+
+dev.imb11.skinshuffle.client.gui.carousels.LargeCarouselScreen {
+}
+
+loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.gui.ClassicConfigGUI$ConfigScreen {
+}
+
+net.minecraft.class_477 {
+}
+
+net.minecraft.class_498 {
+}
+
+net.minecraft.class_442 {
+}
+
+net.minecraft.class_433 {
+}
+
+net.minecraft.class_429 {
+}
+
+net.minecraft.class_434 {
+}
+
+net.minecraft.class_412 {
+}
+
+dev.kingtux.tms.gui.TMSKeyBindsScreen {
+}
+
+net.minecraft.class_8134 {
 }

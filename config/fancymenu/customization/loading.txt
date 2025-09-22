@@ -15,18 +15,13 @@ customization {
 }
 
 element {
-  element_type = text_v2
-  anchor_point = element
-  anchor_point_element = progress_bar
-  width = 34
-  height = 12
-  x = 117
-  y = 12
-  source = ^^^%n%{"placeholder":"game_loading_progress"}%%n%^^^
-  source_mode = direct
-  shadow = false
-  scale = 1.05
-  enable_scrolling = false
+  element_type = image
+  anchor_point = top-centered
+  width = 320
+  height = 80
+  x = -160
+  y = 70
+  source = [source:location]minecraft:textures/gui/title/minecraft.png
 }
 
 element {
@@ -37,17 +32,7 @@ element {
   height = 14
   x = 125
   y = -35
-  source = [source:local]/config/fancymenu/assets/icons/loading.gif
-}
-
-element {
-  element_type = image
-  anchor_point = top-centered
-  width = 320
-  height = 80
-  x = -160
-  y = 70
-  source = [source:location]minecraft:textures/gui/title/minecraft.png
+  source = [source:location]fancymenu:textures/icon/loading.gif
 }
 
 vanilla_button {
@@ -57,6 +42,18 @@ vanilla_button {
   height = 10
   x = -132
   y = 54
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = progress_bar
+  stretch_x = true
+  y = 12
+  source = ^^^%n%{"placeholder":"game_loading_progress"}%%n%^^^
+  source_mode = direct
+  shadow = false
+  enable_scrolling = false
 }
 
 vanilla_button {

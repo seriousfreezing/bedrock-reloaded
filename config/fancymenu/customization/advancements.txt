@@ -16,9 +16,9 @@ element {
   height = 5
   x = 115
   y = -63
-  backgroundnormal = [source:local]/config/fancymenu/assets/icons/close.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/icons/close_highlighted.png
-  [executable_action_instance:0][action_type:closegui] = 
+  backgroundnormal = [source:location]fancymenu:textures/icon/close.png
+  backgroundhovered = [source:location]fancymenu:textures/icon/close_highlighted.png
+  [executable_action_instance:0][action_type:mimicbutton] = advancements_screen:400974
 }
 
 vanilla_button {
@@ -27,6 +27,6 @@ vanilla_button {
 }
 
 vanilla_button {
-  instance_identifier = 47012
+  instance_identifier = 46112
   is_hidden = true
 }

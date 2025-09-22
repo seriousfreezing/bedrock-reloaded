@@ -2,12 +2,51 @@ type = fancymenu_layout
 
 layout-meta {
   identifier = select_world_screen
-  custom_menu_title = {"placeholder":"stringify","values":{"text":""}}
+  custom_menu_title = 
 }
 
 customization {
   action = backgroundoptions
   keepaspectratio = true
+}
+
+element {
+  element_type = custom_button
+  anchor_point = top-left
+  width = 8
+  height = 12
+  x = 4
+  y = 6
+  backgroundnormal = [source:location]fancymenu:textures/icon/back.png
+  backgroundhovered = [source:location]fancymenu:textures/icon/back_highlight.png
+  [executable_action_instance:0][action_type:opengui] = title_screen
+}
+
+element {
+  instance_identifier = 0
+  element_type = custom_button
+  anchor_point = bottom-centered
+  width = 80
+  height = 20
+  x = -177
+  y = -54
+  label = {"placeholder":"local","values":{"key":"menu.singleplayer"}}
+  widget_active_state_requirement_container_identifier = 1
+  [loading_requirement_container_meta:1] = [groups:][instances:2;]
+  [loading_requirement:fancymenu_loading_requirement_is_mod_loaded][requirement_mode:if_not][req_id:2] = fabric-api
+  element_loading_requirement_container_identifier = 3
+}
+
+element {
+  instance_identifier = 1
+  element_type = custom_button
+  anchor_point = bottom-centered
+  width = 80
+  height = 20
+  x = -93
+  y = -54
+  label = {"placeholder":"local","values":{"key":"menu.multiplayer"}}
+  [executable_action_instance:2][action_type:opengui] = join_multiplayer_screen
 }
 
 element {
@@ -22,95 +61,6 @@ element {
   [executable_action_instance:1][action_type:opengui] = io.github.gaming32.worldhost.gui.screen.FriendsScreen
 }
 
-element {
-  instance_identifier = 1
-  element_type = custom_button
-  anchor_point = bottom-centered
-  width = 80
-  height = 20
-  x = -93
-  y = -54
-  label = {"placeholder":"local","values":{"key":"bedrockreloaded.play_servers"}}
-  [executable_action_instance:2][action_type:opengui] = join_multiplayer_screen
-}
-
-element {
-  instance_identifier = 0
-  element_type = custom_button
-  anchor_point = bottom-centered
-  width = 80
-  height = 20
-  x = -177
-  y = -54
-  label = {"placeholder":"local","values":{"key":"bedrockreloaded.play_worlds"}}
-}
-
-element {
-  element_type = image
-  anchor_point = element
-  anchor_point_element = 2
-  width = 12
-  height = 12
-  x = 4
-  y = 4
-  source = [source:local]/config/fancymenu/assets/icons/social.png
-}
-
-element {
-  element_type = image
-  anchor_point = element
-  anchor_point_element = 1
-  width = 12
-  height = 12
-  x = 4
-  y = 4
-  source = [source:location]fancymenu:icons/server.png
-}
-
-element {
-  element_type = image
-  anchor_point = element
-  anchor_point_element = 0
-  width = 12
-  height = 12
-  x = 4
-  y = 4
-  source = [source:local]/config/fancymenu/assets/icons/general.png
-}
-
-element {
-  element_type = custom_button
-  anchor_point = bottom-centered
-  width = 106
-  height = 20
-  x = -1
-  y = -30
-  label = {"placeholder":"local","values":{"key":"bedrockreloaded.play_create"}}
-  [executable_action_instance:3][action_type:mimicbutton] = select_world_screen:504948
-  [executable_action_instance:4][action_type:set_variable] = create_world:true
-}
-
-element {
-  element_type = custom_button
-  anchor_point = top-left
-  width = 8
-  height = 12
-  x = 4
-  y = 6
-  backgroundnormal = [source:location]fancymenu:icons/back.png
-  backgroundhovered = [source:location]fancymenu:icons/back_highlight.png
-  [executable_action_instance:0][action_type:opengui] = title_screen
-}
-
-vanilla_button {
-  instance_identifier = 346972
-  anchor_point = bottom-centered
-  width = 41
-  height = 20
-  x = 109
-  y = -30
-}
-
 vanilla_button {
   instance_identifier = 504972
   anchor_point = bottom-centered
@@ -118,16 +68,6 @@ vanilla_button {
   height = 20
   x = 70
   y = -54
-}
-
-vanilla_button {
-  instance_identifier = 346948
-  anchor_point = bottom-centered
-  width = 112
-  height = 20
-  x = -117
-  y = -30
-  label = {"placeholder":"local","values":{"key":"bedrockreloaded.play_selected"}}
 }
 
 vanilla_button {
@@ -140,10 +80,33 @@ vanilla_button {
 }
 
 vanilla_button {
-  instance_identifier = 63422
-  anchor_point = top-centered
-  x = 104
-  y = 22
+  instance_identifier = 346948
+  anchor_point = bottom-centered
+  width = 112
+  height = 20
+  x = -117
+  y = -30
+}
+
+element {
+  element_type = custom_button
+  anchor_point = bottom-centered
+  width = 106
+  height = 20
+  x = -1
+  y = -30
+  label = {"placeholder":"local","values":{"key":"selectWorld.create"}}
+  [executable_action_instance:4][action_type:mimicbutton] = select_world_screen:504948
+  [executable_action_instance:5][action_type:set_variable] = create_world:true
+}
+
+vanilla_button {
+  instance_identifier = 346972
+  anchor_point = bottom-centered
+  width = 41
+  height = 20
+  x = 109
+  y = -30
 }
 
 vanilla_button {
@@ -152,16 +115,6 @@ vanilla_button {
 }
 
 vanilla_button {
-  instance_identifier = 554948
-  is_hidden = true
-}
-
-vanilla_button {
   instance_identifier = 504948
-  is_hidden = true
-}
-
-vanilla_button {
-  instance_identifier = 450948
   is_hidden = true
 }

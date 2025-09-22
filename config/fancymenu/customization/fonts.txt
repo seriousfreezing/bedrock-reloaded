@@ -19,19 +19,29 @@ element {
   instance_identifier = 0
   element_type = image
   anchor_point = top-centered
-  width = 100
   height = 32
   stretch_x = true
-  source = [source:location]fancymenu:bg/header.png
+  source = [source:location]fancymenu:textures/widget/header.png
+}
+
+vanilla_button {
+  instance_identifier = 400974
+  anchor_point = element
+  anchor_point_element = 0
+  width = 8
+  height = 12
+  x = 4
+  y = 6
+  backgroundnormal = [source:location]fancymenu:textures/icon/back.png
+  backgroundhovered = [source:location]fancymenu:textures/icon/back_highlight.png
+  label = 
 }
 
 element {
   element_type = text_v2
   anchor_point = element
   anchor_point_element = 0
-  width = 524
-  height = 20
-  x = -22
+  stretch_x = true
   y = 5
   interactable = false
   source = ^^^%n%{"placeholder":"local","values":{"key":"bedrockreloaded.fonts_options"}}%n%^^^
@@ -43,14 +53,6 @@ element {
 }
 
 vanilla_button {
-  instance_identifier = 400974
-  anchor_point = element
-  anchor_point_element = 0
-  width = 8
-  height = 12
-  x = 4
-  y = 6
-  backgroundnormal = [source:location]fancymenu:icons/back.png
-  backgroundhovered = [source:location]fancymenu:icons/back_highlight.png
-  label = 
+  instance_identifier = 46712
+  is_hidden = true
 }

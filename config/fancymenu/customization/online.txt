@@ -20,7 +20,7 @@ element {
   anchor_point = top-centered
   height = 32
   stretch_x = true
-  source = [source:location]fancymenu:bg/header.png
+  source = [source:location]fancymenu:textures/widget/header.png
 }
 
 element {
@@ -31,8 +31,8 @@ element {
   height = 12
   x = 4
   y = 6
-  backgroundnormal = [source:location]fancymenu:icons/back.png
-  backgroundhovered = [source:location]fancymenu:icons/back_highlight.png
+  backgroundnormal = [source:location]fancymenu:textures/icon/back.png
+  backgroundhovered = [source:location]fancymenu:textures/icon/back_highlight.png
   [executable_action_instance:0][action_type:opengui] = skin_customization_screen
 }
 
@@ -40,12 +40,10 @@ element {
   element_type = text_v2
   anchor_point = element
   anchor_point_element = 0
-  width = 524
-  height = 20
-  x = -22
+  stretch_x = true
   y = 5
   interactable = false
-  source = ^^^%n%{"placeholder":"local","values":{"key":"bedrockreloaded.online_options"}}%n%^^^
+  source = ^^^%n%{"placeholder":"local","values":{"key":"options.online.title"}}%n%^^^
   source_mode = direct
   shadow = false
   scale = 1.5

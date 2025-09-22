@@ -1,8 +1,8 @@
 name = "Bedrockify"
-filename = "BedrockIfy Dev 9636a6fd.zip"
+filename = "BedrockIfy Dev 8e79e632.zip"
 side = "both"
 
 [download]
-url = "https://github.com/lonefelidae16/BedrockIfy/actions/runs/16382202241/artifacts/3567713329"
+url = "https://github.com/lonefelidae16/BedrockIfy/actions/runs/17690201325/artifacts/4001298560"
 hash-format = "sha256"
 hash = "2e2290212d15cd10b090b594ecf30cd1056283ee7d803661479b3f402b7deac0"

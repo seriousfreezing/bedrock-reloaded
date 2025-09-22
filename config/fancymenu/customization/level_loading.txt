@@ -1,10 +1,15 @@
 type = fancymenu_layout
 
 layout-meta {
-  identifier = optimize_world_screen
+  identifier = level_loading_screen
 }
 
 customization {
   action = backgroundoptions
   keepaspectratio = true
+}
+
+vanilla_button {
+  instance_identifier = percentage
+  is_hidden = true
 }

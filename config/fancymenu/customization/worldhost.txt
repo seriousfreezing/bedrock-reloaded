@@ -2,7 +2,7 @@ type = fancymenu_layout
 
 layout-meta {
   identifier = io.github.gaming32.worldhost.gui.screen.WorldHostConfigScreen
-  custom_menu_title = {"placeholder":"stringify","values":{"text":""}}
+  custom_menu_title = 
 }
 
 customization {
