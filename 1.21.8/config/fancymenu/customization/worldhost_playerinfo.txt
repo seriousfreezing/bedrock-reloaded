@@ -1,0 +1,59 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = io.github.gaming32.worldhost.gui.screen.PlayerInfoScreen
+  render_custom_elements_behind_vanilla = true
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+element {
+  element_type = shape
+  anchor_point = element
+  anchor_point_element = 0
+  width = 94
+  height = 157
+  x = 4
+  y = 11
+  color = #00000050
+}
+
+element {
+  instance_identifier = 0
+  element_type = image
+  anchor_point = mid-centered
+  width = 102
+  height = 172
+  x = -51
+  y = -86
+  source = [source:location]fancymenu:textures/widget/frame.png
+  nine_slice_texture = true
+  nine_slice_texture_border_x = 8
+  nine_slice_texture_border_y = 15
+}
+
+vanilla_button {
+  instance_identifier = 425600
+  anchor_point = element
+  anchor_point_element = 0
+  width = 5
+  height = 5
+  x = 92
+  y = 6
+  backgroundnormal = [source:location]fancymenu:textures/icon/close.png
+  backgroundhovered = [source:location]fancymenu:textures/icon/close_highlighted.png
+  label = 
+}
+
+vanilla_button {
+  instance_identifier = 400225
+  anchor_point = element
+  anchor_point_element = 0
+  width = 80
+  height = 140
+  x = 11
+  y = 20
+}

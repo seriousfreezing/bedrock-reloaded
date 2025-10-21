@@ -1,0 +1,13 @@
+name = "Minepedia"
+filename = "Minepedia-1.4.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/TL9TUXua/versions/RaBIqNmT/Minepedia-1.4.jar"
+hash-format = "sha512"
+hash = "a481b9f2037cf44e4c9961dd495b9d5097ffeafffa03c8cd8dce9ca4b3372937abe3cdef483adfb19c6e9ac9341891fabbe5f18f965a2f9f5be727eeedadf108"
+
+[update]
+[update.modrinth]
+mod-id = "TL9TUXua"
+version = "RaBIqNmT"

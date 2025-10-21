@@ -1,0 +1,13 @@
+name = "Wither's Wrath Other Versions"
+filename = "[1.21.5]BEDROCK-witherswrath-1.12.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/eu58IQ1H/versions/M4COvgb8/%5B1.21.5%5DBEDROCK-witherswrath-1.12.jar"
+hash-format = "sha512"
+hash = "97107a0bbf3e1ea259e8ee16b2d789782c6c9e43d7498abb6a6b452c253a9758c0d3e7079e104a4204ab0512c47bc9b4134cca2ab133a4f2dada74cd49a9346a"
+
+[update]
+[update.modrinth]
+mod-id = "eu58IQ1H"
+version = "M4COvgb8"

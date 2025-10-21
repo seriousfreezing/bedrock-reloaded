@@ -1,0 +1,13 @@
+name = "WASD Dyeable Shulkers"
+filename = "WASD Dyeable Shulkers V1.3.5 MC_1.21.6.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/C68etK38/versions/Nkmd4qVF/WASD%20Dyeable%20Shulkers%20V1.3.5%20MC_1.21.6.zip"
+hash-format = "sha512"
+hash = "7ca2e366baab3982a319f9b50e0b90a538a7a6ab0fed2c56b0576c794bc331861434a62359d978055dfb99448aca50dc765dc2ce34154bc79376463420b7ad64"
+
+[update]
+[update.modrinth]
+mod-id = "C68etK38"
+version = "Nkmd4qVF"

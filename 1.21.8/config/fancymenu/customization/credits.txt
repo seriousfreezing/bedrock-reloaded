@@ -1,0 +1,151 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = credits_and_attribution_screen
+  render_custom_elements_behind_vanilla = true
+}
+
+menu_background {
+  background_type = color_fancymenu
+  color = #313233
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+element {
+  instance_identifier = 0
+  element_type = image
+  anchor_point = top-centered
+  height = 32
+  stretch_x = true
+  source = [source:location]fancymenu:textures/widget/header.png
+}
+
+vanilla_button {
+  instance_identifier = 400974
+  anchor_point = element
+  anchor_point_element = 0
+  width = 8
+  height = 12
+  x = 4
+  y = 6
+  backgroundnormal = [source:location]fancymenu:textures/icon/back.png
+  backgroundhovered = [source:location]fancymenu:textures/icon/back_highlight.png
+  label = 
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 0
+  stretch_x = true
+  y = 5
+  interactable = false
+  source = ^^^%n%{"placeholder":"local","values":{"key":"credits_and_attribution.button.credits"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  scale = 1.5
+  base_color = #4c4c4c
+  enable_scrolling = false
+}
+
+element {
+  instance_identifier = 1
+  element_type = text_v2
+  anchor_point = top-left
+  width = 200
+  height = 125
+  x = 4
+  y = 37
+  source = ^^^%n%{"placeholder":"local","values":{"key":"bedrockreloaded.general_text"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  enable_scrolling = false
+}
+
+element {
+  instance_identifier = 2
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 1
+  width = 200
+  height = 25
+  y = 132
+  source = ^^^%n%{"placeholder":"randomtext","values":{"path":"config/fancymenu/assets/credits.txt","interval":"5"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  scale = 2.0
+  base_color = #FFFF55
+  enable_scrolling = false
+}
+
+element {
+  element_type = custom_button
+  anchor_point = element
+  anchor_point_element = 2
+  width = 100
+  height = 30
+  x = 50
+  y = 25
+  label = {"placeholder":"local","values":{"key":"bedrockreloaded.general_license"}}
+  [executable_action_instance:0][action_type:openlink] = https://www.gnu.org/licenses/gpl-3.0.html.en#license-text
+}
+
+element {
+  element_type = shape
+  anchor_point = top-left
+  width = 2
+  height = 178
+  x = 208
+  y = 41
+  color = #9d9e9e
+}
+
+element {
+  element_type = text_v2
+  anchor_point = top-left
+  width = 104
+  height = 20
+  x = 216
+  y = 37
+  source = Minecraft:
+  source_mode = direct
+  shadow = false
+  scale = 2.0
+  enable_scrolling = false
+}
+
+vanilla_button {
+  instance_identifier = 395119
+  anchor_point = top-left
+  width = 65
+  height = 30
+  x = 216
+  y = 59
+}
+
+vanilla_button {
+  instance_identifier = 39563
+  anchor_point = element
+  anchor_point_element = 395119
+  width = 65
+  height = 30
+  x = 69
+}
+
+vanilla_button {
+  instance_identifier = 39591
+  anchor_point = element
+  anchor_point_element = 39563
+  width = 65
+  height = 30
+  x = 69
+}
+
+vanilla_button {
+  instance_identifier = 45812
+  is_hidden = true
+}

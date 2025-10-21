@@ -1,0 +1,13 @@
+name = "Better Impaling"
+filename = "betterimpaling-3.1+1.21.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/m8MF21pg/versions/MTWXi0OD/betterimpaling-3.1%2B1.21.jar"
+hash-format = "sha512"
+hash = "33ab40171629db24f1b7f84bdcf422a1a953ce1f4e3404850531d59bbd22e3e31f2c7e5207a19f70d113ccd136a93471e085df482e3e5341c5268386c66672f2"
+
+[update]
+[update.modrinth]
+mod-id = "m8MF21pg"
+version = "MTWXi0OD"

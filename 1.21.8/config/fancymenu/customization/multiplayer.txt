@@ -1,0 +1,138 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = join_multiplayer_screen
+  custom_menu_title = 
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+element {
+  element_type = custom_button
+  anchor_point = top-left
+  width = 8
+  height = 12
+  x = 4
+  y = 6
+  backgroundnormal = [source:location]fancymenu:textures/icon/back.png
+  backgroundhovered = [source:location]fancymenu:textures/icon/back_highlight.png
+  [executable_action_instance:0][action_type:opengui] = select_world_screen
+}
+
+element {
+  element_type = custom_button
+  anchor_point = top-centered
+  width = 60
+  height = 20
+  x = -30
+  y = 5
+  label = {"placeholder":"local","values":{"key":"bedrockreloaded.servers_guide"}}
+  [executable_action_instance:4][action_type:openlink] = https://github.com/ViaVersion/ViaFabricPlus/blob/main/docs/USAGE.md#bedrock-edition-support
+}
+
+element {
+  element_type = custom_button
+  anchor_point = bottom-centered
+  width = 80
+  height = 20
+  x = -177
+  y = -54
+  label = {"placeholder":"local","values":{"key":"menu.singleplayer"}}
+  [executable_action_instance:1][action_type:opengui] = select_world_screen
+}
+
+element {
+  element_type = custom_button
+  anchor_point = bottom-centered
+  width = 80
+  height = 20
+  x = -93
+  y = -54
+  label = {"placeholder":"local","values":{"key":"menu.multiplayer"}}
+  widget_active_state_requirement_container_identifier = 1
+  [loading_requirement_container_meta:1] = [groups:][instances:2;]
+  [loading_requirement:fancymenu_loading_requirement_is_mod_loaded][requirement_mode:if_not][req_id:2] = fabric-api
+  element_loading_requirement_container_identifier = 3
+}
+
+element {
+  element_type = custom_button
+  anchor_point = bottom-centered
+  width = 75
+  height = 20
+  x = -9
+  y = -54
+  label = {"placeholder":"local","values":{"key":"bedrockreloaded.play_friends"}}
+  [executable_action_instance:2][action_type:opengui] = io.github.gaming32.worldhost.gui.screen.FriendsScreen
+}
+
+vanilla_button {
+  instance_identifier = 502970
+  anchor_point = bottom-centered
+  width = 57
+  height = 20
+  x = 70
+  y = -54
+}
+
+vanilla_button {
+  instance_identifier = 346970
+  anchor_point = bottom-centered
+  width = 42
+  height = 20
+  x = 131
+  y = -54
+}
+
+vanilla_button {
+  instance_identifier = 8975
+  anchor_point = bottom-centered
+  width = 98
+  height = 20
+  x = -215
+  y = -30
+}
+
+vanilla_button {
+  instance_identifier = 450946
+  anchor_point = bottom-centered
+  width = 100
+  height = 20
+  x = -113
+  y = -30
+}
+
+vanilla_button {
+  instance_identifier = 554946
+  anchor_point = bottom-centered
+  width = 70
+  height = 20
+  x = -9
+  y = -30
+}
+
+vanilla_button {
+  instance_identifier = 424970
+  anchor_point = bottom-centered
+  width = 45
+  height = 20
+  x = 65
+  y = -30
+}
+
+vanilla_button {
+  instance_identifier = 346946
+  anchor_point = bottom-centered
+  width = 70
+  height = 20
+  x = 114
+  y = -30
+}
+
+vanilla_button {
+  instance_identifier = 580970
+  is_hidden = true
+}

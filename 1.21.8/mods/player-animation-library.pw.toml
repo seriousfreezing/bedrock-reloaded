@@ -1,0 +1,13 @@
+name = "Player Animation Library"
+filename = "PlayerAnimationLib-1.0.11+mc1.21.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ha1mEyJS/versions/i5rwyYv8/PlayerAnimationLib-1.0.11%2Bmc1.21.7.jar"
+hash-format = "sha512"
+hash = "5bf848305007dc8f8e9c9fe2a50d82a9452203a34961c2e6aa4c41ce3709241e02e64e34c310d8baed4a4cea0d7c5936eb0fdf279c93a2ec936edd7e44655b33"
+
+[update]
+[update.modrinth]
+mod-id = "ha1mEyJS"
+version = "i5rwyYv8"

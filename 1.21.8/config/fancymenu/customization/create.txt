@@ -1,0 +1,37 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = create_world_screen
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+element {
+  element_type = custom_button
+  anchor_point = top-left
+  width = 8
+  height = 12
+  x = 4
+  y = 6
+  backgroundnormal = [source:location]fancymenu:textures/icon/back.png
+  backgroundhovered = [source:location]fancymenu:textures/icon/back_highlight.png
+  [executable_action_instance:0][action_type:mimicbutton] = create_world_screen:cancel_button
+  [executable_action_instance:1][action_type:set_variable] = create_world:false
+}
+
+vanilla_button {
+  instance_identifier = create_world_button
+  anchor_point = bottom-centered
+  width = 150
+  height = 30
+  x = -75
+  y = -32
+}
+
+vanilla_button {
+  instance_identifier = cancel_button
+  is_hidden = true
+}

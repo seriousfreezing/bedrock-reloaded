@@ -1,0 +1,32 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.gui.ClassicConfigGUI$ConfigScreen
+  custom_menu_title = 
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+vanilla_button {
+  instance_identifier = 346972
+  anchor_point = top-left
+  width = 8
+  height = 12
+  x = 4
+  y = 6
+  backgroundnormal = [source:location]fancymenu:textures/icon/back.png
+  backgroundhovered = [source:location]fancymenu:textures/icon/back_highlight.png
+  label = 
+}
+
+vanilla_button {
+  instance_identifier = 504972
+  anchor_point = bottom-centered
+  width = 170
+  height = 25
+  x = -85
+  y = -29
+}
