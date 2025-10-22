@@ -71,7 +71,7 @@ vanilla_button {
 }
 
 vanilla_button {
-  instance_identifier = 424972
+  instance_identifier = 425972
   anchor_point = bottom-centered
   width = 56
   height = 20
@@ -110,7 +110,7 @@ vanilla_button {
 }
 
 vanilla_button {
-  instance_identifier = 582972
+  instance_identifier = 583972
   is_hidden = true
 }
 

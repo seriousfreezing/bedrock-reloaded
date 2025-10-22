@@ -1,8 +1,0 @@
-name = "ModernFix"
-filename = "Package.zip"
-side = "both"
-
-[download]
-url = "https://github.com/embeddedt/ModernFix/actions/runs/17010119732/artifacts/3780089811"
-hash-format = "sha256"
-hash = "35c1cb14e9e7f8a4d22620cfeba00ce19573ccbddf73152b60bfea6a56be625c"

@@ -69,7 +69,7 @@ element {
   anchor_point_element = 1
   width = 31
   height = 14
-  x = 127
+  x = 140
   source = [source:location]fancymenu:textures/icon/flag.png
 }
 
@@ -216,9 +216,9 @@ element {
   instance_identifier = 29
   element_type = text_v2
   anchor_point = bottom-right
-  width = 42
+  width = 50
   height = 13
-  x = -42
+  x = -45
   y = -13
   source = v{"placeholder":"mcversion"}
   source_mode = direct

@@ -186,16 +186,7 @@ net.minecraft.class_9246 {
 net.minecraft.class_447 {
 }
 
-dev.imb11.skinshuffle.client.gui.PresetEditScreen {
-}
-
 dev.isxander.yacl3.gui.YACLScreen {
-}
-
-dev.imb11.skinshuffle.client.gui.carousels.CompactCarouselScreen {
-}
-
-dev.imb11.skinshuffle.client.gui.carousels.LargeCarouselScreen {
 }
 
 loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.gui.ClassicConfigGUI$ConfigScreen {
@@ -216,14 +207,11 @@ net.minecraft.class_433 {
 net.minecraft.class_429 {
 }
 
-net.minecraft.class_434 {
-}
-
 net.minecraft.class_412 {
 }
 
-dev.kingtux.tms.gui.TMSKeyBindsScreen {
+net.minecraft.class_8134 {
 }
 
-net.minecraft.class_8134 {
+io.github.satxm.mcwifipnp.client.ShareToLanScreenNew {
 }

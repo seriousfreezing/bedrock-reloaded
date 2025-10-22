@@ -1,8 +1,13 @@
-name = "Bedrockify"
-filename = "BedrockIfy Dev 8e79e632.zip"
+name = "BedrockIfy"
+filename = "bedrockify-1.11.3+mc1.21.9.jar"
 side = "both"
 
 [download]
-url = "https://github.com/lonefelidae16/BedrockIfy/actions/runs/17690201325/artifacts/4001298560"
-hash-format = "sha256"
-hash = "2e2290212d15cd10b090b594ecf30cd1056283ee7d803661479b3f402b7deac0"
+url = "https://cdn.modrinth.com/data/ox3rDp1B/versions/aIR6OxSp/bedrockify-1.11.3%2Bmc1.21.9.jar"
+hash-format = "sha512"
+hash = "196cc035aca33e321cc318e1e4e4dec23d9cc10cd58572d3d146924b3e259212cd2232a699d6021364fe44c31d1172ec7fc8cda034b9d3f1781322c73b201dfe"
+
+[update]
+[update.modrinth]
+mod-id = "ox3rDp1B"
+version = "aIR6OxSp"

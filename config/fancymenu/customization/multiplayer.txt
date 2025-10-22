@@ -70,7 +70,7 @@ element {
 }
 
 vanilla_button {
-  instance_identifier = 502970
+  instance_identifier = 502972
   anchor_point = bottom-centered
   width = 57
   height = 20
@@ -79,7 +79,7 @@ vanilla_button {
 }
 
 vanilla_button {
-  instance_identifier = 346970
+  instance_identifier = 346972
   anchor_point = bottom-centered
   width = 42
   height = 20
@@ -97,7 +97,7 @@ vanilla_button {
 }
 
 vanilla_button {
-  instance_identifier = 450946
+  instance_identifier = 450948
   anchor_point = bottom-centered
   width = 100
   height = 20
@@ -106,7 +106,7 @@ vanilla_button {
 }
 
 vanilla_button {
-  instance_identifier = 554946
+  instance_identifier = 554948
   anchor_point = bottom-centered
   width = 70
   height = 20
@@ -115,7 +115,7 @@ vanilla_button {
 }
 
 vanilla_button {
-  instance_identifier = 424970
+  instance_identifier = 424972
   anchor_point = bottom-centered
   width = 45
   height = 20
@@ -124,7 +124,7 @@ vanilla_button {
 }
 
 vanilla_button {
-  instance_identifier = 346946
+  instance_identifier = 346948
   anchor_point = bottom-centered
   width = 70
   height = 20
@@ -133,6 +133,6 @@ vanilla_button {
 }
 
 vanilla_button {
-  instance_identifier = 580970
+  instance_identifier = 580972
   is_hidden = true
 }

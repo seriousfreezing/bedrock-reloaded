@@ -265,6 +265,8 @@ element {
   x = 102
   y = -28
   color = #00000080
+  [loading_requirement_container_meta:8] = [groups:][instances:9;]
+  [loading_requirement:fancymenu_loading_requirement_is_singpleplayer][requirement_mode:if][req_id:9] = 
 }
 
 element {
@@ -277,6 +279,8 @@ element {
   source = ^^^%n%{"placeholder":"local","values":{"key":"menu.paused"}}%n%^^^
   source_mode = direct
   enable_scrolling = false
+  [loading_requirement_container_meta:10] = [groups:][instances:11;]
+  [loading_requirement:fancymenu_loading_requirement_is_singpleplayer][requirement_mode:if][req_id:11] = 
 }
 
 vanilla_button {
@@ -291,6 +295,11 @@ vanilla_button {
 
 vanilla_button {
   instance_identifier = 40
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = mc_pausescreen_lan_button
   is_hidden = true
 }
 
