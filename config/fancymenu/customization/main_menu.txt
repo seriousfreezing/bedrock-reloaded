@@ -69,7 +69,7 @@ element {
   anchor_point_element = 1
   width = 31
   height = 14
-  x = 140
+  x = 127
   source = [source:location]fancymenu:textures/icon/flag.png
 }
 
@@ -121,65 +121,13 @@ element {
   source = [source:location]minecraft:textures/gui/sprites/icon/accessibility.png
 }
 
-element {
-  element_type = fancymenu_customization_item_ticker
-  anchor_point = element
-  anchor_point_element = 27
-  x = 5
-  y = -40
-  width = 40
-  height = 24
-  element_loading_requirement_container_identifier = 30
-  [loading_requirement_container_meta:30] = [groups:][instances:]
-  tick_delay = 25
-  ticker_element_executable_block_identifier = 11
-  [executable_action_instance:12][action_type:set_variable] = is_dragging_player:true
-  [executable_action_instance:13][action_type:set_variable] = mouse_drag_start_x:{"placeholder":"mouseposx"}
-  [executable_action_instance:14][action_type:set_variable] = initial_player_rotation_y:{"placeholder":"getvariable","values":{"name":"player_rotation_y"}}
-  [executable_block:15][type:if] = [executables:12;13;14;][appended:16]
-  [executable_action_instance:17][action_type:set_variable] = player_rotation_y:{"placeholder":"calc","values":{"decimal":"false","expression":"{"placeholder":"getvariable","values":{"name":"initial_player_rotation_y"}} + ({"placeholder":"mouseposx"} - {"placeholder":"getvariable","values":{"name":"mouse_drag_start_x"}}) * -5"}}
-  [executable_block:16][type:else-if] = [executables:17;][appended:18]
-  [executable_action_instance:19][action_type:set_variable] = is_dragging_player:false
-  [executable_block:18][type:else] = [executables:19;]
-  [else_if_executable_block_body:16] = 20
-  [loading_requirement_container_meta:20] = [groups:group_21;][instances:]
-  [loading_requirement_group:group_21] = [group_mode:and]
-  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][group:group_21][req_id:22] = is_dragging_player:true
-  [loading_requirement:mouse_click][requirement_mode:if][group:group_21][req_id:23] = left
-  [if_executable_block_body:15] = 24
-  [loading_requirement_container_meta:24] = [groups:group_25;][instances:]
-  [loading_requirement_group:group_25] = [group_mode:and]
-  [loading_requirement:fancymenu_visibility_requirement_is_element_hovered][requirement_mode:if][group:group_25][req_id:26] = 27
-  [loading_requirement:mouse_click][requirement_mode:if][group:group_25][req_id:28] = left
-  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][group:group_25][req_id:29] = is_dragging_player:false
-  [executable_block:11][type:generic] = [executables:15;]
-}
-
-element {
-  instance_identifier = 27
-  element_type = player_entity_v2
-  anchor_point = element
-  anchor_point_element = 28
-  width = 51
-  height = 72
-  x = 17
-  y = -83
-  copy_client_player = true
-  head_follows_mouse = true
-  body_follows_mouse = false
-  bodyrotationy = {"placeholder":"getvariable","values":{"name":"player_rotation_y"}}
-}
-
-element {
-  instance_identifier = 28
-  element_type = custom_button
+vanilla_button {
+  instance_identifier = 629382
   anchor_point = bottom-right
   width = 82
   height = 25
   x = -120
   y = -64
-  [executable_action_instance:31][action_type:mimicbutton] = title_screen:629382
-  [executable_block:32][type:generic] = [executables:31;]
   label = {"placeholder":"local","values":{"key":"bedrockreloaded.menu_skin"}}
 }
 
@@ -224,11 +172,6 @@ element {
   source_mode = direct
   shadow = false
   enable_scrolling = false
-}
-
-vanilla_button {
-  instance_identifier = 629382
-  is_hidden = true
 }
 
 vanilla_button {

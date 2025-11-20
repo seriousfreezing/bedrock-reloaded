@@ -1,8 +1,0 @@
-name = "betterblockentities"
-filename = "Artifacts.zip"
-side = "client"
-
-[download]
-url = "https://github.com/ceeden/betterblockentities/actions/runs/18644373520/artifacts/4314612470"
-hash-format = "sha256"
-hash = "54123d5f8b9d4c2c818e7d0a3d768bfb9d9736c544d4a47982077dbb815a57d6"

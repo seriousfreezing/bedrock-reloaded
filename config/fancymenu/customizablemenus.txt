@@ -198,12 +198,6 @@ net.minecraft.class_477 {
 net.minecraft.class_498 {
 }
 
-net.minecraft.class_442 {
-}
-
-net.minecraft.class_433 {
-}
-
 net.minecraft.class_429 {
 }
 
@@ -214,4 +208,10 @@ net.minecraft.class_8134 {
 }
 
 io.github.satxm.mcwifipnp.client.ShareToLanScreenNew {
+}
+
+net.minecraft.class_433 {
+}
+
+net.minecraft.class_442 {
 }

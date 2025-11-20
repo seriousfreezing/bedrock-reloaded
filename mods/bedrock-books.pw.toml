@@ -1,13 +1,13 @@
 name = "Bedrock Books"
-filename = "eg_bedrock_books-v1.0.1-fabric-mc1.21.9.jar"
+filename = "eg_bedrock_books-v1.0.2-fabric-mc1.21.10.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/RjiITWhb/versions/Ex4YwfFr/eg_bedrock_books-v1.0.1-fabric-mc1.21.9.jar"
+url = "https://cdn.modrinth.com/data/RjiITWhb/versions/bqbKrOol/eg_bedrock_books-v1.0.2-fabric-mc1.21.10.jar"
 hash-format = "sha512"
-hash = "629deb4022d64dda4d1f430d29103f5986bcde65ba1fddc9071caf026184f252c46ef473c51e178200b11d94eb9a4d9e9b62eb24c3c13ba7608d22816e2788ee"
+hash = "ee3c692c89ca2daabc07702fe535ea6ff47e4c0238ba5cc95ce2b5b2900e6fac00a9384018c4c87e6201baabe15663c240b7746d60b86986fef488095cbf75d3"
 
 [update]
 [update.modrinth]
 mod-id = "RjiITWhb"
-version = "Ex4YwfFr"
+version = "bqbKrOol"
