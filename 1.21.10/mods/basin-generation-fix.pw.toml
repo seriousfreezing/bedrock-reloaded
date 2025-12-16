@@ -1,0 +1,13 @@
+name = "Basin Generation Fix"
+filename = "basin-generation-fix-1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/N196z26l/versions/SnyScvIU/basin-generation-fix-1.1.jar"
+hash-format = "sha512"
+hash = "d6c69b4e65dc616a849db433a7eddfe02a67b4f435268c805b5bfd0642588bf4d416ab23f227b35f1b9d82aa830182cb3d85b017905b74ce74e6028e4b4540d8"
+
+[update]
+[update.modrinth]
+mod-id = "N196z26l"
+version = "SnyScvIU"

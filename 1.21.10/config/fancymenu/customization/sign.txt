@@ -1,0 +1,16 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = sign_edit_screen
+  custom_menu_title = 
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+vanilla_button {
+  instance_identifier = 400394
+  is_hidden = true
+}

@@ -1,0 +1,13 @@
+name = "Skin Shuffle"
+filename = "SkinShuffle-2.10.0+1.21.10.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/3s19I5jr/versions/eV4pyYSS/SkinShuffle-2.10.0%2B1.21.10.jar"
+hash-format = "sha512"
+hash = "a976d661b09c53e94b020d34bc6a3e2a25e1e4118796264d8e28136960254112d0a3a9bb5aabbfd9ec1962acbdb44d25c22cefc218c093ce50ffc0e3130a2308"
+
+[update]
+[update.modrinth]
+mod-id = "3s19I5jr"
+version = "eV4pyYSS"

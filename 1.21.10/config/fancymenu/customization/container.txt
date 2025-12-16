@@ -1,0 +1,38 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = container_screen
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+element {
+  element_type = custom_button
+  anchor_point = mid-centered
+  width = 5
+  height = 5
+  x = 76
+  y = -77
+  [loading_requirement:is_menu_title][requirement_mode:if_not][req_id:1] = container.chestDouble
+  backgroundnormal = [source:location]fancymenu:textures/icon/close.png
+  backgroundhovered = [source:location]fancymenu:textures/icon/close_highlighted.png
+  [executable_action_instance:0][action_type:closegui] = 
+  [executable_block:][type:generic] = [executables:0;]
+}
+
+element {
+  element_type = custom_button
+  anchor_point = mid-centered
+  width = 5
+  height = 5
+  x = 76
+  y = -104
+  [loading_requirement:is_menu_title][requirement_mode:if][req_id:3] = container.chestDouble
+  backgroundnormal = [source:location]fancymenu:textures/icon/close.png
+  backgroundhovered = [source:location]fancymenu:textures/icon/close_highlighted.png
+  [executable_action_instance:2][action_type:closegui] = 
+  [executable_block:][type:generic] = [executables:2;]
+}
