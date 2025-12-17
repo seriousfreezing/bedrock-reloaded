@@ -1,8 +1,8 @@
 name = "carpet-extra"
-filename = "Compiled artifacts for 09a2178e91d735c437cadadc668c14fc61906ea9.zip"
+filename = "Compiled artifacts for 836e9e2e8a51baadf69629b6f314618d3e201cb3.zip"
 side = "both"
 
 [download]
-url = "https://github.com/1-hele-euro/carpet-extra/actions/runs/18262823155/artifacts/4186726420"
+url = "https://github.com/Crystal0404/carpet-extra/actions/runs/20233237328/artifacts/4871704432"
 hash-format = "sha256"
-hash = "be28cbd0fed0c73d85350bb789cbb06f2e4805e7c40625edf89a06f18bd598ebc"
+hash = "5dc3740aadbc0fa81006a0524b19460b0a1902d9d09273fe49c5fb7daf7bde2d"

@@ -4,11 +4,10 @@ fullscreen:false
 showAutosaveIndicator:false
 maxFps:260
 simulationDistance:8
-resourcePacks:["fabric","file/Bedrock Edition Music.zip","file/SodiumTranslations.zip","srl_cm/Bedrocking.zip","file/bedrockflavor-2.0.0-release.zip"]
+resourcePacks:["fabric","file/Bedrock Edition Music.zip","file/SodiumTranslations.zip","srl_cm/Bedrocking.zip","file/bedrockflavor-3.0.0-release.zip"]
 incompatibleResourcePacks:["file/Bedrock Edition Music.zip"]
 menuBackgroundBlurriness:0.0
 allowCursorChanges:false
-key_bedrockIfy.key.settings:key.keyboard.unknown
 key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.shaderPackSelection:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.unknown

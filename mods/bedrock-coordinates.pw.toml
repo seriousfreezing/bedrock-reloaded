@@ -1,0 +1,13 @@
+name = "Bedrock Coordinates"
+filename = "BedrockCoordinates-1.6.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/kWN8VKQl/versions/U6207j83/BedrockCoordinates-1.6.0.jar"
+hash-format = "sha512"
+hash = "0ba42f00a4caa56138ceb3a2d9c6cf81da29b2874058d881f504545712f07677e3317c3bab6228dca7584082c8813f92d0820600c0929e244beb49295a96aec4"
+
+[update]
+[update.modrinth]
+mod-id = "kWN8VKQl"
+version = "U6207j83"

@@ -1,0 +1,13 @@
+name = "Falling Snow"
+filename = "falling_snow-1.21.9-1.21.11-fabric-1.1.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/soBfQALz/versions/91WGeaW6/falling_snow-1.21.9-1.21.11-fabric-1.1.0.jar"
+hash-format = "sha512"
+hash = "5a869e750f940c1ea887bbbb48e9639f91e79ffc7fbd578bff4a0611c2defa593b3c6c3a72b59a63f885cb0a17eb676c2a9103e789832f61035ef7a09a94b309"
+
+[update]
+[update.modrinth]
+mod-id = "soBfQALz"
+version = "91WGeaW6"

@@ -1,0 +1,13 @@
+name = "Days Played"
+filename = "DaysPlayed-1.3.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/DVuhus8H/versions/xk44xUBP/DaysPlayed-1.3.0.jar"
+hash-format = "sha512"
+hash = "d4c12cf9bbd708a8bc2ebf2a64557decd9d35581400a405d42cd260b5635d88893d45f470c54901297846b1a0fcabce5bb25d860b52962b417e3575554a0ab0a"
+
+[update]
+[update.modrinth]
+mod-id = "DVuhus8H"
+version = "xk44xUBP"
