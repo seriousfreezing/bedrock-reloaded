@@ -1,0 +1,61 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = confirm_screen
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+element {
+  element_type = image
+  anchor_point = element
+  anchor_point_element = 502515
+  width = 9
+  height = 9
+  x = 5
+  y = 5
+  element_loading_requirement_container_identifier = 0
+  [loading_requirement_container_meta:0] = [groups:0;][instances:]
+  [loading_requirement_group:0] = [group_mode:or]
+  [loading_requirement:is_element_focused][requirement_mode:if_not][group:0][req_id:1] = 502515
+  [loading_requirement:fancymenu_visibility_requirement_is_element_hovered][requirement_mode:if_not][group:0][req_id:2] = 502515
+  source = [source:location]fancymenu:textures/icon/close.png
+}
+
+element {
+  element_type = image
+  anchor_point = element
+  anchor_point_element = 502515
+  width = 9
+  height = 9
+  x = 5
+  y = 5
+  element_loading_requirement_container_identifier = 1
+  [loading_requirement_container_meta:1] = [groups:1;][instances:]
+  [loading_requirement_group:1] = [group_mode:or]
+  [loading_requirement:is_element_focused][requirement_mode:if][group:1][req_id:1] = 502515
+  [loading_requirement:fancymenu_visibility_requirement_is_element_hovered][requirement_mode:if][group:1][req_id:2] = 502515
+  source = [source:location]fancymenu:textures/icon/close_alt.png
+}
+
+vanilla_button {
+  instance_identifier = 502515
+  anchor_point = mid-centered
+  width = 19
+  height = 19
+  x = 140
+  y = -76
+  label = 
+}
+
+vanilla_button {
+  instance_identifier = 348515
+  anchor_point = mid-centered
+  width = 120
+  height = 30
+  x = -60
+  y = 40
+}

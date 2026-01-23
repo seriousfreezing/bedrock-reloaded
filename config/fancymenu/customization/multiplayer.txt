@@ -1,0 +1,175 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = join_multiplayer_screen
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+element {
+  instance_identifier = 0
+  element_type = image
+  anchor_point = top-centered
+  height = 32
+  stretch_x = true
+  source = [source:location]fancymenu:textures/widget/header.png
+}
+
+element {
+  element_type = custom_button
+  anchor_point = element
+  anchor_point_element = 0
+  width = 8
+  height = 12
+  x = 4
+  y = 6
+  element_loading_requirement_container_identifier = 0
+  [loading_requirement_container_meta:0] = [groups:][instances:]
+  backgroundnormal = [source:location]fancymenu:textures/icon/back.png
+  backgroundhovered = [source:location]fancymenu:textures/icon/back_highlight.png
+  button_element_executable_block_identifier = 0
+  [executable_action_instance:1][action_type:opengui] = title_screen
+  [executable_block:2][type:if] = [executables:1;][appended:3]
+  [executable_action_instance:4][action_type:opengui] = select_world_screen
+  [executable_block:3][type:else] = [executables:4;]
+  [if_executable_block_body:2] = 5
+  [loading_requirement_container_meta:5] = [groups:][instances:6;]
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:6] = main_menu:true
+  [executable_block:0][type:generic] = [executables:1;2;]
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 0
+  stretch_x = true
+  y = 5
+  interactable = false
+  source = ^^^%n%{"placeholder":"local","values":{"key":"selectWorld.title"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  scale = 1.5
+  base_color = #4c4c4c
+  enable_scrolling = false
+}
+
+element {
+  element_type = custom_button
+  anchor_point = bottom-centered
+  width = 80
+  height = 20
+  x = -162
+  y = -54
+  label = {"placeholder":"local","values":{"key":"menu.singleplayer"}}
+  [executable_action_instance:7][action_type:opengui] = select_world_screen
+}
+
+element {
+  instance_identifier = 1
+  element_type = custom_button
+  anchor_point = bottom-centered
+  width = 80
+  height = 20
+  x = -78
+  y = -54
+  element_loading_requirement_container_identifier = 8
+  widget_active_state_requirement_container_identifier = 9
+  [loading_requirement_container_meta:9] = [groups:][instances:10;]
+  [loading_requirement:fancymenu_loading_requirement_is_mod_loaded][requirement_mode:if_not][req_id:10] = fabric-api
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 1
+  width = 80
+  height = 18
+  y = 3
+  source = ^^^%n%{"placeholder":"local","values":{"key":"menu.multiplayer"}}%n%^^^
+  source_mode = direct
+  base_color = #9e9e9e
+  enable_scrolling = false
+}
+
+vanilla_button {
+  instance_identifier = 346948
+  anchor_point = bottom-centered
+  width = 70
+  height = 20
+  x = 6
+  y = -54
+}
+
+element {
+  element_type = custom_button
+  anchor_point = bottom-centered
+  width = 70
+  height = 20
+  x = 80
+  y = -54
+  label = {"placeholder":"local","values":{"key":"bedrockreloaded.servers_guide"}}
+  [executable_action_instance:11][action_type:openlink] = https://github.com/ViaVersion/ViaFabricPlus/blob/main/docs/USAGE.md#bedrock-edition-support
+}
+
+vanilla_button {
+  instance_identifier = 554948
+  anchor_point = bottom-centered
+  width = 80
+  height = 20
+  x = -179
+  y = -30
+}
+
+vanilla_button {
+  instance_identifier = 346972
+  anchor_point = bottom-centered
+  width = 42
+  height = 20
+  x = -95
+  y = -30
+}
+
+vanilla_button {
+  instance_identifier = 424972
+  anchor_point = bottom-centered
+  width = 45
+  height = 20
+  x = -49
+  y = -30
+}
+
+vanilla_button {
+  instance_identifier = 502972
+  anchor_point = bottom-centered
+  width = 57
+  height = 20
+  y = -30
+}
+
+vanilla_button {
+  instance_identifier = 8975
+  anchor_point = bottom-centered
+  width = 104
+  height = 20
+  x = 61
+  y = -30
+  label = {"placeholder":"local","values":{"key":"bedrockreloaded.options_bedrockify"}}
+}
+
+vanilla_button {
+  instance_identifier = 580972
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 450948
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 48912
+  is_hidden = true
+}

@@ -1,0 +1,13 @@
+name = "BedrockIfy"
+filename = "bedrockify-1.11.5+mc1.21.11.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ox3rDp1B/versions/x2mn39SK/bedrockify-1.11.5%2Bmc1.21.11.jar"
+hash-format = "sha512"
+hash = "8d1014633a558dec37f6ff593e37b3012b6962674e566e102ace9d15d975288aeccec7bab167ccd7bb384e8dbd5b437306c2f47047b120e82b11b50518962159"
+
+[update]
+[update.modrinth]
+mod-id = "ox3rDp1B"
+version = "x2mn39SK"

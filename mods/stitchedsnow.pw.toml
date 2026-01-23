@@ -1,6 +1,6 @@
 name = "StitchedSnow"
 filename = "stitched-snow-1.2.1.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/I095Mbn8/versions/jEERjsOh/stitched-snow-1.2.1.jar"

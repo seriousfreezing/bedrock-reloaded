@@ -1,6 +1,6 @@
 name = "Falling Snow"
 filename = "falling_snow-1.21.9-1.21.11-fabric-1.1.0.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/soBfQALz/versions/91WGeaW6/falling_snow-1.21.9-1.21.11-fabric-1.1.0.jar"

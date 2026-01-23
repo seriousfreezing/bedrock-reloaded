@@ -1,0 +1,36 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = dev.imb11.skinshuffle.client.gui.carousels.LargeCarouselScreen
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+element {
+  instance_identifier = 0
+  element_type = custom_button
+  anchor_point = top-left
+  width = 20
+  height = 20
+  x = 46
+  y = 2
+  [loading_requirement_container_meta:0] = [groups:][instances:1;]
+  [loading_requirement:fancymenu_loading_requirement_is_world_loaded][requirement_mode:if][req_id:1] = 
+  [executable_action_instance:0][action_type:opengui] = com.brandonitaly.bedrockskins.client.gui.SkinSelectionScreen
+}
+
+element {
+  element_type = image
+  anchor_point = element
+  anchor_point_element = 0
+  width = 12
+  height = 12
+  x = 4
+  y = 4
+  [loading_requirement_container_meta:2] = [groups:][instances:3;]
+  [loading_requirement:fancymenu_loading_requirement_is_world_loaded][requirement_mode:if][req_id:3] = 
+  source = [source:location]fancymenu:textures/icon/skin_pack.png
+}

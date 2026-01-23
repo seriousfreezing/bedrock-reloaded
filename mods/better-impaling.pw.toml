@@ -1,6 +1,6 @@
 name = "Better Impaling"
 filename = "betterimpaling-4.0+1.21.11.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/m8MF21pg/versions/ZBaCrN0h/betterimpaling-4.0%2B1.21.11.jar"

@@ -1,6 +1,6 @@
 name = "Skeleton AI Fix"
 filename = "SkeletonAIFix-v21.11.0-mc1.21.11-Fabric.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/jn24bUJo/versions/kf7gMwfX/SkeletonAIFix-v21.11.0-mc1.21.11-Fabric.jar"

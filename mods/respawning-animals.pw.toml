@@ -1,0 +1,13 @@
+name = "Respawning Animals"
+filename = "RespawningAnimals-v21.11.0-mc1.21.11-Fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/WnwcSeWc/versions/ZwDGOfes/RespawningAnimals-v21.11.0-mc1.21.11-Fabric.jar"
+hash-format = "sha512"
+hash = "b1cd804696af80e82420e8ba7edef20390ba7e002a0c7247ef38f4346e87ba8733da88d53e56942cc797710756f4f0a04e4d7e04ca7f407fd086fd4ad71599c3"
+
+[update]
+[update.modrinth]
+mod-id = "WnwcSeWc"
+version = "ZwDGOfes"
