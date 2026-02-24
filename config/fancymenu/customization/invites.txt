@@ -1,7 +1,7 @@
 type = fancymenu_layout
 
 layout-meta {
-  identifier = com.viaversion.viafabricplus.screen.impl.ProtocolSelectionScreen
+  identifier = realms_pending_invites_screen
   render_custom_elements_behind_vanilla = true
 }
 
@@ -20,7 +20,7 @@ element {
 }
 
 vanilla_button {
-  instance_identifier = 55
+  instance_identifier = 400974
   anchor_point = element
   anchor_point_element = 0
   width = 8
@@ -33,25 +33,6 @@ vanilla_button {
 }
 
 vanilla_button {
-  instance_identifier = 8975
-  anchor_point = bottom-centered
-  width = 130
-  height = 25
-  x = -65
-  y = -27
-}
-
-vanilla_button {
-  instance_identifier = 897975
-  is_hidden = true
-}
-
-vanilla_button {
-  instance_identifier = 39025
-  is_hidden = true
-}
-
-vanilla_button {
-  instance_identifier = 5975
+  instance_identifier = 46212
   is_hidden = true
 }

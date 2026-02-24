@@ -1,0 +1,3 @@
+version = 3
+[clientSideConfig.modifyMaxVDConfig]
+	maxViewDistance = 32

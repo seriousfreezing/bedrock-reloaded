@@ -1,1 +1,1 @@
-{"version":1,"overrides":{"minepedia":{"-depends":{"minecraft":""}}}}
+{"version":1,"overrides":{"advancements_reloaded":{"recommends":{}},"commandkeys":{"recommends":{}},"forgeconfigapiport":{"recommends":{}},"debugify":{"recommends":{}},"dynamic_fps":{"recommends":{}},"minepedia":{"-depends":{"minecraft":""}}}}

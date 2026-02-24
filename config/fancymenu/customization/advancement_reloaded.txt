@@ -1,0 +1,96 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = codes.atomys.advr.screens.AdvancementReloadedScreen
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+element {
+  instance_identifier = 0
+  element_type = shape
+  anchor_point = top-right
+  width = 140
+  height = 32
+  x = -140
+  color = #1e1e1f
+  stay_on_screen = false
+}
+
+element {
+  instance_identifier = 1
+  element_type = shape
+  anchor_point = element
+  anchor_point_element = 0
+  width = 136
+  height = 28
+  x = 2
+  y = 2
+  color = #313233
+  stay_on_screen = false
+}
+
+element {
+  element_type = image
+  anchor_point = element
+  anchor_point_element = 2
+  width = 10
+  height = 10
+  x = 30
+  y = 7
+  source = [source:location]fancymenu:textures/icon/time.png
+}
+
+element {
+  instance_identifier = 2
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 1
+  width = 136
+  height = 28
+  x = -26
+  y = 3
+  source = ^^^%n%{"placeholder":"local","values":{"key":"stat.minecraft.play_time"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  scale = 0.8
+  base_color = #b1b2b5
+  enable_scrolling = false
+  stay_on_screen = false
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 2
+  width = 136
+  height = 24
+  x = -2
+  y = 10
+  source = ^^^%n%{"placeholder":"math_round","values":{"num":"{"placeholder":"calc","values":{"decimal":"true","expression":"{"placeholder":"game_time"}/72000"}}","decimals":"-1"}}{"placeholder":"crop_text","values":{"text":"{"placeholder":"local","values":{"key":"gui.hours"}}","remove_from_start":"16","remove_from_end":"0"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  scale = 0.8
+  enable_scrolling = false
+}
+
+element {
+  element_type = custom_button
+  anchor_point = element
+  anchor_point_element = 0
+  width = 9
+  height = 9
+  x = 127
+  y = 4
+  backgroundnormal = [source:location]fancymenu:textures/icon/close_alt.png
+  backgroundhovered = [source:location]fancymenu:textures/icon/close_alt_highlighted.png
+  [executable_action_instance:0][action_type:opengui] = pause_screen
+}
+
+vanilla_button {
+  instance_identifier = 9755
+  is_hidden = true
+}

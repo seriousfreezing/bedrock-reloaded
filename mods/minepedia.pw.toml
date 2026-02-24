@@ -1,13 +1,13 @@
 name = "Minepedia"
-filename = "Minepedia-1.4.2.jar"
+filename = "Minepedia-1.5.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/TL9TUXua/versions/sxPpThHo/Minepedia-1.4.2.jar"
+url = "https://cdn.modrinth.com/data/TL9TUXua/versions/EM42WkEZ/Minepedia-1.5.jar"
 hash-format = "sha512"
-hash = "b873478f269a3843a5bd178f3c66014411954a9143bb2af6e53c8ecd4fcbf6af1e6275ef3bc6ce3e9ae0cd291fdcf85062d924ff3f3ffdd53ccb78cb63682104"
+hash = "3210be426c457b0c9b2082c53c2c5afbdc9f064dce0843f46ebdf72c9ad86b6882c1e763198be8e19ad85e457f3f2c2cbf8305de6054d59ed13495323e159d0b"
 
 [update]
 [update.modrinth]
 mod-id = "TL9TUXua"
-version = "sxPpThHo"
+version = "EM42WkEZ"

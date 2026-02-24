@@ -2,7 +2,6 @@ type = fancymenu_layout
 
 layout-meta {
   identifier = com.viaversion.viafabricplus.screen.impl.SettingsScreen
-  render_custom_elements_behind_vanilla = true
 }
 
 customization {
@@ -19,8 +18,8 @@ element {
   source = [source:location]fancymenu:textures/widget/header.png
 }
 
-vanilla_button {
-  instance_identifier = 55
+element {
+  element_type = custom_button
   anchor_point = element
   anchor_point_element = 0
   width = 8
@@ -29,10 +28,15 @@ vanilla_button {
   y = 6
   backgroundnormal = [source:location]fancymenu:textures/icon/back.png
   backgroundhovered = [source:location]fancymenu:textures/icon/back_highlight.png
-  label = 
+  [executable_action_instance:0][action_type:mimicbutton] = join_multiplayer_screen:554948
 }
 
 vanilla_button {
   instance_identifier = 39025
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 55
   is_hidden = true
 }

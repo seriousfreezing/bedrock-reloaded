@@ -1,1 +1,70 @@
-{"configVersion":5,"particles":[{"id":"rain","enabled":true,"precipitation":["RAIN"],"opacity":0.6,"spriteLocations":["particlerain:rain_0","particlerain:rain_1","particlerain:rain_2","particlerain:rain_3"],"tintType":"CUSTOM","customTint":-1,"rotationType":"RELATIVE_VELOCITY"},{"id":"snow","enabled":false},{"id":"dust","enabled":false},{"id":"rain_haze","enabled":false},{"id":"snow_haze","enabled":false},{"id":"dust_haze","enabled":false},{"id":"splatter","enabled":false},{"id":"ripple","enabled":false},{"id":"smoke","enabled":false},{"id":"streak","enabled":false},{"id":"shrub","enabled":false},{"id":"mist_after_rain","enabled":false},{"id":"mist","enabled":false}]}
+{
+    "configVersion": 5,
+    "particles": [
+        {
+            "id": "rain",
+            "enabled": true,
+            "precipitation": [
+                "RAIN"
+            ],
+            "opacity": 0.6,
+            "spriteLocations": [
+                "particlerain:rain_0",
+                "particlerain:rain_1",
+                "particlerain:rain_2",
+                "particlerain:rain_3"
+            ],
+            "tintType": "CUSTOM",
+            "customTint": -1,
+            "rotationType": "RELATIVE_VELOCITY"
+        },
+        {
+            "id": "snow",
+            "enabled": false
+        },
+        {
+            "id": "dust",
+            "enabled": false
+        },
+        {
+            "id": "rain_haze",
+            "enabled": false
+        },
+        {
+            "id": "snow_haze",
+            "enabled": false
+        },
+        {
+            "id": "dust_haze",
+            "enabled": false
+        },
+        {
+            "id": "splatter",
+            "enabled": false
+        },
+        {
+            "id": "ripple",
+            "enabled": false
+        },
+        {
+            "id": "smoke",
+            "enabled": false
+        },
+        {
+            "id": "streak",
+            "enabled": false
+        },
+        {
+            "id": "shrub",
+            "enabled": false
+        },
+        {
+            "id": "mist_after_rain",
+            "enabled": false
+        },
+        {
+            "id": "mist",
+            "enabled": false
+        }
+    ]
+}

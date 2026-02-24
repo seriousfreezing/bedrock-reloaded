@@ -115,13 +115,27 @@ vanilla_button {
   y = 34
 }
 
-vanilla_button {
-  instance_identifier = 345115
+element {
+  instance_identifier = 5
+  element_type = custom_button
   anchor_point = element
   anchor_point_element = 504139
   width = 100
   height = 30
   y = 34
+  label = {"placeholder":"local","values":{"key":"bedrockreloaded.controller"}}
+  [executable_action_instance:1][action_type:opengui] = dev.isxander.controlify.gui.screen.ControlifySettingsScreen
+}
+
+element {
+  element_type = custom_button
+  anchor_point = element
+  anchor_point_element = 5
+  width = 100
+  height = 30
+  y = 34
+  label = {"placeholder":"local","values":{"key":"bedrockreloaded.general"}}
+  [executable_action_instance:0][action_type:opengui] = credits_and_attribution_screen
 }
 
 element {
@@ -155,10 +169,22 @@ vanilla_button {
   y = 34
 }
 
+element {
+  instance_identifier = 6
+  element_type = custom_button
+  anchor_point = element
+  anchor_point_element = 504115
+  width = 100
+  height = 30
+  y = 34
+  label = {"placeholder":"local","values":{"key":"options.skinCustomisation"}}
+  [executable_action_instance:1][action_type:opengui] = skin_customization_screen
+}
+
 vanilla_button {
   instance_identifier = 345187
   anchor_point = element
-  anchor_point_element = 504115
+  anchor_point_element = 6
   width = 100
   height = 30
   y = 34
@@ -226,6 +252,11 @@ vanilla_button {
 
 vanilla_button {
   instance_identifier = 345211
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 345115
   is_hidden = true
 }
 

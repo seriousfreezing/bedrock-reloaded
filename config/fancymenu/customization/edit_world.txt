@@ -76,6 +76,11 @@ vanilla_button {
   width = 200
   height = 30
   y = 24
+  backgroundnormal = [source:location]fancymenu:textures/widget/green_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/green_button_highlighted.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 3
+  nine_slice_border_y = 4
 }
 
 vanilla_button {
@@ -85,6 +90,11 @@ vanilla_button {
   height = 30
   x = -124
   y = -8
+  backgroundnormal = [source:location]fancymenu:textures/widget/gray_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/gray_button_highlighted.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 3
+  nine_slice_border_y = 4
 }
 
 vanilla_button {
@@ -94,6 +104,11 @@ vanilla_button {
   width = 120
   height = 30
   x = 128
+  backgroundnormal = [source:location]fancymenu:textures/widget/gray_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/gray_button_highlighted.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 3
+  nine_slice_border_y = 4
 }
 
 vanilla_button {
@@ -103,6 +118,11 @@ vanilla_button {
   width = 120
   height = 30
   y = 38
+  backgroundnormal = [source:location]fancymenu:textures/widget/gray_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/gray_button_highlighted.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 3
+  nine_slice_border_y = 4
 }
 
 vanilla_button {
@@ -112,6 +132,11 @@ vanilla_button {
   width = 120
   height = 30
   x = 128
+  backgroundnormal = [source:location]fancymenu:textures/widget/gray_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/gray_button_highlighted.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 3
+  nine_slice_border_y = 4
 }
 
 vanilla_button {
@@ -121,6 +146,11 @@ vanilla_button {
   width = 248
   height = 30
   y = 35
+  backgroundnormal = [source:location]fancymenu:textures/widget/gray_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/gray_button_highlighted.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 3
+  nine_slice_border_y = 4
 }
 
 vanilla_button {

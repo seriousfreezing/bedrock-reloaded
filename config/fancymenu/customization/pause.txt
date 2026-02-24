@@ -19,53 +19,141 @@ element {
   color = #00000050
 }
 
-vanilla_button {
-  instance_identifier = mc_pausescreen_lan_button
-  anchor_point = top-right
-  width = 80
-  height = 22
-  x = -86
-  y = 4
-}
-
 element {
+  instance_identifier = 0
   element_type = image
   anchor_point = mid-left
   width = 152
   height = 37
   x = 50
-  y = -67
+  y = -79
   source = [source:location]minecraft:textures/gui/title/minecraft.png
 }
 
 vanilla_button {
   instance_identifier = pause_return_to_game_button
-  anchor_point = mid-left
+  anchor_point = element
+  anchor_point_element = 0
   width = 152
   height = 25
-  x = 50
-  y = -36
+  y = 31
 }
 
-element {
-  instance_identifier = 0
-  element_type = custom_button
+vanilla_button {
+  instance_identifier = pause_options_button
   anchor_point = element
   anchor_point_element = pause_return_to_game_button
   width = 152
   height = 25
   y = 29
+}
+
+element {
+  instance_identifier = 1
+  element_type = custom_button
+  anchor_point = element
+  anchor_point_element = pause_options_button
+  width = 152
+  height = 25
+  y = 29
   label = {"placeholder":"local","values":{"key":"bedrockreloaded.menu_shop"}}
-  [executable_action_instance:12][action_type:mimicbutton] = pack_selection_screen:69510
+  [executable_action_instance:0][action_type:mimicbutton] = pack_selection_screen:69510
+  [executable_block:1][type:generic] = [executables:0;]
 }
 
 vanilla_button {
   instance_identifier = pause_disconnect_button
   anchor_point = element
-  anchor_point_element = 0
+  anchor_point_element = 1
   width = 152
   height = 25
   y = 29
+}
+
+element {
+  instance_identifier = 2
+  element_type = custom_button
+  anchor_point = element
+  anchor_point_element = pause_disconnect_button
+  width = 24
+  height = 24
+  x = 48
+  y = 29
+  [executable_action_instance:2][action_type:mimicbutton] = pause_screen:pause_advancements_button
+  [executable_block:3][type:generic] = [executables:2;]
+}
+
+element {
+  instance_identifier = 3
+  element_type = custom_button
+  anchor_point = element
+  anchor_point_element = 2
+  width = 24
+  height = 24
+  x = 32
+  description = {"placeholder":"local","values":{"key":"bedrockreloaded.screenshot"}}
+  [executable_action_instance:4][action_type:closegui] = 
+  [executable_block:5][type:generic] = [executables:4;]
+}
+
+element {
+  element_type = image
+  anchor_point = element
+  anchor_point_element = 2
+  width = 16
+  height = 14
+  x = 4
+  y = 5
+  source = [source:location]bedrockflavor:textures/icons/achievements.png
+}
+
+element {
+  element_type = image
+  anchor_point = element
+  anchor_point_element = 3
+  width = 14
+  height = 11
+  x = 5
+  y = 7
+  source = [source:location]fancymenu:textures/icon/screenshot.png
+}
+
+element {
+  instance_identifier = 4
+  element_type = shape
+  anchor_point = element
+  anchor_point_element = pause_share_to_lan_button
+  width = 80
+  height = 23
+  x = -85
+  [loading_requirement_container_meta:6] = [groups:][instances:7;]
+  [loading_requirement:fancymenu_loading_requirement_is_singpleplayer][requirement_mode:if][req_id:6] = 
+  color = #26251f
+}
+
+element {
+  instance_identifier = 5
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 4
+  width = 80
+  height = 14
+  y = 5
+  [loading_requirement_container_meta:8] = [groups:][instances:9;]
+  [loading_requirement:fancymenu_loading_requirement_is_singpleplayer][requirement_mode:if][req_id:8] = 
+  source = ^^^%n%{"placeholder":"local","values":{"key":"menu.paused"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  enable_scrolling = false
+}
+
+vanilla_button {
+  instance_identifier = pause_share_to_lan_button
+  anchor_point = top-right
+  width = 80
+  height = 23
+  x = -84
+  y = 4
 }
 
 element {
@@ -106,7 +194,7 @@ element {
   instance_identifier = 27
   element_type = player_entity_v2
   anchor_point = element
-  anchor_point_element = 28
+  anchor_point_element = 7
   width = 51
   height = 72
   x = 15
@@ -118,139 +206,16 @@ element {
 }
 
 element {
-  instance_identifier = 28
+  instance_identifier = 7
   element_type = custom_button
   anchor_point = mid-centered
   width = 85
-  height = 22
-  x = 91
-  y = 47
-  [executable_action_instance:31][action_type:opengui] = dev.imb11.skinshuffle.client.gui.carousels.LargeCarouselScreen
-  [executable_block:32][type:generic] = [executables:31;]
+  height = 25
+  x = 96
+  y = 56
   label = {"placeholder":"local","values":{"key":"bedrockreloaded.menu_skin"}}
-}
-
-element {
-  instance_identifier = 3
-  element_type = custom_button
-  anchor_point = mid-left
-  width = 24
-  height = 24
-  x = 83
-  y = 51
-  [executable_action_instance:6][action_type:mimicbutton] = pause_screen:pause_options_button
-  [executable_block:7][type:generic] = [executables:6;]
-}
-
-element {
-  instance_identifier = 2
-  element_type = custom_button
-  anchor_point = element
-  anchor_point_element = 3
-  width = 24
-  height = 24
-  x = 31
-  [executable_action_instance:4][action_type:mimicbutton] = pause_screen:pause_advancements_button
-  [executable_block:5][type:generic] = [executables:4;]
-}
-
-element {
-  instance_identifier = 1
-  element_type = custom_button
-  anchor_point = element
-  anchor_point_element = 2
-  width = 24
-  height = 24
-  x = 32
-  [executable_action_instance:2][action_type:mimicbutton] = pause_screen:606258
-  [executable_block:3][type:generic] = [executables:2;]
-}
-
-element {
-  element_type = image
-  anchor_point = element
-  anchor_point_element = 3
-  width = 14
-  height = 14
-  x = 5
-  y = 5
-  source = [source:location]fancymenu:textures/icon/settings.png
-}
-
-element {
-  element_type = image
-  anchor_point = element
-  anchor_point_element = 2
-  width = 16
-  height = 14
-  x = 4
-  y = 5
-  source = [source:location]fancymenu:textures/icon/achievement.png
-}
-
-element {
-  element_type = image
-  anchor_point = element
-  anchor_point_element = 1
-  width = 14
-  height = 11
-  x = 5
-  y = 7
-  source = [source:location]fancymenu:textures/icon/screenshot.png
-}
-
-element {
-  instance_identifier = 8
-  element_type = shape
-  anchor_point = mid-left
-  x = 76
-  y = 79
-  width = 100
-  height = 16
-  [loading_requirement_container_meta:9] = [groups:][instances:8;]
-  [loading_requirement:fancymenu_loading_requirement_is_singpleplayer][requirement_mode:if][req_id:8] = 
-  color = #007600
-}
-
-element {
-  element_type = shape
-  anchor_point = element
-  anchor_point_element = 9
-  width = 2
-  height = 7
-  x = -4
-  y = 3
-  [loading_requirement_container_meta:10] = [groups:][instances:11;]
-  [loading_requirement:fancymenu_loading_requirement_is_singpleplayer][requirement_mode:if][req_id:11] = 
-}
-
-element {
-  element_type = shape
-  anchor_point = element
-  anchor_point_element = 9
-  width = 2
-  height = 7
-  x = 0
-  y = 3
-  [loading_requirement_container_meta:12] = [groups:][instances:13;]
-  [loading_requirement:fancymenu_loading_requirement_is_singpleplayer][requirement_mode:if][req_id:13] = 
-}
-
-element {
-  instance_identifier = 9
-  element_type = text_v2
-  anchor_point = element
-  anchor_point_element = 8
-  width = 80
-  height = 14
-  x = 15
-  y = 1
-  [loading_requirement_container_meta:14] = [groups:][instances:15;]
-  [loading_requirement:fancymenu_loading_requirement_is_singpleplayer][requirement_mode:if][req_id:15] = 
-  source = ^^^%n%{"placeholder":"local","values":{"key":"menu.paused"}}%n%^^^
-  source_mode = direct
-  shadow = false
-  enable_scrolling = false
+  [executable_action_instance:10][action_type:mimicbutton] = options_screen:345115
+  [executable_block:11][type:generic] = [executables:10;]
 }
 
 vanilla_button {
@@ -259,12 +224,12 @@ vanilla_button {
 }
 
 vanilla_button {
-  instance_identifier = pause_advancements_button
+  instance_identifier = 1010
   is_hidden = true
 }
 
 vanilla_button {
-  instance_identifier = pause_options_button
+  instance_identifier = pause_advancements_button
   is_hidden = true
 }
 

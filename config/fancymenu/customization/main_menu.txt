@@ -32,7 +32,7 @@ vanilla_button {
   height = 30
   x = -74
   y = -25
-  label = {"placeholder":"local","values":{"key":"selectWorld.title"}}
+  label = {"placeholder":"local","values":{"key":"mco.selectServer.play"}}
 }
 
 vanilla_button {
@@ -52,6 +52,11 @@ vanilla_button {
   height = 30
   y = 31
   label = {"placeholder":"local","values":{"key":"key.category.minecraft.multiplayer"}}
+  backgroundnormal = [source:location]fancymenu:textures/widget/purple_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/purple_button_highlighted.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 3
+  nine_slice_border_y = 3
 }
 
 element {
@@ -87,7 +92,8 @@ element {
   height = 25
   x = 5
   y = -55
-  [executable_action_instance:4][action_type:opengui] = language_select_screen
+  description = {"placeholder":"local","values":{"key":"bedrockreloaded.realms"}}
+  [executable_action_instance:4][action_type:opengui] = realms_pending_invites_screen
   [executable_block:5][type:generic] = [executables:4;]
 }
 
@@ -95,11 +101,11 @@ element {
   element_type = image
   anchor_point = element
   anchor_point_element = 3
-  width = 18
-  height = 18
-  x = 4
-  y = 4
-  source = [source:location]minecraft:textures/gui/sprites/icon/language.png
+  width = 16
+  height = 16
+  x = 5
+  y = 5
+  source = [source:location]minecraft:textures/gui/sprites/icon/invite.png
 }
 
 element {
@@ -110,7 +116,7 @@ element {
   height = 25
   x = 35
   y = -55
-  [executable_action_instance:7][action_type:opengui] = accessibility_options_screen
+  [executable_action_instance:7][action_type:opengui] = net.hicham.screenshotgallery.gui.GalleryScreen
   [executable_block:8][type:generic] = [executables:7;]
 }
 
@@ -118,11 +124,11 @@ element {
   element_type = image
   anchor_point = element
   anchor_point_element = 6
-  width = 19
-  height = 19
+  width = 18
+  height = 17
   x = 4
-  y = 3
-  source = [source:location]minecraft:textures/gui/sprites/icon/accessibility.png
+  y = 4
+  source = [source:location]fancymenu:textures/icon/gallery.png
 }
 
 element {
@@ -182,7 +188,7 @@ element {
   height = 25
   x = -120
   y = -64
-  [executable_action_instance:31][action_type:opengui] = dev.imb11.skinshuffle.client.gui.carousels.LargeCarouselScreen
+  [executable_action_instance:31][action_type:mimicbutton] = options_screen:345115
   [executable_block:32][type:generic] = [executables:31;]
   label = {"placeholder":"local","values":{"key":"bedrockreloaded.menu_skin"}}
 }
@@ -190,20 +196,20 @@ element {
 element {
   element_type = shape
   anchor_point = bottom-left
-  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"title_screen_copyright_button"}} + 5","decimal":"true"}}
-  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementheight","values":{"id":"title_screen_copyright_button"}} + 5","decimal":"true"}}
-  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposx","values":{"id":"title_screen_copyright_button"}} - 2","decimal":"true"}}
-  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposy","values":{"id":"title_screen_copyright_button"}} - 3","decimal":"true"}}
-  color = #00000075
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"title_screen_copyright_button"}} + 3","decimal":"true"}}
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementheight","values":{"id":"title_screen_copyright_button"}} + 4","decimal":"true"}}
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposx","values":{"id":"title_screen_copyright_button"}} - 1","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposy","values":{"id":"title_screen_copyright_button"}} - 2","decimal":"true"}}
+  color = #00000090
+  stay_on_screen = false
 }
 
 vanilla_button {
   instance_identifier = title_screen_copyright_button
   anchor_point = bottom-left
-  width = 60
-  height = 10
-  x = 2
-  y = -12
+  x = 1
+  y = -10
+  stay_on_screen = false
 }
 
 element {
@@ -211,22 +217,21 @@ element {
   anchor_point = bottom-right
   advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"29"}} + 8","decimal":"true"}}
   advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementheight","values":{"id":"29"}} + 4","decimal":"true"}}
-  advanced_posx = {"placeholder":"elementposx","values":{"id":"29"}}
-  advanced_posy = {"placeholder":"elementposy","values":{"id":"29"}}
-  color = #00000075
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposx","values":{"id":"29"}} + 2","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposy","values":{"id":"29"}} + 1","decimal":"true"}}
+  color = #00000090
 }
 
 element {
   instance_identifier = 29
   element_type = text_v2
   anchor_point = bottom-right
-  width = 50
-  height = 13
   x = -45
   y = -13
   source = v{"placeholder":"mcversion"}
   source_mode = direct
   enable_scrolling = false
+  stay_on_screen = false
 }
 
 vanilla_button {

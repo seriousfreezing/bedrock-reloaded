@@ -110,11 +110,11 @@ element {
   anchor_point = element
   anchor_point_element = 2
   width = 17
-  height = 15
+  height = 17
   x = 4
-  y = 4
+  y = 3
   [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:5] = create_world:true
-  source = [source:location]fancymenu:textures/icon/download.png
+  source = [source:location]resourcify:textures/plus.png
 }
 
 vanilla_button {

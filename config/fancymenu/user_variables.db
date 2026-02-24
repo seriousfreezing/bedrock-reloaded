@@ -2,7 +2,7 @@ type = user_variables
 
 variable {
   name = create_world
-  value = 
+  value = false
   reset_on_launch = true
 }
 
@@ -14,19 +14,19 @@ variable {
 
 variable {
   name = initial_player_rotation_y
-  value = 
+  value = 0
   reset_on_launch = true
 }
 
 variable {
   name = player_rotation_y
-  value = 
+  value = 0
   reset_on_launch = true
 }
 
 variable {
   name = mouse_drag_start_x
-  value = 
+  value = 0
   reset_on_launch = true
 }
 

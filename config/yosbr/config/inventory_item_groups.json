@@ -1,0 +1,726 @@
+{
+  "addGroupsOverOld": false,
+  "sort": "DEFAULT",
+  "groups": [
+    {
+      "tabName": "foodAndDrink",
+      "itemNames": [
+        "ominous"
+      ]
+    },
+    {
+      "tabName": "foodAndDrink",
+      "itemNames": [
+        "lingering"
+      ]
+    },
+    {
+      "tabName": "foodAndDrink",
+      "itemNames": [
+        "splash"
+      ]
+    },
+    {
+      "tabName": "foodAndDrink",
+      "itemNames": [
+        "potion"
+      ]
+    },
+    {
+      "tabName": "combat",
+      "itemNames": [
+        "nautilus"
+      ]
+    },
+    {
+      "tabName": "combat",
+      "itemNames": [
+        "firework"
+      ]
+    },
+    {
+      "tabName": "tools",
+      "itemNames": [
+        "firework"
+      ]
+    },
+    {
+      "tabName": "tools",
+      "itemNames": [
+        "harness"
+      ]
+    },
+    {
+      "tabName": "tools",
+      "itemNames": [
+        "bundle"
+      ]
+    },
+    {
+      "tabName": "tools",
+      "itemNames": [
+        "goat_horn"
+      ]
+    },
+    {
+      "tabName": "combat",
+      "itemNames": [
+        "spear"
+      ]
+    },
+    {
+      "tabName": "combat",
+      "itemNames": [
+        "arrow"
+      ]
+    },
+    {
+      "tabName": "buildingBlocks",
+      "itemNames": [
+        "wall"
+      ]
+    },
+    {
+      "tabName": "buildingBlocks",
+      "itemNames": [
+        "_trapdoor"
+      ]
+    },
+    {
+      "tabName": "tools",
+      "itemNames": [
+        "_axe"
+      ]
+    },
+    {
+      "tabName": "combat",
+      "itemNames": [
+        "sword"
+      ]
+    },
+    {
+      "tabName": "natural",
+      "itemNames": [
+        "granite",
+        "diorite",
+        "andesite",
+        "blackstone",
+        "basalt",
+        "tuff"
+      ]
+    },
+    {
+      "tabName": "natural",
+      "itemNames": [
+        "_ore",
+        "ancient_debris"
+      ]
+    },
+    {
+      "tabName": "ingredients",
+      "itemNames": [
+        "smithing_template"
+      ]
+    },
+    {
+      "tabName": "buildingBlocks",
+      "itemNames": [
+        "stairs"
+      ]
+    },
+    {
+      "tabName": "buildingBlocks",
+      "itemNames": [
+        "slab"
+      ]
+    },
+    {
+      "tabName": "functional",
+      "itemNames": [
+        "golem"
+      ]
+    },
+    {
+      "tabName": "functional",
+      "itemNames": [
+        "skull",
+        "head"
+      ]
+    },
+    {
+      "tabName": "functional",
+      "itemNames": [
+        "hanging_sign"
+      ]
+    },
+    {
+      "tabName": "functional",
+      "itemNames": [
+        "sign"
+      ]
+    },
+    {
+      "tabName": "tools",
+      "itemNames": [
+        "shovel"
+      ]
+    },
+    {
+      "tabName": "natural",
+      "itemNames": [
+        "seeds",
+        "pitcher_pod"
+      ]
+    },
+    {
+      "tabName": "natural",
+      "itemNames": [
+        "sculk"
+      ]
+    },
+    {
+      "tabName": "natural",
+      "itemNames": [
+        "sapling",
+        "mangrove_propagule"
+      ]
+    },
+    {
+      "tabName": "buildingBlocks",
+      "itemNames": [
+        "sandstone",
+        "chiseled_sandstone",
+        "cut_sandstone",
+        "smooth_sandstone",
+        "red_sandstone",
+        "chiseled_red_sandstone",
+        "cut_red_sandstone",
+        "smooth_red_sandstone"
+      ]
+    },
+    {
+      "tabName": "tools",
+      "itemNames": [
+        "music"
+      ]
+    },
+    {
+      "tabName": "foodAndDrink",
+      "itemNames": [
+        "bread",
+        "stew",
+        "beetroot_soup",
+        "baked_potato",
+        "cookie",
+        "pumpkin_pie",
+        "cake",
+        "dried_kelp"
+      ]
+    },
+    {
+      "tabName": "foodAndDrink",
+      "itemNames": [
+        "cooked_"
+      ]
+    },
+    {
+      "tabName": "foodAndDrink",
+      "itemNames": [
+        "chicken",
+        "porkchop",
+        "beef",
+        "mutton",
+        "rabbit",
+        "cod",
+        "salmon",
+        "tropical_fish",
+        "pufferfish"
+      ]
+    },
+    {
+      "tabName": "tools",
+      "itemNames": [
+        "rail"
+      ]
+    },
+    {
+      "tabName": "redstone",
+      "itemNames": [
+        "rail"
+      ]
+    },
+    {
+      "tabName": "redstone",
+      "itemNames": [
+        "minecart"
+      ]
+    },
+    {
+      "tabName": "redstone",
+      "itemNames": [
+        "plate"
+      ]
+    },
+    {
+      "tabName": "buildingBlocks",
+      "itemNames": [
+        "plate"
+      ]
+    },
+    {
+      "tabName": "coloredBlocks",
+      "itemNames": [
+        "shulker"
+      ]
+    },
+    {
+      "tabName": "coloredBlocks",
+      "itemNames": [
+        "wool"
+      ]
+    },
+    {
+      "tabName": "coloredBlocks",
+      "itemNames": [
+        "concrete_powder"
+      ]
+    },
+    {
+      "tabName": "coloredBlocks",
+      "itemNames": [
+        "concrete"
+      ]
+    },
+    {
+      "tabName": "ingredients",
+      "itemNames": [
+        "pottery_sherd"
+      ]
+    },
+    {
+      "tabName": "buildingBlocks",
+      "itemNames": [
+        "planks",
+        "bamboo_mosaic"
+      ]
+    },
+    {
+      "tabName": "tools",
+      "itemNames": [
+        "pickaxe"
+      ]
+    },
+    {
+      "tabName": "ingredients",
+      "itemNames": [
+        "banner_pattern"
+      ]
+    },
+    {
+      "tabName": "natural",
+      "itemNames": [
+        "mushroom",
+        "fungus"
+      ]
+    },
+    {
+      "tabName": "spawnEggs",
+      "itemNames": [
+        "spawn_egg"
+      ]
+    },
+    {
+      "tabName": "ingredients",
+      "itemNames": [
+        "enchanted_book"
+      ]
+    },
+    {
+      "tabName": "ingredients",
+      "itemNames": [
+        "carrot",
+        "melon",
+        "wheat"
+      ]
+    },
+    {
+      "tabName": "tools",
+      "itemNames": [
+        "minecart"
+      ]
+    },
+    {
+      "tabName": "natural",
+      "itemNames": [
+        "log",
+        "stem"
+      ]
+    },
+    {
+      "tabName": "functional",
+      "itemNames": [
+        "candle"
+      ]
+    },
+    {
+      "tabName": "functional",
+      "itemNames": [
+        "soul_lantern",
+        "copper_lantern"
+      ]
+    },
+    {
+      "tabName": "combat",
+      "itemNames": [
+        "leggings"
+      ]
+    },
+    {
+      "tabName": "natural",
+      "itemNames": [
+        "leaves"
+      ]
+    },
+    {
+      "tabName": "natural",
+      "itemNames": [
+        "infested"
+      ]
+    },
+    {
+      "tabName": "combat",
+      "itemNames": [
+        "horse_armor"
+      ]
+    },
+    {
+      "tabName": "tools",
+      "itemNames": [
+        "hoe"
+      ]
+    },
+    {
+      "tabName": "combat",
+      "itemNames": [
+        "helmet"
+      ]
+    },
+    {
+      "tabName": "coloredBlocks",
+      "itemNames": [
+        "glazed"
+      ]
+    },
+    {
+      "tabName": "coloredBlocks",
+      "itemNames": [
+        "terracotta"
+      ]
+    },
+    {
+      "tabName": "coloredBlocks",
+      "itemNames": [
+        "glass_pane"
+      ]
+    },
+    {
+      "tabName": "coloredBlocks",
+      "itemNames": [
+        "glass",
+        "white_stained_glass",
+        "light_gray_stained_glass",
+        "gray_stained_glass",
+        "black_stained_glass",
+        "brown_stained_glass",
+        "red_stained_glass",
+        "orange_stained_glass",
+        "yellow_stained_glass",
+        "lime_stained_glass",
+        "green_stained_glass",
+        "cyan_stained_glass",
+        "light_blue_stained_glass",
+        "blue_stained_glass",
+        "purple_stained_glass",
+        "magenta_stained_glass",
+        "pink_stained_glass",
+        "tinted_glass"
+      ]
+    },
+    {
+      "tabName": "buildingBlocks",
+      "itemNames": [
+        "fence_gate"
+      ]
+    },
+    {
+      "tabName": "buildingBlocks",
+      "itemNames": [
+        "fence"
+      ]
+    },
+    {
+      "tabName": "natural",
+      "itemNames": [
+        "eyeblossom",
+        "cactus_flower",
+        "wildflowers",
+        "warped_roots",
+        "crimson_roots",
+        "dandelion",
+        "poppy",
+        "blue_orchid",
+        "allium",
+        "azure_bluet",
+        "tulip",
+        "oxeye_daisy",
+        "cornflower",
+        "lily_of_the_valley",
+        "sunflower",
+        "lilac",
+        "rose_bush",
+        "peony",
+        "pitcher_plant",
+        "pink_petals",
+        "wither_rose",
+        "torchflower"
+      ]
+    },
+    {
+      "tabName": "natural",
+      "itemNames": [
+        "fern",
+        "_grass",
+        "sprouts"
+      ]
+    },
+    {
+      "tabName": "buildingBlocks",
+      "itemNames": [
+        "fence_gate"
+      ]
+    },
+    {
+      "tabName": "functional",
+      "itemNames": [
+        "shulker"
+      ]
+    },
+    {
+      "tabName": "functional",
+      "itemNames": [
+        "infested"
+      ]
+    },
+    {
+      "tabName": "functional",
+      "itemNames": [
+        "bed"
+      ]
+    },
+    {
+      "tabName": "functional",
+      "itemNames": [
+        "banner"
+      ]
+    },
+    {
+      "tabName": "ingredients",
+      "itemNames": [
+        "dye"
+      ]
+    },
+    {
+      "tabName": "buildingBlocks",
+      "itemNames": [
+        "_door"
+      ]
+    },
+    {
+      "tabName": "buildingBlocks",
+      "itemNames": [
+        "stone_bricks",
+        "mossy_stone_bricks",
+        "cracked_stone_bricks",
+        "chiseled_stone_bricks",
+        "end_stone_bricks",
+        "prismarine_bricks",
+        "polished_blackstone_bricks",
+        "cracked_polished_blackstone_bricks",
+        "gilded_blackstone",
+        "chiseled_polished_blackstone",
+        "deepslate_tiles",
+        "cracked_deepslate_tiles",
+        "deepslate_bricks",
+        "cracked_deepslate_bricks",
+        "chiseled_deepslate"
+      ]
+    },
+    {
+      "tabName": "natural",
+      "itemNames": [
+        "berries",
+        "melon"
+      ]
+    },
+    {
+      "tabName": "foodAndDrink",
+      "itemNames": [
+        "beetroot",
+        "potato",
+        "apple",
+        "carrot",
+        "melon",
+        "berries"
+      ]
+    },
+    {
+      "tabName": "buildingBlocks",
+      "itemNames": [
+        "bars"
+      ]
+    },
+    {
+      "tabName": "functional",
+      "itemNames": [
+        "_shelf"
+      ]
+    },
+    {
+      "tabName": "functional",
+      "itemNames": [
+        "chain"
+      ]
+    },
+    {
+      "tabName": "buildingBlocks",
+      "itemNames": [
+        "chain"
+      ]
+    },
+    {
+      "tabName": "buildingBlocks",
+      "itemNames": [
+        "copper"
+      ]
+    },
+    {
+      "tabName": "functional",
+      "itemNames": [
+        "chest"
+      ]
+    },
+    {
+      "tabName": "functional",
+      "itemNames": [
+        "lightning_rod"
+      ]
+    },
+    {
+      "tabName": "combat",
+      "itemNames": [
+        "chestplate"
+      ]
+    },
+    {
+      "tabName": "coloredBlocks",
+      "itemNames": [
+        "carpet"
+      ]
+    },
+    {
+      "tabName": "coloredBlocks",
+      "itemNames": [
+        "candle"
+      ]
+    },
+    {
+      "tabName": "buildingBlocks",
+      "itemNames": [
+        "button"
+      ]
+    },
+    {
+      "tabName": "combat",
+      "itemNames": [
+        "boots"
+      ]
+    },
+    {
+      "tabName": "tools",
+      "itemNames": [
+        "chest_boat",
+        "chest_raft"
+      ]
+    },
+    {
+      "tabName": "tools",
+      "itemNames": [
+        "_boat",
+        "_raft"
+      ]
+    },
+    {
+      "tabName": "coloredBlocks",
+      "itemNames": [
+        "bed"
+      ]
+    },
+    {
+      "tabName": "coloredBlocks",
+      "itemNames": [
+        "banner"
+      ]
+    },
+    {
+      "tabName": "buildingBlocks",
+      "itemNames": [
+        "wood",
+        "hyphae",
+        "bamboo_block"
+      ]
+    },
+    {
+      "tabName": "buildingBlocks",
+      "itemNames": [
+        "log",
+        "stem"
+      ]
+    },
+    {
+      "tabName": "natural",
+      "itemNames": [
+        "coral_block"
+      ]
+    },
+    {
+      "tabName": "natural",
+      "itemNames": [
+        "coral"
+      ]
+    },
+    {
+      "tabName": "combat",
+      "itemNames": [
+        "axe"
+      ]
+    },
+    {
+      "tabName": "buildingBlocks",
+      "itemNames": [
+        "polished_deepslate",
+        "granite",
+        "diorite",
+        "andesite",
+        "blackstone",
+        "basalt",
+        "tuff"
+      ]
+    },
+    {
+      "tabName": "functional",
+      "itemNames": [
+        "anvil"
+      ]
+    }
+  ]
+}

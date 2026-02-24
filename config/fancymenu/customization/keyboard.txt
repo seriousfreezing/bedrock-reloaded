@@ -55,10 +55,32 @@ element {
 vanilla_button {
   instance_identifier = 346974
   anchor_point = bottom-centered
-  width = 170
+  width = 150
   height = 25
-  x = -85
+  x = -150
   y = -28
+  backgroundnormal = [source:location]fancymenu:textures/widget/gray_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/gray_button_highlighted.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 3
+  nine_slice_border_y = 4
+}
+
+element {
+  element_type = custom_button
+  anchor_point = element
+  anchor_point_element = 346974
+  width = 150
+  height = 25
+  x = 154
+  label = {"placeholder":"local","values":{"key":"option.commandkeys.macro"}}
+  backgroundnormal = [source:location]fancymenu:textures/widget/gray_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/gray_button_highlighted.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 3
+  nine_slice_border_y = 4
+  [executable_action_instance:1][action_type:opengui] = dev.terminalmc.commandkeys.gui.screen.MainOptionScreen
+  [executable_block:2][type:generic] = [executables:1;]
 }
 
 vanilla_button {

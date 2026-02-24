@@ -1,0 +1,133 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = realms_main_screen
+  render_custom_elements_behind_vanilla = true
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+element {
+  instance_identifier = 0
+  element_type = image
+  anchor_point = top-centered
+  height = 32
+  stretch_x = true
+  source = [source:location]fancymenu:textures/widget/header.png
+}
+
+vanilla_button {
+  instance_identifier = 502969
+  anchor_point = element
+  anchor_point_element = 0
+  width = 8
+  height = 12
+  x = 4
+  y = 6
+  backgroundnormal = [source:location]fancymenu:textures/icon/back.png
+  backgroundhovered = [source:location]fancymenu:textures/icon/back_highlight.png
+  label = 
+}
+
+element {
+  instance_identifier = 1
+  element_type = custom_button
+  anchor_point = bottom-centered
+  width = 100
+  height = 20
+  x = -155
+  y = -54
+  label = {"placeholder":"local","values":{"key":"menu.singleplayer"}}
+  [executable_action_instance:7][action_type:opengui] = select_world_screen
+  backgroundnormal = [source:location]fancymenu:textures/widget/black_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/black_button_highlighted.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 3
+  nine_slice_border_y = 3
+}
+
+element {
+  instance_identifier = 2
+  element_type = image
+  anchor_point = element
+  anchor_point_element = 1
+  width = 100
+  height = 20
+  x = 99
+  source = [source:location]fancymenu:textures/widget/black_button_pressed.png
+  nine_slice_texture = true
+  nine_slice_texture_border_x = 3
+  nine_slice_texture_border_y = 3
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 2
+  width = 100
+  height = 18
+  y = 3
+  source = ^^^%n%{"placeholder":"local","values":{"key":"menu.online"}}%n%^^^
+  source_mode = direct
+  base_color = #A0A0A0
+  enable_scrolling = false
+}
+
+element {
+  element_type = custom_button
+  anchor_point = element
+  anchor_point_element = 2
+  width = 100
+  height = 20
+  x = 99
+  label = {"placeholder":"local","values":{"key":"menu.multiplayer"}}
+  backgroundnormal = [source:location]fancymenu:textures/widget/black_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/black_button_highlighted.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 3
+  nine_slice_border_y = 3
+  [executable_action_instance:1][action_type:opengui] = join_multiplayer_screen
+  [executable_action_instance:2][action_type:set_variable] = main_menu:false
+}
+
+vanilla_button {
+  instance_identifier = 398969
+  anchor_point = element
+  anchor_point_element = 1
+  width = 150
+  height = 20
+  y = 19
+  description = {"placeholder":"local","values":{"key":"bedrockreloaded.realms"}}
+  backgroundnormal = [source:location]fancymenu:textures/widget/green_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/green_button_highlighted.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 3
+  nine_slice_border_y = 3
+}
+
+vanilla_button {
+  instance_identifier = 61012
+  anchor_point = element
+  anchor_point_element = 398969
+  width = 149
+  height = 20
+  x = 149
+  backgroundnormal = [source:location]fancymenu:textures/widget/gray_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/gray_button_highlighted.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 3
+  nine_slice_border_y = 3
+}
+
+vanilla_button {
+  instance_identifier = 63412
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 4365
+  is_hidden = true
+}

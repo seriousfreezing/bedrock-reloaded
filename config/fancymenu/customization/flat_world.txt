@@ -28,6 +28,11 @@ vanilla_button {
   height = 30
   x = -198
   y = -40
+  backgroundnormal = [source:location]fancymenu:textures/widget/gray_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/gray_button_highlighted.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 3
+  nine_slice_border_y = 4
 }
 
 vanilla_button {
@@ -37,6 +42,11 @@ vanilla_button {
   width = 130
   height = 30
   x = 134
+  backgroundnormal = [source:location]fancymenu:textures/widget/gray_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/gray_button_highlighted.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 3
+  nine_slice_border_y = 4
 }
 
 vanilla_button {
@@ -46,4 +56,9 @@ vanilla_button {
   width = 130
   height = 30
   x = 134
+  backgroundnormal = [source:location]fancymenu:textures/widget/green_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/green_button_highlighted.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 3
+  nine_slice_border_y = 4
 }

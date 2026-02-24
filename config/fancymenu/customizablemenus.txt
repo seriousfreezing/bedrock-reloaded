@@ -15,9 +15,6 @@ net.minecraft.class_3928 {
 net.minecraft.class_4288 {
 }
 
-net.minecraft.class_526 {
-}
-
 net.minecraft.class_500 {
 }
 
@@ -195,13 +192,7 @@ net.minecraft.class_412 {
 net.minecraft.class_8134 {
 }
 
-io.github.satxm.mcwifipnp.client.ShareToLanScreenNew {
-}
-
 net.minecraft.class_442 {
-}
-
-net.minecraft.class_433 {
 }
 
 net.minecraft.class_436 {
@@ -222,8 +213,29 @@ org.minepedia.screen.MinepediaEncyclopediaScreen {
 net.minecraft.class_524 {
 }
 
-dev.imb11.skinshuffle.client.gui.carousels.LargeCarouselScreen {
+net.minecraft.class_5522 {
 }
 
-com.brandonitaly.bedrockskins.client.gui.SkinSelectionScreen {
+net.minecraft.class_4325 {
+}
+
+net.minecraft.class_526 {
+}
+
+codes.atomys.advr.screens.AdvancementReloadedScreen {
+}
+
+net.minecraft.class_433 {
+}
+
+net.hicham.screenshotgallery.gui.GalleryScreen {
+}
+
+net.minecraft.class_4401 {
+}
+
+dev.terminalmc.commandkeys.gui.screen.MainOptionScreen {
+}
+
+net.minecraft.class_8656 {
 }
