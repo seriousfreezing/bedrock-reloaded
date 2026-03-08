@@ -1,7 +1,7 @@
-### This branch is reserved for the **Depreciated version** of the Bedrock Reloaded. There will **never be any updates or support.**
-### ⚠️ [Want to fork the Bedrock Reloaded?](https://seriousfreezing.gitbook.io/bedrockreloaded/disclaimer)
----
-> [!NOTE]
-> Copyright © 2025 SeriousFreezing. [GPL-3.](https://www.gnu.org/licenses/gpl-3.0.html#license-text)  
-> Some artwork is licensed under CC-NC-ND. [Learn More.](https://seriousfreezing.gitbook.io/bedrockreloaded/disclaimer)  
-> Not an official Minecraft product. Not approved by or associated with Mojang or Microsoft.
+**This branch contains historical versions of Bedrock Reloaded that are no longer maintained.**
+
+Read the [**Terms of Use**](https://seriousfreezing.gitbook.io/bedrock-reloaded/terms-of-use) before modifying, redistributing, or forking this project.
+
+![divider](https://cdn.modrinth.com/data/cached_images/b726dffef3bff5a52af4ab17734c700754958997_0.webp)
+
+> Copyright © SeriousFreezing. [GPL-3.](LICENSE)
