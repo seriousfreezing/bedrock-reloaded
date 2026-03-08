@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "LICENSE"
-hash = "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809"
-
-[[files]]
 file = "config/fancymenu/assets/bg/bt_market.gif"
 hash = "cea0fee5418e6d512d7d09254c86d9638afcc9959d40d707516f9c32fa32f26d"
 

@@ -1,5 +1,3 @@
-.github/
-*.exe
-*.jar
-*.mrpack
+.github
+LICENSE
 README.md

@@ -1,7 +1,7 @@
-### This branch is reserved for the **LTS version** of the Bedrock Reloaded. This is usually the most **stable** version and is still **supported.**
-### ⚠️ [Want to fork the Bedrock Reloaded?](https://seriousfreezing.gitbook.io/bedrockreloaded/disclaimer)
+**This branch is reserved for the Long-Term Support version of Bedrock Reloaded.**
+
+Read the [**Terms of Use**](https://seriousfreezing.gitbook.io/bedrock-reloaded/terms-of-use) before modifying, redistributing, or forking this project.
+
 ---
-> [!NOTE]
-> Copyright © 2025 SeriousFreezing. [GPL-3.](https://www.gnu.org/licenses/gpl-3.0.html#license-text)  
-> Some artwork is licensed under CC-NC-ND. [Learn More.](https://seriousfreezing.gitbook.io/bedrockreloaded/disclaimer)  
-> Not an official Minecraft product. Not approved by or associated with Mojang or Microsoft.
+
+> Copyright © SeriousFreezing. [GPL-3.](LICENSE)
