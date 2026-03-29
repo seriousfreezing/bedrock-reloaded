@@ -1,10 +1,10 @@
-version:4325
+version:4671
 entityDistanceScaling:0.5
 fov:-0.25
 fullscreen:false
 maxFps:260
 simulationDistance:8
-resourcePacks:["srl_cm/Bedrocking.zip","file/bedrockflavor-5.0.0.zip","file/SodiumTranslations.zip"]
+resourcePacks:["srl_cm/Bedrocking.zip","file/bedrockflavor-6.0.0.zip","file/SodiumTranslations.zip"]
 chatOpacity:0.7
 textBackgroundOpacity:0.60
 allowCursorChanges:false
@@ -19,7 +19,7 @@ key_key.advancements:key.keyboard.unknown
 key_key.bedrockskins.open:key.keyboard.unknown
 key_key.command:key.keyboard.keypad.divide
 key_key.commandkeys.main.edit:key.keyboard.unknown
-key_key.cosmetica.customise:key.key.keyboard.unknown
+key_key.cosmetica.customise:key.keyboard.unknown
 key_key.cosmetica.select_outfit:key.keyboard.unknown
 key_key.cosmetica.snipe:key.keyboard.unknown
 key_key.loadToolbarActivator:key.keyboard.unknown

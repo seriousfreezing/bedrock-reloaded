@@ -34,5 +34,17 @@ listener_instance {
   [loading_requirement_container_meta:20] = [groups:][instances:21;]
   [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if][req_id:21] = ["mode":"equals","text":"{"placeholder":"screenid"}","compare_with":"accessibility_options_screen"]$
   [if_executable_block_collapsed:19] = false
-  [executable_block:1][type:generic] = [executables:3;7;11;15;19;]
+  [executable_action_instance:22][action_type:set_variable] = skin:false
+  [executable_block:23][type:if] = [executables:22;]
+  [if_executable_block_body:23] = 24
+  [loading_requirement_container_meta:24] = [groups:][instances:25;]
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if][req_id:25] = ["mode":"equals","text":"{"placeholder":"screenid"}","compare_with":"cc.cosmetica.kupe.impl.KupeScreen"]$
+  [if_executable_block_collapsed:23] = false
+  [executable_action_instance:26][action_type:set_variable] = skin:true
+  [executable_block:27][type:if] = [executables:26;]
+  [if_executable_block_body:27] = 28
+  [loading_requirement_container_meta:28] = [groups:][instances:29;]
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if][req_id:29] = ["mode":"equals","text":"{"placeholder":"screenid"}","compare_with":"skin_customization_screen"]$
+  [if_executable_block_collapsed:27] = false
+  [executable_block:1][type:generic] = [executables:3;7;11;15;19;23;27;]
 }

@@ -45,7 +45,7 @@ element {
   y = 5
   [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:0] = create_world:false
   interactable = false
-  source = ^^^%n%{"placeholder":"local","values":{"key":"bedrockreloaded.resourcepacks_title"}}%n%^^^
+  source = ^^^%n%{"placeholder":"local","values":{"key":"resourcePack.title"}}%n%^^^
   source_mode = direct
   shadow = false
   scale = 1.5
@@ -61,7 +61,7 @@ element {
   y = 5
   [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:1] = create_world:true
   interactable = false
-  source = ^^^%n%{"placeholder":"local","values":{"key":"selectWorld.dataPacks"}}%n%^^^
+  source = ^^^%n%{"placeholder":"local","values":{"key":"dataPack.title"}}%n%^^^
   source_mode = direct
   shadow = false
   scale = 1.5

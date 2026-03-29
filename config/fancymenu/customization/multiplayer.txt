@@ -124,7 +124,8 @@ vanilla_button {
   anchor_point_element = 1
   width = 110
   height = 20
-  y = 19
+  x = -23
+  y = 23
   backgroundnormal = [source:location]fancymenu:textures/widget/green_button.png
   backgroundhovered = [source:location]fancymenu:textures/widget/green_button_highlighted.png
   nine_slice_custom_background = true
@@ -136,9 +137,9 @@ vanilla_button {
   instance_identifier = 502972
   anchor_point = element
   anchor_point_element = 554948
-  width = 64
+  width = 75
   height = 20
-  x = 109
+  x = 114
   backgroundnormal = [source:location]fancymenu:textures/widget/gray_button.png
   backgroundhovered = [source:location]fancymenu:textures/widget/gray_button_highlighted.png
   nine_slice_custom_background = true
@@ -150,9 +151,9 @@ vanilla_button {
   instance_identifier = 346972
   anchor_point = element
   anchor_point_element = 502972
-  width = 64
+  width = 75
   height = 20
-  x = 63
+  x = 79
   backgroundnormal = [source:location]fancymenu:textures/widget/gray_button.png
   backgroundhovered = [source:location]fancymenu:textures/widget/gray_button_highlighted.png
   nine_slice_custom_background = true
@@ -164,9 +165,9 @@ vanilla_button {
   instance_identifier = 424972
   anchor_point = element
   anchor_point_element = 346972
-  width = 63
+  width = 75
   height = 20
-  x = 63
+  x = 79
   backgroundnormal = [source:location]fancymenu:textures/widget/red_button.png
   backgroundhovered = [source:location]fancymenu:textures/widget/red_button_highlighted.png
   nine_slice_custom_background = true
@@ -191,5 +192,10 @@ vanilla_button {
 
 vanilla_button {
   instance_identifier = 48912
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 8975
   is_hidden = true
 }
