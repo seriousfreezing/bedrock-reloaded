@@ -2,6 +2,7 @@ type = fancymenu_layout
 
 layout-meta {
   identifier = create_buffet_world_screen
+  render_custom_elements_behind_vanilla = true
 }
 
 customization {
@@ -9,9 +10,19 @@ customization {
   keepaspectratio = true
 }
 
+element {
+  instance_identifier = 0
+  element_type = image
+  anchor_point = top-centered
+  height = 32
+  stretch_x = true
+  source = [source:location]fancymenu:textures/widget/header.png
+}
+
 vanilla_button {
   instance_identifier = 504974
-  anchor_point = top-left
+  anchor_point = element
+  anchor_point_element = 0
   width = 8
   height = 12
   x = 4
@@ -33,4 +44,14 @@ vanilla_button {
   nine_slice_custom_background = true
   nine_slice_border_x = 3
   nine_slice_border_y = 4
+}
+
+vanilla_button {
+  instance_identifier = 40019
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 4357
+  is_hidden = true
 }

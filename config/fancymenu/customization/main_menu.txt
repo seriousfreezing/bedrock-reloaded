@@ -116,7 +116,7 @@ element {
   height = 25
   x = 35
   y = -55
-  [executable_action_instance:7][action_type:opengui] = net.hicham.screenshotgallery.gui.GalleryScreen
+  [executable_action_instance:7][action_type:opengui] = dev.gdlev.better_screenshots.client.ScreenshotGalleryScreen
   [executable_block:8][type:generic] = [executables:7;]
 }
 
@@ -178,6 +178,8 @@ element {
   head_follows_mouse = true
   body_follows_mouse = false
   bodyrotationy = {"placeholder":"getvariable","values":{"name":"player_rotation_y"}}
+  left_arm_z_rot = 6
+  right_arm_z_rot = -6
 }
 
 element {
@@ -188,9 +190,9 @@ element {
   height = 25
   x = -120
   y = -64
-  [executable_action_instance:31][action_type:mimicbutton] = options_screen:345115
-  [executable_block:32][type:generic] = [executables:31;]
   label = {"placeholder":"local","values":{"key":"bedrockreloaded.menu_skin"}}
+  [executable_action_instance:10][action_type:mimicbutton] = options_screen:34691
+  [executable_block:11][type:generic] = [executables:10;]
 }
 
 element {
@@ -226,12 +228,17 @@ element {
   instance_identifier = 29
   element_type = text_v2
   anchor_point = bottom-right
-  x = -45
+  x = -38
   y = -13
   source = v{"placeholder":"mcversion"}
   source_mode = direct
   enable_scrolling = false
   stay_on_screen = false
+}
+
+vanilla_button {
+  instance_identifier = 628382
+  is_hidden = true
 }
 
 vanilla_button {

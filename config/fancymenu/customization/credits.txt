@@ -152,7 +152,7 @@ element {
   width = 203
   height = 100
   y = 38
-  source = {"placeholder":"local","values":{"key":"selectWorld.version"}} v{"placeholder":"mcversion"}%n%{"placeholder":"local","values":{"key":"selectWorld.version"}} 37.0%n%{"placeholder":"loadername"}: {"placeholder":"loaderver"}
+  source = {"placeholder":"local","values":{"key":"selectWorld.version"}} v{"placeholder":"mcversion"}%n%{"placeholder":"local","values":{"key":"selectWorld.version"}} 38.0%n%{"placeholder":"loadername"}: {"placeholder":"loaderver"}
   source_mode = direct
   shadow = false
   enable_scrolling = false

@@ -1,7 +1,7 @@
 type = fancymenu_layout
 
 layout-meta {
-  identifier = org.minepedia.screen.MinepediaEncyclopediaScreen
+  identifier = net.minecraft.client.gui.screens.multiplayer.RestrictionsScreen
   render_custom_elements_behind_vanilla = true
 }
 
@@ -19,8 +19,8 @@ element {
   source = [source:location]fancymenu:textures/widget/header.png
 }
 
-element {
-  element_type = custom_button
+vanilla_button {
+  instance_identifier = 400974
   anchor_point = element
   anchor_point_element = 0
   width = 8
@@ -29,5 +29,10 @@ element {
   y = 6
   backgroundnormal = [source:location]fancymenu:textures/icon/back.png
   backgroundhovered = [source:location]fancymenu:textures/icon/back_highlight.png
-  [executable_action_instance:0][action_type:opengui] = org.minepedia.screen.MinepediaIndexScreen
+  label = 
+}
+
+vanilla_button {
+  instance_identifier = 47012
+  is_hidden = true
 }

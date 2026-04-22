@@ -10,6 +10,16 @@ customization {
 }
 
 vanilla_button {
-  instance_identifier = percentage
+  instance_identifier = chunks
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = downloading_terrain_text
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = progress_bar
   is_hidden = true
 }

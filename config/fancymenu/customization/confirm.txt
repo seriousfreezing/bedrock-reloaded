@@ -10,7 +10,7 @@ customization {
 }
 
 vanilla_button {
-  instance_identifier = 502515
+  instance_identifier = 502524
   backgroundnormal = [source:location]fancymenu:textures/widget/gray_button.png
   backgroundhovered = [source:location]fancymenu:textures/widget/gray_button_highlighted.png
   nine_slice_custom_background = true
@@ -28,7 +28,25 @@ vanilla_button {
 }
 
 vanilla_button {
-  instance_identifier = 348515
+  instance_identifier = 502515
+  backgroundnormal = [source:location]fancymenu:textures/widget/gray_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/gray_button_highlighted.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 3
+  nine_slice_border_y = 3
+}
+
+vanilla_button {
+  instance_identifier = 501515
+  backgroundnormal = [source:location]fancymenu:textures/widget/gray_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/gray_button_highlighted.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 3
+  nine_slice_border_y = 3
+}
+
+vanilla_button {
+  instance_identifier = 348524
   backgroundnormal = [source:location]fancymenu:textures/widget/red_button.png
   backgroundhovered = [source:location]fancymenu:textures/widget/red_button_highlighted.png
   nine_slice_custom_background = true
@@ -38,6 +56,24 @@ vanilla_button {
 
 vanilla_button {
   instance_identifier = 348519
+  backgroundnormal = [source:location]fancymenu:textures/widget/red_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/red_button_highlighted.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 3
+  nine_slice_border_y = 3
+}
+
+vanilla_button {
+  instance_identifier = 348515
+  backgroundnormal = [source:location]fancymenu:textures/widget/red_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/red_button_highlighted.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 3
+  nine_slice_border_y = 3
+}
+
+vanilla_button {
+  instance_identifier = 347515
   backgroundnormal = [source:location]fancymenu:textures/widget/red_button.png
   backgroundhovered = [source:location]fancymenu:textures/widget/red_button_highlighted.png
   nine_slice_custom_background = true

@@ -1,7 +1,7 @@
 type = fancymenu_layout
 
 layout-meta {
-  identifier = net.minecraft.class_6599
+  identifier = net.minecraft.client.gui.screens.options.controls.KeyBindsScreen
   render_custom_elements_behind_vanilla = true
 }
 

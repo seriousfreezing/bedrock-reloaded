@@ -1,7 +1,7 @@
 type = fancymenu_layout
 
 layout-meta {
-  identifier = net.minecraft.class_9246
+  identifier = net.minecraft.client.gui.screens.options.FontOptionsScreen
   render_custom_elements_behind_vanilla = true
 }
 

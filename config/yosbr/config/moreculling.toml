@@ -4,6 +4,5 @@ itemFrame3FaceCullingRange = 2.0
 leavesCullingMode = "CHECK"
 includeMangroveRoots = true
 endGatewayCulling = true
-
 [modCompatibility]
 bedrockify = true

@@ -1,13 +1,13 @@
 name = "Java Trident Killers"
-filename = "trident-killers-1.3.jar"
+filename = "trident-killers-1.4.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/bvxKNiok/versions/ed9gMS1c/trident-killers-1.3.jar"
+url = "https://cdn.modrinth.com/data/bvxKNiok/versions/wALolSqv/trident-killers-1.4.jar"
 hash-format = "sha512"
-hash = "aca76f43e78f7f5cb2a8a6223f76fff76421e155456e751c7bc7d16133a5a3335c2dac31c958946338f255fce946b8e69c8966839e4bf47612249511dd0bc2f9"
+hash = "185217ea56002e9d253e08aa49575e48be347e0d37785f72dc861d71b9245a2f53cfdef96a8c34b4fe826eda28775c259c1150fa7bcd3a44e863dd16fd250dd7"
 
 [update]
 [update.modrinth]
 mod-id = "bvxKNiok"
-version = "ed9gMS1c"
+version = "wALolSqv"

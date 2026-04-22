@@ -33,6 +33,6 @@ vanilla_button {
 }
 
 vanilla_button {
-  instance_identifier = 46212
+  instance_identifier = 50012
   is_hidden = true
 }

@@ -1,7 +1,7 @@
 type = fancymenu_layout
 
 layout-meta {
-  identifier = org.minepedia.screen.MinepediaIndexScreen
+  identifier = dev.gdlev.better_screenshots.client.ScreenshotGalleryScreen
 }
 
 customization {
@@ -28,5 +28,10 @@ element {
   y = 6
   backgroundnormal = [source:location]fancymenu:textures/icon/back.png
   backgroundhovered = [source:location]fancymenu:textures/icon/back_highlight.png
-  [executable_action_instance:0][action_type:opengui] = options_screen
+  [executable_action_instance:0][action_type:mimicbutton] = dev.gdlev.better_screenshots.client.ScreenshotGalleryScreen:84
+}
+
+vanilla_button {
+  instance_identifier = 84
+  is_hidden = true
 }

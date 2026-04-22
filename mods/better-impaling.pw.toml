@@ -1,13 +1,13 @@
 name = "Better Impaling"
-filename = "betterimpaling-4.0+1.21.11.jar"
+filename = "betterimpaling-4.0+26.1.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/m8MF21pg/versions/ZBaCrN0h/betterimpaling-4.0%2B1.21.11.jar"
+url = "https://cdn.modrinth.com/data/m8MF21pg/versions/QgFXyAsA/betterimpaling-4.0%2B26.1.2.jar"
 hash-format = "sha512"
-hash = "730da6e25bcab8b67d2b358eb6bfde958d8fe5b9f855d69ef4006bcd5e32d94c6c12b1b568d88632b72f887831952be3bf516afc727ce86b252a8b5583e4bc2e"
+hash = "08053d270e48dc1bbb0819225ab463f84dbe40b8b481d71a4971b4ea1ae443c0e06e343de618c7dcb2e37b4d77bfcf8092df6254cf5b83fec626b1fec5d930b0"
 
 [update]
 [update.modrinth]
 mod-id = "m8MF21pg"
-version = "ZBaCrN0h"
+version = "QgFXyAsA"

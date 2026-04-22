@@ -147,6 +147,19 @@ element {
   enable_scrolling = false
 }
 
+element {
+  instance_identifier = 504382
+  element_type = custom_button
+  anchor_point = bottom-centered
+  width = 150
+  height = 30
+  x = -75
+  y = -32
+  label = {"placeholder":"local","values":{"key":"gui.cancel"}}
+  [executable_action_instance:0][action_type:mimicbutton] = command_block_edit_screen:504382
+  [executable_block:1][type:generic] = [executables:0;]
+}
+
 vanilla_button {
   instance_identifier = 504382
   is_hidden = true

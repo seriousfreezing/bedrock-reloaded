@@ -1,7 +1,7 @@
 type = fancymenu_layout
 
 layout-meta {
-  identifier = net.minecraft.class_422
+  identifier = net.minecraft.client.gui.screens.ManageServerScreen
   render_custom_elements_behind_vanilla = true
   custom_menu_title = 
 }
