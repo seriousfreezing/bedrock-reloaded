@@ -1,0 +1,13 @@
+name = "Bedrock Ranged Mobs"
+filename = "bedrock-ranged-mobs-1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Di1t3w1M/versions/AxbxqAjb/bedrock-ranged-mobs-1.1.jar"
+hash-format = "sha512"
+hash = "245036558acbf93aee22baee358fe2eccde6681d26a5b2fca753f9c9f6306a487bb37f725922896f2b77491bf4604a77c63b9f251962b9a77ca202a61be07728"
+
+[update]
+[update.modrinth]
+mod-id = "Di1t3w1M"
+version = "AxbxqAjb"

@@ -1,0 +1,13 @@
+name = "Bedrock Flavor"
+filename = "bedrockflavor-6.0.0.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/fSMYD0L5/versions/6OFQ2PRc/bedrockflavor-6.0.0.zip"
+hash-format = "sha512"
+hash = "65a43898b5a29f9c2b0e078d8040f8f476bb1b389970931fd54736529e5b885e28972f8e03bc8139e98a13c1863999f60931bfafd6444f177990b9d0d04cd1cf"
+
+[update]
+[update.modrinth]
+mod-id = "fSMYD0L5"
+version = "6OFQ2PRc"

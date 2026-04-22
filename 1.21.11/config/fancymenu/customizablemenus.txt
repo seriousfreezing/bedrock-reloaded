@@ -1,0 +1,241 @@
+type = customizablemenus
+
+net.minecraft.class_443 {
+}
+
+net.minecraft.class_481 {
+}
+
+net.minecraft.class_6599 {
+}
+
+net.minecraft.class_3928 {
+}
+
+net.minecraft.class_4288 {
+}
+
+net.minecraft.class_500 {
+}
+
+net.minecraft.class_422 {
+}
+
+net.minecraft.class_446 {
+}
+
+net.minecraft.class_420 {
+}
+
+net.minecraft.class_403 {
+}
+
+net.minecraft.class_8219 {
+}
+
+net.minecraft.class_5235 {
+}
+
+net.minecraft.class_410 {
+}
+
+net.minecraft.class_424 {
+}
+
+net.minecraft.class_405 {
+}
+
+net.minecraft.class_527 {
+}
+
+net.minecraft.class_413 {
+}
+
+net.minecraft.class_415 {
+}
+
+net.minecraft.class_430 {
+}
+
+net.minecraft.class_408 {
+}
+
+net.minecraft.class_525 {
+}
+
+me.shedaniel.clothconfig2.gui.ClothConfigScreen {
+}
+
+net.minecraft.class_419 {
+}
+
+net.minecraft.class_404 {
+}
+
+net.minecraft.class_457 {
+}
+
+net.minecraft.class_458 {
+}
+
+net.minecraft.class_8032 {
+}
+
+net.minecraft.class_5375 {
+}
+
+net.minecraft.class_426 {
+}
+
+net.minecraft.class_476 {
+}
+
+net.minecraft.class_3873 {
+}
+
+net.minecraft.class_3871 {
+}
+
+net.minecraft.class_3874 {
+}
+
+net.minecraft.class_3979 {
+}
+
+net.minecraft.class_495 {
+}
+
+net.minecraft.class_472 {
+}
+
+net.minecraft.class_423 {
+}
+
+net.minecraft.class_479 {
+}
+
+net.minecraft.class_3934 {
+}
+
+net.minecraft.class_3802 {
+}
+
+net.minecraft.class_471 {
+}
+
+net.minecraft.class_486 {
+}
+
+net.minecraft.class_494 {
+}
+
+net.minecraft.class_488 {
+}
+
+net.minecraft.class_480 {
+}
+
+net.minecraft.class_8898 {
+}
+
+net.minecraft.class_491 {
+}
+
+net.minecraft.class_492 {
+}
+
+net.minecraft.class_490 {
+}
+
+net.minecraft.class_440 {
+}
+
+net.minecraft.class_6777 {
+}
+
+com.viaversion.viafabricplus.screen.impl.ProtocolSelectionScreen {
+}
+
+com.viaversion.viafabricplus.screen.impl.SettingsScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+net.minecraft.class_4189 {
+}
+
+net.minecraft.class_9246 {
+}
+
+net.minecraft.class_447 {
+}
+
+dev.isxander.yacl3.gui.YACLScreen {
+}
+
+loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.gui.ClassicConfigGUI$ConfigScreen {
+}
+
+net.minecraft.class_477 {
+}
+
+net.minecraft.class_498 {
+}
+
+net.minecraft.class_429 {
+}
+
+net.minecraft.class_412 {
+}
+
+net.minecraft.class_8134 {
+}
+
+net.minecraft.class_442 {
+}
+
+net.minecraft.class_436 {
+}
+
+net.minecraft.class_4749 {
+}
+
+org.minepedia.screen.MinepediaIndexScreen {
+}
+
+net.minecraft.class_4895 {
+}
+
+org.minepedia.screen.MinepediaEncyclopediaScreen {
+}
+
+net.minecraft.class_524 {
+}
+
+net.minecraft.class_5522 {
+}
+
+net.minecraft.class_4325 {
+}
+
+net.minecraft.class_526 {
+}
+
+codes.atomys.advr.screens.AdvancementReloadedScreen {
+}
+
+net.minecraft.class_433 {
+}
+
+net.hicham.screenshotgallery.gui.GalleryScreen {
+}
+
+net.minecraft.class_4401 {
+}
+
+dev.terminalmc.commandkeys.gui.screen.MainOptionScreen {
+}
+
+net.minecraft.class_8656 {
+}

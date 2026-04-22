@@ -1,0 +1,271 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = options_screen
+  render_custom_elements_behind_vanilla = true
+}
+
+menu_background {
+  background_type = color_fancymenu
+  color = #313233
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+element {
+  element_type = image
+  anchor_point = mid-left
+  width = 4
+  x = 216
+  stretch_y = true
+  source = [source:location]fancymenu:textures/widget/bar.png
+}
+
+element {
+  instance_identifier = 0
+  element_type = image
+  anchor_point = top-centered
+  height = 32
+  stretch_x = true
+  source = [source:location]fancymenu:textures/widget/header.png
+}
+
+element {
+  element_type = custom_button
+  anchor_point = element
+  anchor_point_element = 0
+  width = 8
+  height = 12
+  x = 4
+  y = 6
+  backgroundnormal = [source:location]fancymenu:textures/icon/back.png
+  backgroundhovered = [source:location]fancymenu:textures/icon/back_highlight.png
+  element_loading_requirement_container_identifier = 1
+  [loading_requirement_container_meta:1] = [groups:][instances:]
+  button_element_executable_block_identifier = 2
+  [executable_action_instance:3][action_type:opengui] = pause_screen
+  [executable_block:4][type:if] = [executables:3;][appended:5]
+  [executable_action_instance:6][action_type:opengui] = title_screen
+  [executable_block:5][type:else] = [executables:6;]
+  [if_executable_block_body:4] = 7
+  [loading_requirement_container_meta:7] = [groups:][instances:8;]
+  [loading_requirement:fancymenu_loading_requirement_is_world_loaded][requirement_mode:if][req_id:8] = 
+  [executable_block:2][type:generic] = [executables:4;]
+}
+
+element {
+  instance_identifier = 2
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 0
+  stretch_x = true
+  y = 5
+  interactable = false
+  source = ^^^%n%{"placeholder":"local","values":{"key":"menu.options"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  scale = 1.5
+  base_color = #4c4c4c
+  enable_scrolling = false
+}
+
+element {
+  instance_identifier = 3
+  element_type = text_v2
+  anchor_point = top-left
+  width = 100
+  height = 15
+  x = 4
+  y = 36
+  source = {"placeholder":"local","values":{"key":"bedrockreloaded.general_title"}}
+  source_mode = direct
+  enable_scrolling = false
+}
+
+vanilla_button {
+  instance_identifier = 504187
+  anchor_point = element
+  anchor_point_element = 3
+  width = 100
+  height = 30
+  y = 14
+}
+
+element {
+  instance_identifier = 1
+  element_type = custom_button
+  anchor_point = element
+  anchor_point_element = 504187
+  width = 100
+  height = 30
+  y = 34
+  label = {"placeholder":"local","values":{"key":"bedrockreloaded.howtoplay"}}
+  [executable_action_instance:0][action_type:opengui] = org.minepedia.screen.MinepediaIndexScreen
+}
+
+vanilla_button {
+  instance_identifier = 504139
+  anchor_point = element
+  anchor_point_element = 1
+  width = 100
+  height = 30
+  y = 34
+}
+
+element {
+  instance_identifier = 5
+  element_type = custom_button
+  anchor_point = element
+  anchor_point_element = 504139
+  width = 100
+  height = 30
+  y = 34
+  label = {"placeholder":"local","values":{"key":"bedrockreloaded.controller"}}
+  [executable_action_instance:1][action_type:opengui] = dev.isxander.controlify.gui.screen.ControlifySettingsScreen
+}
+
+element {
+  element_type = custom_button
+  anchor_point = element
+  anchor_point_element = 5
+  width = 100
+  height = 30
+  y = 34
+  label = {"placeholder":"local","values":{"key":"bedrockreloaded.general"}}
+  [executable_action_instance:0][action_type:opengui] = credits_and_attribution_screen
+}
+
+element {
+  instance_identifier = 4
+  element_type = text_v2
+  anchor_point = top-left
+  width = 100
+  height = 15
+  x = 112
+  y = 36
+  source = {"placeholder":"local","values":{"key":"menu.options"}}
+  source_mode = direct
+  enable_scrolling = false
+}
+
+vanilla_button {
+  instance_identifier = 345139
+  anchor_point = element
+  anchor_point_element = 4
+  width = 100
+  height = 30
+  y = 14
+}
+
+vanilla_button {
+  instance_identifier = 504115
+  anchor_point = element
+  anchor_point_element = 345139
+  width = 100
+  height = 30
+  y = 34
+}
+
+element {
+  instance_identifier = 6
+  element_type = custom_button
+  anchor_point = element
+  anchor_point_element = 504115
+  width = 100
+  height = 30
+  y = 34
+  label = {"placeholder":"local","values":{"key":"options.skinCustomisation"}}
+  [executable_action_instance:1][action_type:opengui] = skin_customization_screen
+}
+
+vanilla_button {
+  instance_identifier = 345187
+  anchor_point = element
+  anchor_point_element = 6
+  width = 100
+  height = 30
+  y = 34
+}
+
+vanilla_button {
+  instance_identifier = 345163
+  anchor_point = element
+  anchor_point_element = 345187
+  width = 100
+  height = 30
+  y = 34
+}
+
+vanilla_button {
+  instance_identifier = 34629
+  anchor_point = top-left
+  width = 150
+  height = 20
+  x = 224
+  y = 40
+  label = FOV: {"placeholder":"calc","values":{"decimal":"true","expression":"({"placeholder":"minecraft_option_value","values":{"name":"fov"}} + 1) * 40 + 30"}}0 °
+}
+
+vanilla_button {
+  instance_identifier = 63429
+  anchor_point = element
+  anchor_point_element = 34629
+  x = 154
+  y = 2
+}
+
+vanilla_button {
+  instance_identifier = 34591
+  anchor_point = element
+  anchor_point_element = 34629
+  width = 150
+  height = 30
+  y = 29
+  label = {"placeholder":"local","values":{"key":"bedrockreloaded.options_bedrockify"}}
+}
+
+vanilla_button {
+  instance_identifier = 32029
+  anchor_point = element
+  anchor_point_element = 34591
+  x = 154
+  y = 5
+}
+
+vanilla_button {
+  instance_identifier = 504211
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 504163
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 400974
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 345211
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 345115
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 50429
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 48212
+  is_hidden = true
+}

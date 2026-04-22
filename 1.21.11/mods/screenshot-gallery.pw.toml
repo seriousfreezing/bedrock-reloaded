@@ -1,0 +1,13 @@
+name = "Screenshot Gallery"
+filename = "screenshotgallery-fabric-1.3.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/IhVCYgCW/versions/AyzCbFS3/screenshotgallery-fabric-1.3.jar"
+hash-format = "sha512"
+hash = "46f8816142938647bdb17814001071e781bd9eca461db5e8462124ce4da7d599962653c9cfe7d30ec2ae47dd4850dc961dc426c9183f1d0ad3c4b3652a52cfa3"
+
+[update]
+[update.modrinth]
+mod-id = "IhVCYgCW"
+version = "AyzCbFS3"

@@ -1,0 +1,13 @@
+name = "Defaulted"
+filename = "defaulted-fabric-1.21.9-1.2.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/LxgPJAAy/versions/xlAP4VKs/defaulted-fabric-1.21.9-1.2.1.jar"
+hash-format = "sha512"
+hash = "e812b3f8abf7603c20c21f3cb786a1065491d88eac49ed1dbec9c46b878731b80bbe7d48b6a62e3958dc1088898547890c424f550ca6280938712cf015e63b31"
+
+[update]
+[update.modrinth]
+mod-id = "LxgPJAAy"
+version = "xlAP4VKs"

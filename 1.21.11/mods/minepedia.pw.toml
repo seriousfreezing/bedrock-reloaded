@@ -1,0 +1,13 @@
+name = "Minepedia"
+filename = "Minepedia-1.5.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/TL9TUXua/versions/EM42WkEZ/Minepedia-1.5.jar"
+hash-format = "sha512"
+hash = "3210be426c457b0c9b2082c53c2c5afbdc9f064dce0843f46ebdf72c9ad86b6882c1e763198be8e19ad85e457f3f2c2cbf8305de6054d59ed13495323e159d0b"
+
+[update]
+[update.modrinth]
+mod-id = "TL9TUXua"
+version = "EM42WkEZ"

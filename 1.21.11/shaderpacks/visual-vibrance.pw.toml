@@ -1,0 +1,13 @@
+name = "Visual Vibrance"
+filename = "Visual-Vibrance-v0.3.5a.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/l6Uqs2fS/versions/zGC385Y8/Visual-Vibrance-v0.3.5a.zip"
+hash-format = "sha512"
+hash = "6ff69514259793ef54c3e8d9f849da3b23e9bc4a825417401299fae05093574895ed6bf274800db4d85bc0d5e33324b914d645b701c1515093928c6a9291bffe"
+
+[update]
+[update.modrinth]
+mod-id = "l6Uqs2fS"
+version = "zGC385Y8"
