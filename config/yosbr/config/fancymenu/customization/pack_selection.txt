@@ -1,0 +1,162 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = pack_selection_screen
+  render_custom_elements_behind_vanilla = true
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+menu_background {
+  background_type = color_fancymenu
+  color = #313233
+}
+
+element {
+  instance_identifier = 0
+  element_type = image
+  anchor_point = top-centered
+  height = 32
+  stretch_x = true
+  source = [source:location]fancymenu:textures/widget/header.png
+}
+
+vanilla_button {
+  instance_identifier = 504974
+  anchor_point = element
+  anchor_point_element = 0
+  width = 8
+  height = 12
+  x = 4
+  y = 6
+  backgroundnormal = [source:location]fancymenu:textures/icon/back.png
+  backgroundhovered = [source:location]fancymenu:textures/icon/back_highlight.png
+  label = 
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 0
+  stretch_x = true
+  y = 5
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:0] = create_world:false
+  interactable = false
+  source = ^^^%n%{"placeholder":"local","values":{"key":"resourcePack.title"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  scale = 1.5
+  base_color = #4c4c4c
+  enable_scrolling = false
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 0
+  stretch_x = true
+  y = 5
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:1] = create_world:true
+  interactable = false
+  source = ^^^%n%{"placeholder":"local","values":{"key":"dataPack.title"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  scale = 1.5
+  base_color = #4c4c4c
+  enable_scrolling = false
+}
+
+element {
+  instance_identifier = 1
+  element_type = custom_button
+  anchor_point = bottom-centered
+  width = 26
+  height = 22
+  x = 64
+  y = -27
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:2] = create_world:false
+  [executable_action_instance:0][action_type:mimicbutton] = pack_selection_screen:66710
+}
+
+element {
+  instance_identifier = 2
+  element_type = custom_button
+  anchor_point = bottom-centered
+  width = 25
+  height = 23
+  x = 64
+  y = -27
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:3] = create_world:true
+  [executable_action_instance:1][action_type:mimicbutton] = pack_selection_screen:69510
+}
+
+element {
+  element_type = image
+  anchor_point = element
+  anchor_point_element = 1
+  width = 18
+  height = 14
+  x = 4
+  y = 4
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:4] = create_world:false
+  source = [source:location]fancymenu:textures/icon/update.png
+}
+
+element {
+  element_type = image
+  anchor_point = element
+  anchor_point_element = 2
+  width = 17
+  height = 17
+  x = 4
+  y = 3
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:5] = create_world:true
+  source = [source:location]resourcify:textures/plus.png
+}
+
+vanilla_button {
+  instance_identifier = 346974
+  anchor_point = bottom-centered
+  width = 120
+  height = 25
+  x = -60
+  y = -28
+}
+
+vanilla_button {
+  instance_identifier = 69510
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 66710
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 40030
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 4725
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 4724
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 4595
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 4594
+  is_hidden = true
+}

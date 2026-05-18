@@ -1,13 +1,13 @@
 name = "BedrockIfy"
-filename = "bedrockify-1.11.6+mc26.1.1.jar"
+filename = "bedrockify-1.11.7+mc26.1.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/ox3rDp1B/versions/LyAZ5Yqf/bedrockify-1.11.6%2Bmc26.1.1.jar"
+url = "https://cdn.modrinth.com/data/ox3rDp1B/versions/ciiz107C/bedrockify-1.11.7%2Bmc26.1.1.jar"
 hash-format = "sha512"
-hash = "fa5cbe9fcc9f89d4db8c3b6f795327c5807165c83ca44b746756b59243b44be2caeb5dc3c77558819decdf94d2a59740a29f9ddcac6b30ac9de0154f9b836c85"
+hash = "b90d1f5ef066cb40f49586ba77b0fd65b712abd2e02446765d5fff735c6fb462c11237bba16b6d8bb657dc8d0f0ac0f5ff80e6e49d39ef4d6dbb4326c7bdbf98"
 
 [update]
 [update.modrinth]
 mod-id = "ox3rDp1B"
-version = "LyAZ5Yqf"
+version = "ciiz107C"

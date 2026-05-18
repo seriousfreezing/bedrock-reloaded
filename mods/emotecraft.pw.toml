@@ -1,13 +1,13 @@
 name = "Emotecraft"
-filename = "emotecraft-for-MC26.1-3.3.0-a.build.148.jar"
+filename = "emotecraft-for-MC26.1.2-3.3.0-a.build.150.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/pZ2wrerK/versions/sZtfVmXx/emotecraft-for-MC26.1-3.3.0-a.build.148.jar"
+url = "https://cdn.modrinth.com/data/pZ2wrerK/versions/ZkP5YEad/emotecraft-for-MC26.1.2-3.3.0-a.build.150.jar"
 hash-format = "sha512"
-hash = "410579194152e3e68a232e0ee09ee84318177f1d18e35da3dd2b3b8bf575247ada56644f5e8486dc87ce8a9331ea4ae5589fc42dc54290d62e661292105cc8d2"
+hash = "26aaf49e399a10ae1b54bb14887a37f52a2101c8d5f97bc6d252bab854f0f2dff820bf968d3260e52c306a027876e05afed205103a39519f8dff9176b686acf1"
 
 [update]
 [update.modrinth]
 mod-id = "pZ2wrerK"
-version = "sZtfVmXx"
+version = "ZkP5YEad"
