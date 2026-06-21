@@ -1,0 +1,10 @@
+version = 1
+[witherSkeletonTweaks]
+replaceSkeletonsInSoulSandValley = false
+replaceSkeletonsInFortress = false
+useBowsInSoulSandValley = false
+useBowsInFortress = false
+shootWitherArrows = false
+dropWitherArrows = false
+spawnWithArmor = false
+spawnWithEnchantedEquipment = false

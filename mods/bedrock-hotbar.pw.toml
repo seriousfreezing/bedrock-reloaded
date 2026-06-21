@@ -1,0 +1,13 @@
+name = "Bedrock Hotbar"
+filename = "bedrock-hotbar-1.10-fabric+26.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/X1OsYLs1/versions/ET6THfkN/bedrock-hotbar-1.10-fabric%2B26.2.jar"
+hash-format = "sha512"
+hash = "a5be8e1c8453f1473e6cb428dcb0d4eb0e210e7c227979155fc59a67ce39cab4d797a87f4ffa3057f7b23f5c94aa9de7ed6447b4dc47454aa3b59f4d43773701"
+
+[update]
+[update.modrinth]
+mod-id = "X1OsYLs1"
+version = "ET6THfkN"

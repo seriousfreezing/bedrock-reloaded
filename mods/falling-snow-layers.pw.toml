@@ -1,0 +1,13 @@
+name = "Falling Snow"
+filename = "falling_snow-2.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/soBfQALz/versions/CPHjkHag/falling_snow-2.0.1.jar"
+hash-format = "sha512"
+hash = "891439319645493946abf94639a8455e2d386351970354f6d83d64dc2f2a80124bcaf557527092d953f903657220968f66d07915b3e41d5ec9d40b389f549477"
+
+[update]
+[update.modrinth]
+mod-id = "soBfQALz"
+version = "CPHjkHag"

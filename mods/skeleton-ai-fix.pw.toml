@@ -1,13 +1,13 @@
 name = "Skeleton AI Fix"
-filename = "SkeletonAIFix-v26.1.0-mc26.1.x-Fabric.jar"
+filename = "SkeletonAIFix-v26.2.0-mc26.2.x-Fabric.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/jn24bUJo/versions/LtSqON3b/SkeletonAIFix-v26.1.0-mc26.1.x-Fabric.jar"
+url = "https://cdn.modrinth.com/data/jn24bUJo/versions/v3akWq27/SkeletonAIFix-v26.2.0-mc26.2.x-Fabric.jar"
 hash-format = "sha512"
-hash = "a6c84bd3c8ae63baa4663aaf9aa1e39471f5048bc0e90bcfb807afb3923cbb0c32b140b3e4374601e2d1819c2fa1b738432ef8e9fe54a29c8d10bbe4b706999d"
+hash = "0b2a1c9b3971ce00538a711de3ec48c032b9d13cdf20002113921156fecfb9a5cb99eeb126ed5d24644141a930bdda630c9a8b34cd2c93ada8dbaa47ce792570"
 
 [update]
 [update.modrinth]
 mod-id = "jn24bUJo"
-version = "LtSqON3b"
+version = "v3akWq27"
