@@ -1,0 +1,30 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = com.mojang.realmsclient.gui.screens.AddRealmPopupScreen
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+vanilla_button {
+  instance_identifier = 551532
+  backgroundnormal = [source:location]fancymenu:textures/widget/gray_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/gray_button_highlighted.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 3
+  nine_slice_border_y = 3
+  label_hover_color = #4c4c4cFF
+}
+
+vanilla_button {
+  instance_identifier = 551556
+  backgroundnormal = [source:location]fancymenu:textures/widget/green_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/green_button_highlighted.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 3
+  nine_slice_border_y = 3
+  label_base_color = #FFFFFFFF
+}

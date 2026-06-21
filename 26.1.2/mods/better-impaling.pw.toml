@@ -1,0 +1,13 @@
+name = "Better Impaling"
+filename = "betterimpaling-4.0+26.1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/m8MF21pg/versions/QgFXyAsA/betterimpaling-4.0%2B26.1.2.jar"
+hash-format = "sha512"
+hash = "08053d270e48dc1bbb0819225ab463f84dbe40b8b481d71a4971b4ea1ae443c0e06e343de618c7dcb2e37b4d77bfcf8092df6254cf5b83fec626b1fec5d930b0"
+
+[update]
+[update.modrinth]
+mod-id = "m8MF21pg"
+version = "QgFXyAsA"

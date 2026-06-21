@@ -1,0 +1,13 @@
+name = "Kiwi 🥝"
+filename = "Kiwi-mc26.1-Fabric-26.0.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ufdDoWPd/versions/knDWKx3e/Kiwi-mc26.1-Fabric-26.0.4.jar"
+hash-format = "sha512"
+hash = "e79698ad2d26625d216fd9201ae08f0ebcdefd7af885410aeb879b181a4d56b177163583a11d06f7f738a772ff39791637c102f9efd1ea27546260d9cf0f1c6e"
+
+[update]
+[update.modrinth]
+mod-id = "ufdDoWPd"
+version = "knDWKx3e"

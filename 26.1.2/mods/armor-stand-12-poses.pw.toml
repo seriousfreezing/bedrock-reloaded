@@ -1,0 +1,13 @@
+name = "Armor Stand 12 Poses"
+filename = "armor-stand-12-poses-1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/P3MZtqOZ/versions/7gwJkSgj/armor-stand-12-poses-1.jar"
+hash-format = "sha512"
+hash = "1d6560701e15385f2a91bb3158047ed79ee020ef0191e8a212722dda4fab3b79c4b7b321a122ca0d3299be9cd0e34b325f421943bfcbba1470fe36c4f7e8bcc5"
+
+[update]
+[update.modrinth]
+mod-id = "P3MZtqOZ"
+version = "7gwJkSgj"

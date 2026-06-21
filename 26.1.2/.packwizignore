@@ -1,0 +1,6 @@
+.github/
+*.exe
+*.jar
+*.mrpack
+LICENSE
+README.md

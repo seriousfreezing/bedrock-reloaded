@@ -1,0 +1,146 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = skin_customization_screen
+}
+
+menu_background {
+  background_type = color_fancymenu
+  color = #313233
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+element {
+  instance_identifier = 0
+  element_type = image
+  anchor_point = top-centered
+  height = 32
+  stretch_x = true
+  source = [source:location]fancymenu:textures/widget/header.png
+}
+
+element {
+  element_type = custom_button
+  anchor_point = element
+  anchor_point_element = 0
+  width = 8
+  height = 12
+  x = 4
+  y = 6
+  backgroundnormal = [source:location]fancymenu:textures/icon/back.png
+  backgroundhovered = [source:location]fancymenu:textures/icon/back_highlight.png
+  label = 
+  [executable_action_instance:2][action_type:mimicbutton] = title_screen:mc_titlescreen_options_button
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 0
+  stretch_x = true
+  y = 5
+  interactable = false
+  source = ^^^%n%{"placeholder":"local","values":{"key":"options.skinCustomisation.title"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  scale = 1.5
+  base_color = #4c4c4c
+  enable_scrolling = false
+}
+
+element {
+  element_type = fancymenu_customization_item_ticker
+  anchor_point = element
+  anchor_point_element = 27
+  x = 5
+  y = -40
+  width = 40
+  height = 24
+  element_loading_requirement_container_identifier = 30
+  [loading_requirement_container_meta:30] = [groups:][instances:]
+  tick_delay = 10
+  ticker_element_executable_block_identifier = 11
+  [executable_action_instance:12][action_type:set_variable] = is_dragging_player:true
+  [executable_action_instance:13][action_type:set_variable] = mouse_drag_start_x:{"placeholder":"mouseposx"}
+  [executable_action_instance:14][action_type:set_variable] = initial_player_rotation_y:{"placeholder":"getvariable","values":{"name":"player_rotation_y"}}
+  [executable_block:15][type:if] = [executables:12;13;14;][appended:16]
+  [executable_action_instance:17][action_type:set_variable] = player_rotation_y:{"placeholder":"calc","values":{"decimal":"false","expression":"{"placeholder":"getvariable","values":{"name":"initial_player_rotation_y"}} + ({"placeholder":"mouseposx"} - {"placeholder":"getvariable","values":{"name":"mouse_drag_start_x"}}) * -5"}}
+  [executable_block:16][type:else-if] = [executables:17;][appended:18]
+  [executable_action_instance:19][action_type:set_variable] = is_dragging_player:false
+  [executable_block:18][type:else] = [executables:19;]
+  [else_if_executable_block_body:16] = 20
+  [loading_requirement_container_meta:20] = [groups:group_21;][instances:]
+  [loading_requirement_group:group_21] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][group:group_21][req_id:22] = is_dragging_player:true
+  [loading_requirement:mouse_click][requirement_mode:if][group:group_21][req_id:23] = left
+  [if_executable_block_body:15] = 24
+  [loading_requirement_container_meta:24] = [groups:group_25;][instances:]
+  [loading_requirement_group:group_25] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_element_hovered][requirement_mode:if][group:group_25][req_id:26] = 27
+  [loading_requirement:mouse_click][requirement_mode:if][group:group_25][req_id:28] = left
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][group:group_25][req_id:29] = is_dragging_player:false
+  [executable_block:11][type:generic] = [executables:15;]
+}
+
+element {
+  instance_identifier = 27
+  element_type = player_entity_v2
+  anchor_point = bottom-centered
+  height = 60
+  x = -50
+  y = -98
+  copy_client_player = true
+  head_follows_mouse = true
+  body_follows_mouse = false
+  bodyrotationy = {"placeholder":"getvariable","values":{"name":"player_rotation_y"}}
+}
+
+element {
+  element_type = custom_button
+  anchor_point = bottom-centered
+  width = 75
+  height = 25
+  x = -77
+  y = -30
+  [loading_requirement_container_meta:0] = [groups:][instances:1;]
+  [loading_requirement:fancymenu_loading_requirement_is_world_loaded][requirement_mode:if_not][req_id:1] = 
+  label = {"placeholder":"local","values":{"key":"options.online"}}
+  [executable_action_instance:0][action_type:opengui] = online_options_screen
+}
+
+element {
+  element_type = custom_button
+  anchor_point = bottom-centered
+  width = 75
+  height = 25
+  x = 2
+  y = -30
+  element_loading_requirement_container_identifier = 2
+  [loading_requirement_container_meta:2] = [groups:][instances:3;]
+  [loading_requirement:fancymenu_loading_requirement_is_world_loaded][requirement_mode:if_not][req_id:3] = 
+  label = {"placeholder":"local","values":{"key":"options.chat"}}
+  [executable_action_instance:1][action_type:opengui] = chat_options_screen
+}
+
+element {
+  element_type = custom_button
+  anchor_point = bottom-centered
+  width = 75
+  height = 25
+  x = -37
+  y = -30
+  element_loading_requirement_container_identifier = 4
+  [loading_requirement_container_meta:4] = [groups:][instances:5;]
+  [loading_requirement:fancymenu_loading_requirement_is_world_loaded][requirement_mode:if][req_id:5] = 
+  label = {"placeholder":"local","values":{"key":"options.chat"}}
+  [executable_action_instance:2][action_type:opengui] = chat_options_screen
+}
+
+vanilla_button {
+  instance_identifier = 400974
+  is_hidden = true
+}

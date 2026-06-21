@@ -1,0 +1,44 @@
+type = user_variables
+
+variable {
+  name = create_world
+  value = true
+  reset_on_launch = true
+}
+
+variable {
+  name = main_menu
+  value = true
+  reset_on_launch = true
+}
+
+variable {
+  name = initial_player_rotation_y
+  value = 0
+  reset_on_launch = true
+}
+
+variable {
+  name = player_rotation_y
+  value = 0
+  reset_on_launch = true
+}
+
+variable {
+  name = skin
+  value = false
+  reset_on_launch = true
+}
+
+variable {
+  name = mouse_drag_start_x
+  value = 0
+  reset_on_launch = true
+}
+
+variable {
+  name = is_dragging_player
+  value = false
+  reset_on_launch = true
+}
+

@@ -1,0 +1,22 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = anvil_screen
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+element {
+  element_type = custom_button
+  anchor_point = mid-centered
+  width = 9
+  height = 9
+  x = 73
+  y = -77
+  backgroundnormal = [source:location]fancymenu:textures/icon/close.png
+  backgroundhovered = [source:location]fancymenu:textures/icon/close_highlighted.png
+  [executable_action_instance:0][action_type:closegui] = 
+}

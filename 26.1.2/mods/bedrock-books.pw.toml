@@ -1,0 +1,13 @@
+name = "Bedrock Books"
+filename = "eg_bedrock_books-1.1.1+26.1-fabric.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/RjiITWhb/versions/22HpVHSi/eg_bedrock_books-1.1.1%2B26.1-fabric.jar"
+hash-format = "sha512"
+hash = "64ce7279946b9116cd7cbc1a00415bac998c9441243b11d3cb21079cdd67473488ede588dadbe3b2523d4b57420cd85b860b2f07c5ca71a881510d8d52ad4325"
+
+[update]
+[update.modrinth]
+mod-id = "RjiITWhb"
+version = "22HpVHSi"
