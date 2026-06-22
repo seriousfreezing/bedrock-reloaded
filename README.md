@@ -1,4 +1,4 @@
-![banner](https://cdn.modrinth.com/data/cached_images/055892df307dc76fefe86dc47ad630f4fdb4dbff.png)
+![banner](https://cdn.modrinth.com/data/cached_images/808e0a15f415ad0ccf00d89e4e52d03396af62d8.png)
 
 <p align="center">
   <a href="https://modrinth.com/modpack/bedrock-reloaded"><img src="https://cdn.modrinth.com/data/cached_images/84d9959bfada4e1da6153e6d0376ca5bf71c1b8f.png" alt="modrinth"></a>
