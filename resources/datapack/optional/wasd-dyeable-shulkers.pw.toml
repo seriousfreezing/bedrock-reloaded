@@ -1,13 +1,13 @@
 name = "WASD Dyeable Shulkers"
-filename = "WASD Dyeable Shulkers V1.3.8 MC_26.1.zip"
+filename = "WASD Dyeable Shulkers V1.3.9 MC_26.2.zip"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/C68etK38/versions/gQlaveIw/WASD%20Dyeable%20Shulkers%20V1.3.8%20MC_26.1.zip"
+url = "https://cdn.modrinth.com/data/C68etK38/versions/tSOsRtvf/WASD%20Dyeable%20Shulkers%20V1.3.9%20MC_26.2.zip"
 hash-format = "sha512"
-hash = "827301c540c35fe39913f10dbbc7a8819c600f0bc18cde728c47203c1861d979039be537621ee50ac653ba22859fe5ab7f16028aa4f4d33cb8c30108e7f50126"
+hash = "86209654d341ff1c09b8d99b6c022fb64f5eae2f752e60ab1b57582f593569f6c7beaba22b8ba94b032e4d31534539412f1b48366249da4cb2168bda319b0a18"
 
 [update]
 [update.modrinth]
 mod-id = "C68etK38"
-version = "gQlaveIw"
+version = "tSOsRtvf"

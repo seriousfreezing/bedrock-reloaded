@@ -1,0 +1,13 @@
+name = "Raised"
+filename = "raised-fabric-26.2-5.1.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/nCQRBEiR/versions/WAxfM46i/raised-fabric-26.2-5.1.2.jar"
+hash-format = "sha512"
+hash = "19713931da0428708e8c5a6f947906371dd152eb6d3c8436a07cd92ecc6a7512b286387b632bdcdf3c42e9f1a5a24059934a152597f3ddc571723b5582260de4"
+
+[update]
+[update.modrinth]
+mod-id = "nCQRBEiR"
+version = "WAxfM46i"

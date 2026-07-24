@@ -1,0 +1,15 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = hanging_sign_edit_screen
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+vanilla_button {
+  instance_identifier = 400394
+  is_hidden = true
+}

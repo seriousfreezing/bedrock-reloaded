@@ -1,13 +1,13 @@
 name = "Language Whitelist"
-filename = "langwhitelist-fabric-quilt-26.1-1.0.jar"
+filename = "langwhitelist-fabric-quilt-26.2-1.0.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/EyJRoMwi/versions/hpBvd3T9/langwhitelist-fabric-quilt-26.1-1.0.jar"
+url = "https://cdn.modrinth.com/data/EyJRoMwi/versions/sF2NYBH2/langwhitelist-fabric-quilt-26.2-1.0.jar"
 hash-format = "sha512"
-hash = "220c56df3ac3669a32c96a16951afd62ceb8af5648651113f983909279c034595190434254a0f5bda9baf839d6a1044c7ab16227513a6de4a38248191ecd0865"
+hash = "1100d6d2f2c7c5adbdc7fd9ca007c9c95fd772ef00bd654fb57315b2d839ac537ae66158343401a11e316997cd44290b1cab6f86dfc6af28ad506cc4c32986fa"
 
 [update]
 [update.modrinth]
 mod-id = "EyJRoMwi"
-version = "hpBvd3T9"
+version = "sF2NYBH2"

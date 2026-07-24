@@ -1,0 +1,23 @@
+[common.logging]
+		[common.logging.warning]
+			showExplicitGcDisabledWarning = false
+			showSlowWorldGenSettingWarnings = false
+			showUpdateQueueOverloadedChatWarning = false
+			logExplicitGcDisabledWarning = false
+			showReplayWarningOnStartup = false
+			showDeprecatedRendererWarningOnStartup = false
+			showPoolInsufficientMemoryWarning = false
+			logGarbageCollectorWarning = false
+			showGarbageCollectorWarning = false
+[client]
+	[client.advanced.graphics]
+		overrideVanillaGraphicsSettings = false
+			[client.advanced.graphics.genericRendering]
+				enableCloudRendering = false
+			[client.advanced.graphics.quality]
+				lodChunkRenderDistanceRadius = 96
+			[client.advanced.autoUpdater]
+				enableAutoUpdater = false
+[common.logging]
+	[common.worldGenerator]
+		showGenerationProgress = "DISABLED"

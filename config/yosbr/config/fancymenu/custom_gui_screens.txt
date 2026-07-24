@@ -1,0 +1,7 @@
+type = custom_gui_screens
+
+custom_gui {
+  identifier = bedrockreloaded.social
+  popup_mode = true
+  popup_mode_background_overlay = false
+}

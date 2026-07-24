@@ -1,0 +1,229 @@
+type = customizablemenus
+
+net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen {
+}
+
+net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen {
+}
+
+net.minecraft.client.gui.screens.ConfirmScreen {
+}
+
+net.minecraft.client.gui.screens.worldselection.CreateWorldScreen {
+}
+
+me.shedaniel.clothconfig2.gui.ClothConfigScreen {
+}
+
+net.minecraft.client.gui.screens.advancements.AdvancementsScreen {
+}
+
+net.minecraft.client.gui.screens.packs.PackSelectionScreen {
+}
+
+net.minecraft.client.gui.screens.inventory.ContainerScreen {
+}
+
+net.minecraft.client.gui.screens.inventory.FurnaceScreen {
+}
+
+net.minecraft.client.gui.screens.inventory.BlastFurnaceScreen {
+}
+
+net.minecraft.client.gui.screens.inventory.BrewingStandScreen {
+}
+
+net.minecraft.client.gui.screens.inventory.CraftingScreen {
+}
+
+net.minecraft.client.gui.screens.inventory.AnvilScreen {
+}
+
+net.minecraft.client.gui.screens.inventory.EnchantmentScreen {
+}
+
+net.minecraft.client.gui.screens.inventory.LoomScreen {
+}
+
+net.minecraft.client.gui.screens.inventory.HopperScreen {
+}
+
+net.minecraft.client.gui.screens.inventory.DispenserScreen {
+}
+
+net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen {
+}
+
+net.minecraft.client.gui.screens.achievement.StatsScreen {
+}
+
+dev.isxander.yacl3.gui.YACLScreen {
+}
+
+net.minecraft.client.gui.screens.inventory.SmithingScreen {
+}
+
+com.mojang.realmsclient.RealmsMainScreen {
+}
+
+net.minecraft.client.gui.screens.worldselection.SelectWorldScreen {
+}
+
+dev.terminalmc.commandkeys.gui.screen.MainOptionScreen {
+}
+
+com.mojang.realmsclient.gui.screens.AddRealmPopupScreen {
+}
+
+dev.gdlev.better_screenshots.client.ScreenshotGalleryScreen {
+}
+
+com.mojang.realmsclient.gui.screens.RealmsPendingInvitesScreen {
+}
+
+net.minecraft.client.gui.screens.social.SocialInteractionsScreen {
+}
+
+net.minecraft.client.gui.screens.CreditsAndAttributionScreen {
+}
+
+net.minecraft.client.gui.screens.options.LanguageSelectScreen {
+}
+
+net.minecraft.client.gui.screens.options.SoundOptionsScreen {
+}
+
+net.minecraft.client.gui.screens.options.WorldOptionsScreen {
+}
+
+net.minecraft.client.gui.screens.options.controls.ControlsScreen {
+}
+
+net.minecraft.client.gui.screens.options.MouseSettingsScreen {
+}
+
+net.minecraft.client.gui.screens.options.controls.KeyBindsScreen {
+}
+
+net.minecraft.client.gui.screens.options.AccessibilityOptionsScreen {
+}
+
+net.minecraft.client.gui.screens.options.InWorldGameRulesScreen {
+}
+
+net.minecraft.client.gui.screens.worldselection.ExperimentsScreen {
+}
+
+net.minecraft.client.gui.screens.worldselection.WorldCreationGameRulesScreen {
+}
+
+net.minecraft.client.gui.screens.CreateFlatWorldScreen {
+}
+
+net.minecraft.client.gui.screens.PresetFlatWorldScreen {
+}
+
+net.minecraft.client.gui.screens.CreateBuffetWorldScreen {
+}
+
+net.minecraft.client.gui.screens.inventory.CrafterScreen {
+}
+
+net.minecraft.client.gui.screens.InBedChatScreen {
+}
+
+net.minecraft.client.gui.screens.inventory.CartographyTableScreen {
+}
+
+net.minecraft.client.gui.screens.inventory.ShulkerBoxScreen {
+}
+
+net.minecraft.client.gui.screens.worldselection.EditWorldScreen {
+}
+
+net.minecraft.client.gui.screens.BackupConfirmScreen {
+}
+
+net.minecraft.client.gui.screens.options.FontOptionsScreen {
+}
+
+net.minecraft.client.gui.screens.inventory.GrindstoneScreen {
+}
+
+net.minecraft.client.gui.screens.inventory.HorseInventoryScreen {
+}
+
+net.minecraft.client.gui.screens.inventory.InventoryScreen {
+}
+
+dev.jfronny.libjf.config.impl.ui.tiny.TinyConfigScreen {
+}
+
+net.minecraft.client.gui.screens.options.OnlineOptionsScreen {
+}
+
+net.minecraft.client.gui.screens.inventory.MerchantScreen {
+}
+
+net.minecraft.client.gui.screens.multiplayer.RestrictionsScreen {
+}
+
+dev.jfronny.libjf.config.impl.ui.tiny.presets.PresetsScreen {
+}
+
+net.minecraft.client.gui.screens.inventory.StonecutterScreen {
+}
+
+net.minecraft.client.gui.screens.inventory.SmokerScreen {
+}
+
+net.minecraft.client.gui.screens.inventory.BeaconScreen {
+}
+
+net.minecraft.client.gui.screens.multiplayer.SafetyScreen {
+}
+
+net.minecraft.client.gui.screens.inventory.HangingSignEditScreen {
+}
+
+net.minecraft.client.gui.screens.inventory.CommandBlockEditScreen {
+}
+
+net.minecraft.client.gui.screens.options.VideoSettingsScreen {
+}
+
+net.minecraft.client.gui.screens.ManageServerScreen {
+}
+
+codes.atomys.advr.screens.AdvancementReloadedScreen {
+}
+
+net.minecraft.client.gui.screens.dialog.ServerLinksDialogScreen {
+}
+
+net.minecraft.client.gui.screens.inventory.SignEditScreen {
+}
+
+net.minecraft.client.gui.screens.MultiplayerOptionsScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+net.minecraft.client.gui.screens.TitleScreen {
+}
+
+net.minecraft.client.gui.screens.PauseScreen {
+}
+
+net.minecraft.client.gui.screens.options.ChatOptionsScreen {
+}
+
+net.minecraft.client.gui.screens.options.SkinCustomizationScreen {
+}
+
+net.minecraft.client.gui.screens.options.OptionsScreen {
+}
+
+com.seibel.distanthorizons.common.wrappers.gui.classicConfig.DhConfigScreen {
+}

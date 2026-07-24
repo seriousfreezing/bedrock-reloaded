@@ -1,0 +1,159 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = bedrockreloaded.social
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+customization {
+  action = setopenaudio
+  path = [source:location]minecraft:sounds/block/chest/open.ogg
+}
+
+customization {
+  action = setcloseaudio
+  path = [source:location]minecraft:sounds/block/chest/close3.ogg
+}
+
+element {
+  element_type = shape
+  stretch_x = true
+  stretch_y = true
+  color = #00000050
+  fade_in_v2 = every_time
+  fade_in_speed = 7.0
+}
+
+element {
+  instance_identifier = 0
+  element_type = image
+  anchor_point = mid-right
+  width = 190
+  x = -189
+  stretch_y = true
+  source = [source:location]minecraft:textures/gui/sprites/friends/background.png
+  nine_slice_texture = true
+  nine_slice_texture_border_x = 8
+  nine_slice_texture_border_y = 8
+}
+
+element {
+  instance_identifier = 1
+  element_type = shape
+  anchor_point = element
+  anchor_point_element = 0
+  width = 176
+  height = 37
+  x = 7
+  y = 4
+  color = #48494a
+}
+
+element {
+  instance_identifier = 2
+  element_type = shape
+  anchor_point = element
+  anchor_point_element = 1
+  advanced_width = {"placeholder":"elementwidth","values":{"id":"1"}}
+  height = 1
+  y = 37
+  color = #1e1e1f
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 0
+  x = -24
+  y = 14
+  source = ^^^%n%**{"placeholder":"local","values":{"key":"gui.socialInteractions.title"}}**%n%^^^
+  source_mode = direct
+  shadow = false
+  scale = 1.2
+}
+
+element {
+  instance_identifier = 3
+  element_type = custom_button
+  anchor_point = element
+  anchor_point_element = 0
+  width = 30
+  height = 30
+  x = 153
+  y = 6
+  backgroundnormal = [source:location]fancymenu:textures/widget/black_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/black_button_highlighted.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 3
+  nine_slice_border_y = 4
+  [executable_action_instance:1][action_type:back_to_last_screen] = 
+}
+
+element {
+  element_type = image
+  anchor_point = element
+  anchor_point_element = 3
+  width = 18
+  height = 18
+  x = 6
+  y = 5
+  source = [source:location]fancymenu:textures/icon/close_alt.png
+}
+
+element {
+  instance_identifier = 4
+  element_type = custom_button
+  anchor_point = element
+  anchor_point_element = 2
+  width = 166
+  height = 30
+  x = 4
+  y = 4
+  backgroundnormal = [source:location]fancymenu:textures/widget/gray_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/gray_button_highlighted.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 3
+  nine_slice_border_y = 4
+  label = {"placeholder":"local","values":{"key":"menu.multiplayerOptions.button"}}
+  label_hover_color = #4c4c4cFF
+  [executable_action_instance:2][action_type:opengui] = share_to_lan_screen
+}
+
+element {
+  instance_identifier = 5
+  element_type = custom_button
+  anchor_point = element
+  anchor_point_element = 4
+  width = 166
+  height = 30
+  y = 46
+  backgroundnormal = [source:location]fancymenu:textures/widget/gray_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/gray_button_highlighted.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 3
+  nine_slice_border_y = 4
+  label = {"placeholder":"local","values":{"key":"gui.friends.open"}}
+  label_hover_color = #4c4c4cFF
+  [executable_action_instance:3][action_type:opengui] = net.minecraft.client.gui.screens.friends.FriendsOverlayScreen
+}
+
+element {
+  element_type = custom_button
+  anchor_point = element
+  anchor_point_element = 5
+  width = 166
+  height = 30
+  y = 34
+  backgroundnormal = [source:location]fancymenu:textures/widget/gray_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/gray_button_highlighted.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 3
+  nine_slice_border_y = 4
+  label = {"placeholder":"local","values":{"key":"menu.playerReporting"}}
+  label_hover_color = #4c4c4cFF
+  [executable_action_instance:4][action_type:opengui] = social_interactions_screen
+}

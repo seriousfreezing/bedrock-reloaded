@@ -1,0 +1,84 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = share_to_lan_screen
+  render_custom_elements_behind_vanilla = true
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+element {
+  element_type = shape
+  anchor_point = element
+  anchor_point_element = 0
+  width = 325
+  height = 185
+  x = 4
+  y = 4
+  color = #00000050
+}
+
+element {
+  instance_identifier = 0
+  element_type = image
+  anchor_point = top-centered
+  width = 334
+  height = 194
+  x = -167
+  y = 39
+  source = [source:location]fancymenu:textures/widget/frame.png
+  nine_slice_texture = true
+  nine_slice_texture_border_x = 8
+  nine_slice_texture_border_y = 15
+}
+
+vanilla_button {
+  instance_identifier = 504974
+  anchor_point = element
+  anchor_point_element = 0
+  width = 9
+  height = 9
+  x = 321
+  y = 4
+  backgroundnormal = [source:location]fancymenu:textures/icon/close.png
+  backgroundhovered = [source:location]fancymenu:textures/icon/close_highlighted.png
+  label = 
+}
+
+vanilla_button {
+  instance_identifier = 345100
+  anchor_point = element
+  anchor_point_element = 0
+  width = 150
+  height = 25
+  x = 13
+  y = 50
+}
+
+vanilla_button {
+  instance_identifier = 505100
+  anchor_point = element
+  anchor_point_element = 345100
+  width = 150
+  height = 25
+  x = 158
+}
+
+vanilla_button {
+  instance_identifier = 346974
+  anchor_point = element
+  anchor_point_element = 504149
+  width = 150
+  height = 30
+  x = -77
+  y = 35
+  label = {"placeholder":"local","values":{"key":"gui.done"}}
+}
+
+vanilla_button {
+  instance_identifier = 47012
+  is_hidden = true
+}

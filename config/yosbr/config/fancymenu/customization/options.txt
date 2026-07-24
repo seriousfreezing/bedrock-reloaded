@@ -1,0 +1,361 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = options_screen
+  render_custom_elements_behind_vanilla = true
+}
+
+menu_background {
+  background_type = color_fancymenu
+  color = #48494a
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+element {
+  instance_identifier = 14
+  element_type = shape
+  anchor_point = top-left
+  width = 226
+  stretch_y = true
+  color = #313233
+  stay_on_screen = false
+}
+
+element {
+  instance_identifier = 18
+  element_type = shape
+  anchor_point = element
+  anchor_point_element = 14
+  width = 1
+  x = 226
+  stretch_y = true
+  color = #1e1e1f
+  stay_on_screen = false
+}
+
+element {
+  element_type = image
+  anchor_point = element
+  anchor_point_element = 3
+  width = 2
+  x = 109
+  stretch_y = true
+  source = [source:location]fancymenu:textures/widget/v_bar.png
+}
+
+element {
+  instance_identifier = 0
+  element_type = image
+  anchor_point = top-centered
+  height = 25
+  stretch_x = true
+  source = [source:location]fancymenu:textures/widget/header.png
+}
+
+element {
+  element_type = custom_button
+  anchor_point = element
+  anchor_point_element = 0
+  width = 8
+  height = 12
+  x = 4
+  y = 6
+  backgroundnormal = [source:location]fancymenu:textures/icon/back.png
+  backgroundhovered = [source:location]fancymenu:textures/icon/back_highlight.png
+  element_loading_requirement_container_identifier = 1
+  [loading_requirement_container_meta:1] = [groups:][instances:]
+  button_element_executable_block_identifier = 2
+  [executable_action_instance:3][action_type:opengui] = pause_screen
+  [executable_block:4][type:if] = [executables:3;][appended:5]
+  [executable_action_instance:6][action_type:opengui] = title_screen
+  [executable_block:5][type:else] = [executables:6;]
+  [if_executable_block_body:4] = 7
+  [loading_requirement_container_meta:7] = [groups:][instances:8;]
+  [loading_requirement:fancymenu_loading_requirement_is_world_loaded][requirement_mode:if][req_id:8] = 
+  [executable_block:2][type:generic] = [executables:4;]
+}
+
+element {
+  instance_identifier = 2
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 0
+  stretch_x = true
+  y = 3
+  interactable = false
+  source = ^^^%n%**{"placeholder":"local","values":{"key":"menu.options"}}**%n%^^^
+  source_mode = direct
+  shadow = false
+  scale = 1.5
+  enable_scrolling = false
+  base_color = #4c4c4c
+}
+
+vanilla_button {
+  instance_identifier = 504163
+  anchor_point = top-left
+  width = 100
+  height = 30
+  x = 6
+  y = 31
+  backgroundnormal = [source:location]fancymenu:textures/widget/black_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/black_button_highlighted.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 3
+  nine_slice_border_y = 4
+  label_base_color = #FFFFFFFF
+}
+
+element {
+  instance_identifier = 3
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 504163
+  width = 100
+  height = 15
+  x = -2
+  y = 40
+  source = {"placeholder":"local","values":{"key":"controls.title"}}
+  source_mode = direct
+  shadow = false
+  enable_scrolling = false
+  base_color = #d0d1d4
+}
+
+element {
+  instance_identifier = 15
+  element_type = image
+  anchor_point = element
+  anchor_point_element = 3
+  advanced_width = {"placeholder":"calc","values":{"decimal":"true","expression":"{"placeholder":"elementwidth","values":{"id":"3"}} + 14"}}
+  height = 2
+  x = -4
+  y = 17
+  source = [source:location]fancymenu:textures/widget/bar.png
+}
+
+vanilla_button {
+  instance_identifier = 504115
+  anchor_point = element
+  anchor_point_element = 15
+  width = 100
+  height = 30
+  x = 6
+  y = 8
+  backgroundnormal = [source:location]fancymenu:textures/widget/black_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/black_button_highlighted.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 3
+  nine_slice_border_y = 4
+  label = {"placeholder":"local","values":{"key":"options.controls"}}
+  label_base_color = #FFFFFFFF
+}
+
+element {
+  instance_identifier = 6
+  element_type = custom_button
+  anchor_point = element
+  anchor_point_element = 504115
+  width = 100
+  height = 30
+  y = 29
+  backgroundnormal = [source:location]fancymenu:textures/widget/black_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/black_button_highlighted.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 3
+  nine_slice_border_y = 4
+  label = {"placeholder":"local","values":{"key":"bedrockreloaded.controller"}}
+  label_base_color = #FFFFFFFF
+  [executable_action_instance:11][action_type:opengui] = dev.isxander.controlify.gui.screen.ControlifySettingsScreen
+}
+
+element {
+  instance_identifier = 8
+  element_type = text_v2
+  anchor_point = top-left
+  width = 100
+  height = 15
+  x = 118
+  y = 35
+  source = {"placeholder":"local","values":{"key":"stat.generalButton"}}
+  source_mode = direct
+  shadow = false
+  enable_scrolling = false
+  base_color = #d0d1d4
+}
+
+element {
+  instance_identifier = 16
+  element_type = image
+  anchor_point = element
+  anchor_point_element = 8
+  advanced_width = {"placeholder":"calc","values":{"decimal":"true","expression":"{"placeholder":"elementwidth","values":{"id":"8"}} + 12"}}
+  height = 2
+  x = -4
+  y = 17
+  source = [source:location]fancymenu:textures/widget/bar.png
+}
+
+vanilla_button {
+  instance_identifier = 504187
+  anchor_point = element
+  anchor_point_element = 16
+  width = 100
+  height = 30
+  x = 6
+  y = 8
+  backgroundnormal = [source:location]fancymenu:textures/widget/black_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/black_button_highlighted.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 3
+  nine_slice_border_y = 4
+  label_base_color = #FFFFFFFF
+}
+
+vanilla_button {
+  instance_identifier = 346115
+  anchor_point = element
+  anchor_point_element = 504187
+  width = 100
+  height = 30
+  y = 29
+  backgroundnormal = [source:location]fancymenu:textures/widget/black_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/black_button_highlighted.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 3
+  nine_slice_border_y = 4
+  label_base_color = #FFFFFFFF
+}
+
+vanilla_button {
+  instance_identifier = fancymenu_options_options.sounds
+  anchor_point = element
+  anchor_point_element = 346115
+  width = 100
+  height = 30
+  y = 29
+  backgroundnormal = [source:location]fancymenu:textures/widget/black_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/black_button_highlighted.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 3
+  nine_slice_border_y = 4
+  label_base_color = #FFFFFFFF
+}
+
+element {
+  instance_identifier = 17
+  element_type = custom_button
+  anchor_point = element
+  anchor_point_element = fancymenu_options_options.sounds
+  width = 100
+  height = 30
+  y = 29
+  backgroundnormal = [source:location]fancymenu:textures/widget/black_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/black_button_highlighted.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 3
+  nine_slice_border_y = 4
+  label = {"placeholder":"local","values":{"key":"options.skinCustomisation"}}
+  label_base_color = #FFFFFFFF
+  [executable_action_instance:15][action_type:opengui] = skin_customization_screen
+}
+
+vanilla_button {
+  instance_identifier = 346163
+  anchor_point = element
+  anchor_point_element = 17
+  width = 100
+  height = 30
+  y = 29
+  backgroundnormal = [source:location]fancymenu:textures/widget/black_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/black_button_highlighted.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 3
+  nine_slice_border_y = 4
+  label_base_color = #FFFFFFFF
+}
+
+vanilla_button {
+  instance_identifier = 346139
+  anchor_point = element
+  anchor_point_element = 346163
+  width = 100
+  height = 30
+  y = 29
+  backgroundnormal = [source:location]fancymenu:textures/widget/black_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/black_button_highlighted.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 3
+  nine_slice_border_y = 4
+  label_base_color = #FFFFFFFF
+}
+
+element {
+  instance_identifier = 13
+  element_type = slider_v2
+  anchor_point = top-left
+  width = 150
+  height = 20
+  x = 233
+  y = 31
+  slider_type = decimal_range
+  pre_selected_value = {"placeholder":"minecraft_option_value","values":{"name":"fov"}}
+  slider_label = {"placeholder":"local","values":{"key":"options.fov"}}: {"placeholder":"calc","values":{"decimal":"false","expression":"({"placeholder":"minecraft_option_value","values":{"name":"fov"}} + 1) * 40 + 30"}}°
+  min_range_value = -1.0
+  max_range_value = 1.0
+  slider_element_executable_block_identifier = 9
+  [executable_action_instance:10][action_type:edit_minecraft_option] = fov:$$value
+  [executable_block:9][type:generic] = [executables:10;]
+}
+
+vanilla_button {
+  instance_identifier = 31629
+  anchor_point = element
+  anchor_point_element = 13
+  x = 154
+}
+
+vanilla_button {
+  instance_identifier = 50429
+  anchor_point = element
+  anchor_point_element = 13
+  height = 30
+  y = 30
+  element_loading_requirement_container_identifier = 12
+  [loading_requirement_container_meta:12] = [groups:][instances:13;]
+  [loading_requirement:fancymenu_loading_requirement_is_world_loaded][requirement_mode:if][req_id:13] =
+}
+
+vanilla_button {
+  instance_identifier = 504139
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 34691
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 34629
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 48012
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 400974
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 346187
+  is_hidden = true
+}

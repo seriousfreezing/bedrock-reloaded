@@ -1,13 +1,13 @@
 name = "Defaulted"
-filename = "defaulted-fabric-26.1.2-1.2.3.jar"
+filename = "defaulted-1.3.7.release-26.1.2-fabric.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/LxgPJAAy/versions/XsEoI7UE/defaulted-fabric-26.1.2-1.2.3.jar"
+url = "https://cdn.modrinth.com/data/LxgPJAAy/versions/dJMLttyH/defaulted-1.3.7.release-26.1.2-fabric.jar"
 hash-format = "sha512"
-hash = "f0e05b1d880c6c9d814ecab890e9a3fce3b500ebe5e903cc0f49328137d56f533564d38b5fa405864a87644a9b03c18d6fd6679a806cf494a48249c297413d10"
+hash = "e5fe222cbe17effd747769d9b321d0be435708a47bcde60c62b2e915566dd3c40db038fb4a07b61577fa1fdea4ec6851ce97739a2f72856c36157e38dbcc5694"
 
 [update]
 [update.modrinth]
 mod-id = "LxgPJAAy"
-version = "XsEoI7UE"
+version = "dJMLttyH"

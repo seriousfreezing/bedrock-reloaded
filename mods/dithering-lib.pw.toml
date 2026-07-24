@@ -1,0 +1,13 @@
+name = "DitheringLib"
+filename = "DitheringLib-1.5.0+26.2+fabric.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/7yMkF0gJ/versions/k5xN0a6j/DitheringLib-1.5.0%2B26.2%2Bfabric.jar"
+hash-format = "sha512"
+hash = "994e83883da3c57bd48640c9ee794a1ef82419857ebd7efbc321080b3a93f83482d95ba3ba11cbd9b9cf491786f4410a7b97316e80e39422f6ce79b369fae03a"
+
+[update]
+[update.modrinth]
+mod-id = "7yMkF0gJ"
+version = "k5xN0a6j"

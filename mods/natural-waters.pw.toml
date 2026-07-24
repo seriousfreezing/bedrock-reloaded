@@ -1,13 +1,13 @@
 name = "Natural Waters"
-filename = "NaturalWaters-v26.2.0-mc26.2.x-Fabric.jar"
+filename = "NaturalWaters-v26.2.1-mc26.2.x-Fabric.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/aYttCyCw/versions/xIdFvl8v/NaturalWaters-v26.2.0-mc26.2.x-Fabric.jar"
+url = "https://cdn.modrinth.com/data/aYttCyCw/versions/PueB0trs/NaturalWaters-v26.2.1-mc26.2.x-Fabric.jar"
 hash-format = "sha512"
-hash = "bebd257ba31c95907d3ef1010bf56fefef7d66b45f2c22f6324f7fbc744cc67be20b16b92ad84a9db367736a9b29b2aef49a2e493a688068dfd58f9b4da982f1"
+hash = "6303b9fc5616df2e5757a579ee70ce769ef8de802c83e763295df728bbd691c9c6cca71c91c03ec0a8e7ecf33ce714f1982a85861ef6f68290ed63ba91028450"
 
 [update]
 [update.modrinth]
 mod-id = "aYttCyCw"
-version = "xIdFvl8v"
+version = "PueB0trs"

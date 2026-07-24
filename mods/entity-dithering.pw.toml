@@ -1,0 +1,13 @@
+name = "Entity Dithering"
+filename = "EntityDithering-1.3.0+26.2+fabric.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/7kP83Tjt/versions/Dq8DgQuw/EntityDithering-1.3.0%2B26.2%2Bfabric.jar"
+hash-format = "sha512"
+hash = "2b695baafe0f1a3558e36c84424d383446f74dcf53c8219c632eb6a7d86e635d3e65fca66d2e8649c0457bb256734f8e114d67b951255915a3c5d1a475d8f793"
+
+[update]
+[update.modrinth]
+mod-id = "7kP83Tjt"
+version = "Dq8DgQuw"

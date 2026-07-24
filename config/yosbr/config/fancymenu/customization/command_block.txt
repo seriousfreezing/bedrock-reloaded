@@ -1,0 +1,161 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = command_block_edit_screen
+  render_custom_elements_behind_vanilla = true
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+element {
+  element_type = shape
+  anchor_point = element
+  anchor_point_element = 0
+  width = 325
+  height = 185
+  x = 4
+  y = 4
+  color = #000000
+}
+
+element {
+  instance_identifier = 0
+  element_type = image
+  anchor_point = top-centered
+  width = 331
+  height = 192
+  x = -163
+  y = 15
+  source = [source:location]fancymenu:textures/widget/frame.png
+  nine_slice_texture = true
+  nine_slice_texture_border_x = 8
+  nine_slice_texture_border_y = 15
+}
+
+vanilla_button {
+  instance_identifier = 346382
+  anchor_point = element
+  anchor_point_element = 0
+  width = 9
+  height = 9
+  x = 318
+  y = 4
+  backgroundnormal = [source:location]fancymenu:textures/icon/close.png
+  backgroundhovered = [source:location]fancymenu:textures/icon/close_highlighted.png
+  label = 
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 346165
+  width = 99
+  height = 15
+  x = -1
+  y = -13
+  source = {"placeholder":"local","values":{"key":"bedrockreloaded.command_block"}}
+  source_mode = direct
+  enable_scrolling = false
+  base_color = #a0a0a0
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 450165
+  width = 99
+  height = 15
+  x = -1
+  y = -13
+  source = {"placeholder":"local","values":{"key":"bedrockreloaded.command_condition"}}
+  source_mode = direct
+  enable_scrolling = false
+  base_color = #a0a0a0
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 554165
+  width = 99
+  height = 15
+  x = -1
+  y = -13
+  source = {"placeholder":"local","values":{"key":"bedrockreloaded.command_redstone"}}
+  source_mode = direct
+  enable_scrolling = false
+  base_color = #a0a0a0
+}
+
+vanilla_button {
+  instance_identifier = 346165
+  anchor_point = element
+  anchor_point_element = 0
+  width = 99
+  height = 25
+  x = 13
+  y = 75
+}
+
+vanilla_button {
+  instance_identifier = 450165
+  anchor_point = element
+  anchor_point_element = 346165
+  width = 99
+  height = 25
+  x = 103
+}
+
+vanilla_button {
+  instance_identifier = 554165
+  anchor_point = element
+  anchor_point_element = 450165
+  width = 99
+  height = 25
+  x = 103
+}
+
+vanilla_button {
+  instance_identifier = 630135
+  anchor_point = element
+  anchor_point_element = 554165
+  width = 20
+  height = 20
+  x = 79
+  y = 45
+}
+
+element {
+  instance_identifier = 1
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 0
+  width = 125
+  height = 38
+  x = 12
+  y = 144
+  source = @s = {"placeholder":"local","values":{"key":"argument.entity.selector.self"}}%n%@p = {"placeholder":"local","values":{"key":"argument.entity.selector.nearestPlayer"}}%n%@r = {"placeholder":"local","values":{"key":"argument.entity.selector.randomPlayer"}}%n%@a = {"placeholder":"local","values":{"key":"argument.entity.selector.allPlayers"}}%n%@e = {"placeholder":"local","values":{"key":"argument.entity.selector.allEntities"}}%n%%n%@n = {"placeholder":"local","values":{"key":"argument.entity.selector.nearestEntity"}}
+  source_mode = direct
+  case_mode = lower
+  base_color = #a0a0a0
+}
+
+element {
+  element_type = custom_button
+  anchor_point = element
+  anchor_point_element = 1
+  width = 150
+  height = 30
+  x = 156
+  y = 5
+  label = {"placeholder":"local","values":{"key":"gui.cancel"}}
+  [executable_action_instance:0][action_type:mimicbutton] = command_block_edit_screen:504382
+}
+
+vanilla_button {
+  instance_identifier = 504382
+  is_hidden = true
+}
