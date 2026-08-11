@@ -1,4 +1,5 @@
 .github/
+projects/
 *.exe
 *.jar
 *.mrpack

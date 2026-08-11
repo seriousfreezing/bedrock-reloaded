@@ -1,0 +1,10 @@
+{
+    "providers": [
+        {
+            "type": "ttf",
+            "file": "minecraft:noto_sans.ttf",
+            "size": 9,
+            "oversample": 6
+        }
+    ]
+}

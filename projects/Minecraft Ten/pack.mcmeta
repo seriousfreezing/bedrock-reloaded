@@ -1,0 +1,12 @@
+{
+    "pack": {
+        "description": "§7Replaces the Minecraft font with Minecraft Ten",
+        "pack_format": 26,
+        "supported_formats": {
+            "min_inclusive": 26,
+            "max_inclusive": 999
+        },
+        "min_format": 26,
+        "max_format": 999
+    }
+}

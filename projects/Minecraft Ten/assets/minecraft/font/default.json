@@ -1,0 +1,11 @@
+{
+    "providers": [
+        {
+            "type": "ttf",
+            "file": "minecraft:minecraft_ten.ttf",
+            "size": 4,
+            "oversample": 3,
+            "skip": "¨~^´`ÁÀÃÂÄÉÊËÍÌÎÏÓÒÕÔÖÚÙÛÜÇáàãâäéêëíìîïóòõôöúùûüçÑñ"
+        }
+    ]
+}
