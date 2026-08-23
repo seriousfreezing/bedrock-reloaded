@@ -1,0 +1,15 @@
+critical_hits_while_sprinting = true
+upwards_knockback = true
+inflate_hitboxes = false
+canceled_particles = ["minecraft:damage_indicator","minecraft:sweep_attack"]
+require_sweeping_edge = false
+sprint_attacks = true
+interact_while_using = false
+legacy_food_mechanics = true
+notch_apple_effects = false
+canceled_attack_sounds = ["minecraft:entity.player.attack.knockback","minecraft:entity.player.attack.sweep"]
+weak_attack_knock_back = false
+[fishing_rods]
+	slower_breaking = true
+	cause_knockback = true
+	launch_entities = true

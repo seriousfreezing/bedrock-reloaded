@@ -83,7 +83,7 @@ vanilla_button {
   nine_slice_border_x = 3
   nine_slice_border_y = 4
   label_base_color = #FFFFFFFF
-  label = {"placeholder":"local","values":{"key":"multiplayer.title"}}
+  label = {"placeholder":"local","values":{"key":"selectWorld.edit.save"}}
 }
 
 element {

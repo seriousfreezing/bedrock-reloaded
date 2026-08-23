@@ -1,13 +1,13 @@
 name = "Better MC Screenshots"
-filename = "BetterScreenShots-1.8+26.2.jar"
+filename = "BetterScreenShots-1.10+26.2.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/oRvsIBeW/versions/QJd2r4pZ/BetterScreenShots-1.8%2B26.2.jar"
+url = "https://cdn.modrinth.com/data/oRvsIBeW/versions/F9P05qUa/BetterScreenShots-1.10%2B26.2.jar"
 hash-format = "sha512"
-hash = "b38b4259ebead54aff9638f8a737098445a1686188cd2c39a8999ee1293948b9948edf2b836f0b9c5d53fe7afee8bb13ac8e2f13569fe55513140e5fbe7fefca"
+hash = "d155d0d01888056f9dae6c5c478f613bb964deb613a68c8b97ca84b6e82104fdd5952ad7d990121e9a2ec48d6249d80801f4775d64df221f8f62119879e6e680"
 
 [update]
 [update.modrinth]
 mod-id = "oRvsIBeW"
-version = "QJd2r4pZ"
+version = "F9P05qUa"

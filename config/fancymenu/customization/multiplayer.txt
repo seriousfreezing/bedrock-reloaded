@@ -47,6 +47,22 @@ element {
 }
 
 element {
+  element_type = custom_button
+  anchor_point = top-right
+  width = 80
+  height = 22
+  x = -80
+  label = {"placeholder":"local","values":{"key":"bedrockreloaded.social"}}
+  backgroundnormal = [source:location]fancymenu:textures/widget/menu_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/menu_button_highlighted.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 3
+  nine_slice_border_y = 3
+  [executable_action_instance:4][action_type:opengui] = net.minecraft.client.gui.screens.friends.FriendsOverlayScreen
+  label_hover_color = #4c4c4cFF
+}
+
+element {
   instance_identifier = 1
   element_type = custom_button
   anchor_point = bottom-centered

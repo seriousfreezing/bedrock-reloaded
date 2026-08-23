@@ -75,7 +75,6 @@ vanilla_button {
   height = 30
   x = -77
   y = 35
-  label = {"placeholder":"local","values":{"key":"gui.done"}}
 }
 
 vanilla_button {

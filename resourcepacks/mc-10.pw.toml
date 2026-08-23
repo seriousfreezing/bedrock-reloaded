@@ -1,0 +1,13 @@
+name = "MC-10"
+filename = "Minecraft Ten.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/B35zHbwU/versions/LnlgXNeA/Minecraft%20Ten.zip"
+hash-format = "sha512"
+hash = "b8a1ed02f52fb9f29938fdb3174248d7e107ccebede08e13a573290ace36adeb5199f8804ce2d033d690507ba43922fa72ac82a9efe5cb456a7d5918bcef5557"
+
+[update]
+[update.modrinth]
+mod-id = "B35zHbwU"
+version = "LnlgXNeA"

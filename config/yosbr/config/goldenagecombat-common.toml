@@ -1,0 +1,4 @@
+remove_attack_cooldown = true
+legacy_attack_damage_values = true
+no_item_durability_penalty = false
+allow_sword_blocking = false

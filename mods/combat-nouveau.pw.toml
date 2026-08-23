@@ -1,0 +1,13 @@
+name = "Combat Nouveau"
+filename = "CombatNouveau-v26.2.0-mc26.2.x-Fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Iv3kcKZn/versions/5pAlHjGF/CombatNouveau-v26.2.0-mc26.2.x-Fabric.jar"
+hash-format = "sha512"
+hash = "2e7e85a71c4f49442983cc008a1c2f750023786eaa824a13b156ee233fdaaca25652637cfb2ec5abb614cba53fbea1537f4fdbe5556ca2ed842043e623970159"
+
+[update]
+[update.modrinth]
+mod-id = "Iv3kcKZn"
+version = "5pAlHjGF"

@@ -1,13 +1,13 @@
 name = "Bedrock Flavor"
-filename = "bedrockflavor-10.0.0.zip"
+filename = "bedrockflavor-11.0.0.zip"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/fSMYD0L5/versions/tB1dlfHD/bedrockflavor-10.0.0.zip"
+url = "https://cdn.modrinth.com/data/fSMYD0L5/versions/id9wCxkG/bedrockflavor-11.0.0.zip"
 hash-format = "sha512"
-hash = "62aa0d6037cbd01950136559cd0bbbb2d3059e8fa50c0ac327e784f8a5e4615275452e04cc551bdcaad393de5f82ce50911a4bfe9855af2b16905c26b4a2846c"
+hash = "b1c3ee558e43b4ba07235bb20538c9a6ea29158a3c299aec5efd2c719b61d7d5043849bee3e8833bccd9e185c89a035e905fe368a445fd2dde5b98949c1e378c"
 
 [update]
 [update.modrinth]
 mod-id = "fSMYD0L5"
-version = "tB1dlfHD"
+version = "id9wCxkG"

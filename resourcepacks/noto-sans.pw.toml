@@ -1,0 +1,13 @@
+name = "Noto Sans"
+filename = "Noto Sans.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/H5OD2azK/versions/4Zrdo6dT/Noto%20Sans.zip"
+hash-format = "sha512"
+hash = "c26e46312c1b4117d1360dc4432c0a1a031ccaae73f7336d2f21ea6d99a43658933f38d79751ad3830655d96efa7b46a342c02581799f2a44a5d26a0732cd99d"
+
+[update]
+[update.modrinth]
+mod-id = "H5OD2azK"
+version = "4Zrdo6dT"

@@ -1,0 +1,5 @@
+attributes_style = "VANILLA"
+instant_eye_height_change = false
+disable_flashing_hearts = false
+full_interact_animations = false
+no_reequip_when_using = false

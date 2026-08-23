@@ -156,9 +156,6 @@ net.minecraft.client.gui.screens.inventory.HorseInventoryScreen {
 net.minecraft.client.gui.screens.inventory.InventoryScreen {
 }
 
-dev.jfronny.libjf.config.impl.ui.tiny.TinyConfigScreen {
-}
-
 net.minecraft.client.gui.screens.options.OnlineOptionsScreen {
 }
 
@@ -166,9 +163,6 @@ net.minecraft.client.gui.screens.inventory.MerchantScreen {
 }
 
 net.minecraft.client.gui.screens.multiplayer.RestrictionsScreen {
-}
-
-dev.jfronny.libjf.config.impl.ui.tiny.presets.PresetsScreen {
 }
 
 net.minecraft.client.gui.screens.inventory.StonecutterScreen {
@@ -210,12 +204,6 @@ net.minecraft.client.gui.screens.MultiplayerOptionsScreen {
 de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
 }
 
-net.minecraft.client.gui.screens.TitleScreen {
-}
-
-net.minecraft.client.gui.screens.PauseScreen {
-}
-
 net.minecraft.client.gui.screens.options.ChatOptionsScreen {
 }
 
@@ -227,3 +215,10 @@ net.minecraft.client.gui.screens.options.OptionsScreen {
 
 com.seibel.distanthorizons.common.wrappers.gui.classicConfig.DhConfigScreen {
 }
+
+net.minecraft.client.gui.screens.PauseScreen {
+}
+
+net.minecraft.client.gui.screens.TitleScreen {
+}
+

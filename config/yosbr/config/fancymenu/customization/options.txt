@@ -19,7 +19,7 @@ element {
   instance_identifier = 14
   element_type = shape
   anchor_point = top-left
-  width = 226
+  width = 222
   stretch_y = true
   color = #313233
   stay_on_screen = false
@@ -31,7 +31,7 @@ element {
   anchor_point = element
   anchor_point_element = 14
   width = 1
-  x = 226
+  x = 222
   stretch_y = true
   color = #1e1e1f
   stay_on_screen = false
@@ -98,12 +98,11 @@ element {
 vanilla_button {
   instance_identifier = 504163
   anchor_point = top-left
-  width = 100
+  width = 110
   height = 30
-  x = 6
   y = 31
-  backgroundnormal = [source:location]fancymenu:textures/widget/black_button.png
-  backgroundhovered = [source:location]fancymenu:textures/widget/black_button_highlighted.png
+  backgroundnormal = [source:location]fancymenu:textures/widget/options_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/options_button_highlighted.png
   nine_slice_custom_background = true
   nine_slice_border_x = 3
   nine_slice_border_y = 4
@@ -115,11 +114,11 @@ element {
   element_type = text_v2
   anchor_point = element
   anchor_point_element = 504163
-  width = 100
+  width = 110
   height = 15
-  x = -2
-  y = 40
-  source = {"placeholder":"local","values":{"key":"controls.title"}}
+  x = 1
+  y = 34
+  source = {"placeholder":"local","values":{"key":"bedrockreloaded.controls"}}
   source_mode = direct
   shadow = false
   enable_scrolling = false
@@ -131,10 +130,10 @@ element {
   element_type = image
   anchor_point = element
   anchor_point_element = 3
-  advanced_width = {"placeholder":"calc","values":{"decimal":"true","expression":"{"placeholder":"elementwidth","values":{"id":"3"}} + 14"}}
+  advanced_width = {"placeholder":"calc","values":{"decimal":"true","expression":"{"placeholder":"elementwidth","values":{"id":"3"}} + 6"}}
   height = 2
-  x = -4
-  y = 17
+  x = -6
+  y = 15
   source = [source:location]fancymenu:textures/widget/bar.png
 }
 
@@ -142,12 +141,12 @@ vanilla_button {
   instance_identifier = 504115
   anchor_point = element
   anchor_point_element = 15
-  width = 100
+  width = 110
   height = 30
-  x = 6
-  y = 8
-  backgroundnormal = [source:location]fancymenu:textures/widget/black_button.png
-  backgroundhovered = [source:location]fancymenu:textures/widget/black_button_highlighted.png
+  x = 5
+  y = 2
+  backgroundnormal = [source:location]fancymenu:textures/widget/options_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/options_button_highlighted.png
   nine_slice_custom_background = true
   nine_slice_border_x = 3
   nine_slice_border_y = 4
@@ -160,27 +159,99 @@ element {
   element_type = custom_button
   anchor_point = element
   anchor_point_element = 504115
-  width = 100
+  width = 110
   height = 30
-  y = 29
-  backgroundnormal = [source:location]fancymenu:textures/widget/black_button.png
-  backgroundhovered = [source:location]fancymenu:textures/widget/black_button_highlighted.png
+  y = 30
+  backgroundnormal = [source:location]fancymenu:textures/widget/options_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/options_button_highlighted.png
   nine_slice_custom_background = true
   nine_slice_border_x = 3
   nine_slice_border_y = 4
-  label = {"placeholder":"local","values":{"key":"bedrockreloaded.controller"}}
+  label = {"placeholder":"local","values":{"key":"controlify.gui.button"}}
   label_base_color = #FFFFFFFF
   [executable_action_instance:11][action_type:opengui] = dev.isxander.controlify.gui.screen.ControlifySettingsScreen
+}
+
+element {
+  instance_identifier = 20
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 6
+  width = 110
+  height = 15
+  x = 1
+  y = 34
+  source = {"placeholder":"local","values":{"key":"bedrockreloaded.world"}}
+  source_mode = direct
+  shadow = false
+  enable_scrolling = false
+  base_color = #d0d1d4
+  element_loading_requirement_container_identifier = 24
+  [loading_requirement_container_meta:24] = [groups:][instances:25;]
+  [loading_requirement:fancymenu_loading_requirement_is_world_loaded][requirement_mode:if][req_id:25] =
+}
+
+element {
+  instance_identifier = 21
+  element_type = image
+  anchor_point = element
+  anchor_point_element = 20
+  advanced_width = {"placeholder":"calc","values":{"decimal":"true","expression":"{"placeholder":"elementwidth","values":{"id":"20"}} + 4"}}
+  height = 2
+  x = -4
+  y = 15
+  source = [source:location]fancymenu:textures/widget/bar.png
+  element_loading_requirement_container_identifier = 22
+  [loading_requirement_container_meta:22] = [groups:][instances:23;]
+  [loading_requirement:fancymenu_loading_requirement_is_world_loaded][requirement_mode:if][req_id:23] =
+}
+
+vanilla_button {
+  instance_identifier = 50429
+  anchor_point = element
+  anchor_point_element = 21
+  width = 110
+  height = 30
+  x = 3
+  y = 2
+  backgroundnormal = [source:location]fancymenu:textures/widget/options_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/options_button_highlighted.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 3
+  nine_slice_border_y = 4
+  element_loading_requirement_container_identifier = 12
+  [loading_requirement_container_meta:12] = [groups:][instances:13;]
+  [loading_requirement:fancymenu_loading_requirement_is_world_loaded][requirement_mode:if][req_id:13] =
+  label_base_color = #FFFFFFFF
+}
+
+element {
+  element_type = custom_button
+  anchor_point = element
+  anchor_point_element = 50429
+  width = 110
+  height = 30
+  y = 30
+  backgroundnormal = [source:location]fancymenu:textures/widget/options_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/options_button_highlighted.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 3
+  nine_slice_border_y = 4
+  label = {"placeholder":"local","values":{"key":"bedrockreloaded.multiplayer"}}
+  [executable_action_instance:17][action_type:opengui] = share_to_lan_screen
+  [loading_requirement_container_meta:18] = [groups:][instances:19;]
+  [loading_requirement:fancymenu_loading_requirement_is_world_loaded][requirement_mode:if][req_id:19] =
+  label_base_color = #FFFFFFFF
 }
 
 element {
   instance_identifier = 8
   element_type = text_v2
   anchor_point = top-left
-  width = 100
+  width = 110
   height = 15
-  x = 118
-  y = 35
+  x = 113
+  y = 34
   source = {"placeholder":"local","values":{"key":"stat.generalButton"}}
   source_mode = direct
   shadow = false
@@ -193,10 +264,10 @@ element {
   element_type = image
   anchor_point = element
   anchor_point_element = 8
-  advanced_width = {"placeholder":"calc","values":{"decimal":"true","expression":"{"placeholder":"elementwidth","values":{"id":"8"}} + 12"}}
+  advanced_width = {"placeholder":"elementwidth","values":{"id":"8"}}
   height = 2
-  x = -4
-  y = 17
+  x = -1
+  y = 15
   source = [source:location]fancymenu:textures/widget/bar.png
 }
 
@@ -204,12 +275,11 @@ vanilla_button {
   instance_identifier = 504187
   anchor_point = element
   anchor_point_element = 16
-  width = 100
+  width = 110
   height = 30
-  x = 6
-  y = 8
-  backgroundnormal = [source:location]fancymenu:textures/widget/black_button.png
-  backgroundhovered = [source:location]fancymenu:textures/widget/black_button_highlighted.png
+  y = 2
+  backgroundnormal = [source:location]fancymenu:textures/widget/options_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/options_button_highlighted.png
   nine_slice_custom_background = true
   nine_slice_border_x = 3
   nine_slice_border_y = 4
@@ -220,11 +290,11 @@ vanilla_button {
   instance_identifier = 346115
   anchor_point = element
   anchor_point_element = 504187
-  width = 100
+  width = 110
   height = 30
-  y = 29
-  backgroundnormal = [source:location]fancymenu:textures/widget/black_button.png
-  backgroundhovered = [source:location]fancymenu:textures/widget/black_button_highlighted.png
+  y = 30
+  backgroundnormal = [source:location]fancymenu:textures/widget/options_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/options_button_highlighted.png
   nine_slice_custom_background = true
   nine_slice_border_x = 3
   nine_slice_border_y = 4
@@ -235,11 +305,11 @@ vanilla_button {
   instance_identifier = fancymenu_options_options.sounds
   anchor_point = element
   anchor_point_element = 346115
-  width = 100
+  width = 110
   height = 30
-  y = 29
-  backgroundnormal = [source:location]fancymenu:textures/widget/black_button.png
-  backgroundhovered = [source:location]fancymenu:textures/widget/black_button_highlighted.png
+  y = 30
+  backgroundnormal = [source:location]fancymenu:textures/widget/options_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/options_button_highlighted.png
   nine_slice_custom_background = true
   nine_slice_border_x = 3
   nine_slice_border_y = 4
@@ -251,11 +321,11 @@ element {
   element_type = custom_button
   anchor_point = element
   anchor_point_element = fancymenu_options_options.sounds
-  width = 100
+  width = 110
   height = 30
-  y = 29
-  backgroundnormal = [source:location]fancymenu:textures/widget/black_button.png
-  backgroundhovered = [source:location]fancymenu:textures/widget/black_button_highlighted.png
+  y = 30
+  backgroundnormal = [source:location]fancymenu:textures/widget/options_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/options_button_highlighted.png
   nine_slice_custom_background = true
   nine_slice_border_x = 3
   nine_slice_border_y = 4
@@ -268,11 +338,11 @@ vanilla_button {
   instance_identifier = 346163
   anchor_point = element
   anchor_point_element = 17
-  width = 100
+  width = 110
   height = 30
-  y = 29
-  backgroundnormal = [source:location]fancymenu:textures/widget/black_button.png
-  backgroundhovered = [source:location]fancymenu:textures/widget/black_button_highlighted.png
+  y = 30
+  backgroundnormal = [source:location]fancymenu:textures/widget/options_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/options_button_highlighted.png
   nine_slice_custom_background = true
   nine_slice_border_x = 3
   nine_slice_border_y = 4
@@ -283,11 +353,11 @@ vanilla_button {
   instance_identifier = 346139
   anchor_point = element
   anchor_point_element = 346163
-  width = 100
+  width = 110
   height = 30
-  y = 29
-  backgroundnormal = [source:location]fancymenu:textures/widget/black_button.png
-  backgroundhovered = [source:location]fancymenu:textures/widget/black_button_highlighted.png
+  y = 30
+  backgroundnormal = [source:location]fancymenu:textures/widget/options_button.png
+  backgroundhovered = [source:location]fancymenu:textures/widget/options_button_highlighted.png
   nine_slice_custom_background = true
   nine_slice_border_x = 3
   nine_slice_border_y = 4
@@ -317,17 +387,6 @@ vanilla_button {
   anchor_point = element
   anchor_point_element = 13
   x = 154
-}
-
-vanilla_button {
-  instance_identifier = 50429
-  anchor_point = element
-  anchor_point_element = 13
-  height = 30
-  y = 30
-  element_loading_requirement_container_identifier = 12
-  [loading_requirement_container_meta:12] = [groups:][instances:13;]
-  [loading_requirement:fancymenu_loading_requirement_is_world_loaded][requirement_mode:if][req_id:13] =
 }
 
 vanilla_button {

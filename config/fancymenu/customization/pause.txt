@@ -56,7 +56,7 @@ element {
   width = 152
   height = 25
   y = 29
-  label = {"placeholder":"local","values":{"key":"bedrockreloaded.menu_shop"}}
+  label = {"placeholder":"local","values":{"key":"bedrockreloaded.pause_shop"}}
   [executable_action_instance:0][action_type:mimicbutton] = pack_selection_screen:69510
   [executable_block:1][type:generic] = [executables:0;]
 }

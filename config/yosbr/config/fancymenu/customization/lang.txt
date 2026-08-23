@@ -59,7 +59,6 @@ vanilla_button {
   height = 25
   x = -50
   y = -30
-  label = {"placeholder":"local","values":{"key":"bedrockreloaded.fonts_title"}}
 }
 
 vanilla_button {
