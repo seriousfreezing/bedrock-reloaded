@@ -1,13 +1,13 @@
 name = "Blocky Bubbles"
-filename = "blocky-bubbles-4.0.0+26.2.jar"
+filename = "blocky-bubbles-4.1.0+26.3.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/9pubtjcn/versions/5YL3yUNt/blocky-bubbles-4.0.0%2B26.2.jar"
+url = "https://cdn.modrinth.com/data/9pubtjcn/versions/VyAII2HG/blocky-bubbles-4.1.0%2B26.3.jar"
 hash-format = "sha512"
-hash = "0d9d9b129949267783a877d145d93e952e108886fe2b54afb4f2a4bcdf2ea5c3478cccbd843f82482306e3988d728e0928164bece3662a661f5e521fc151db06"
+hash = "bae0aebbff9a56f7600325b456c05e91360c8f2c4a922eb0b432d7e95a11201314b04fc0d79b18aa1529b1a783038e283a796ede1ad9034ddb3d253a620ae07d"
 
 [update]
 [update.modrinth]
 mod-id = "9pubtjcn"
-version = "5YL3yUNt"
+version = "VyAII2HG"

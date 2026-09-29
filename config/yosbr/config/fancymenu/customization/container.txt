@@ -20,7 +20,6 @@ element {
   backgroundnormal = [source:location]fancymenu:textures/icon/close.png
   backgroundhovered = [source:location]fancymenu:textures/icon/close_highlighted.png
   [executable_action_instance:1][action_type:closegui] = 
-  [executable_block:][type:generic] = [executables:1;]
 }
 
 element {
@@ -34,5 +33,4 @@ element {
   backgroundnormal = [source:location]fancymenu:textures/icon/close.png
   backgroundhovered = [source:location]fancymenu:textures/icon/close_highlighted.png
   [executable_action_instance:3][action_type:closegui] = 
-  [executable_block:][type:generic] = [executables:3;]
 }

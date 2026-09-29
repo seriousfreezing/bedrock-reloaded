@@ -105,7 +105,7 @@ element {
   height = 24
   x = 32
   description = {"placeholder":"local","values":{"key":"better_screenshots.menu.screenshot"}}
-  [executable_action_instance:4][action_type:mimicbutton] = pause_screen:970970
+  [executable_action_instance:4][action_type:mimicbutton] = pause_screen:58970
 }
 
 element {
@@ -191,34 +191,35 @@ element {
   [executable_action_instance:10][action_type:opengui] = bedrockreloaded.social
 }
 
-element {
-  element_type = custom_button
+vanilla_button {
+  instance_identifier = 622259
   anchor_point = mid-centered
-  width = 85
-  height = 25
-  x = 96
-  y = 56
-  label = {"placeholder":"local","values":{"key":"button.cosmetica.home"}}
-  [executable_action_instance:11][action_type:mimicbutton] = options_screen:fancymenu_options_button.cosmetica.home
+  x = 90
+  y = -50
 }
 
 vanilla_button {
-  instance_identifier = 970970
+  instance_identifier = pause_advancements_button
   is_hidden = true
 }
 
 vanilla_button {
-  instance_identifier = 550306
+  instance_identifier = pause_report_bugs_button
   is_hidden = true
 }
 
 vanilla_button {
-  instance_identifier = 538306
+  instance_identifier = pause_send_feedback_button
   is_hidden = true
 }
 
 vanilla_button {
-  instance_identifier = 538300
+  instance_identifier = pause_share_to_lan_button
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = pause_stats_button
   is_hidden = true
 }
 
@@ -228,17 +229,7 @@ vanilla_button {
 }
 
 vanilla_button {
-  instance_identifier = 526300
-  is_hidden = true
-}
-
-vanilla_button {
-  instance_identifier = 514306
-  is_hidden = true
-}
-
-vanilla_button {
-  instance_identifier = 514300
+  instance_identifier = 504348
   is_hidden = true
 }
 
@@ -258,22 +249,7 @@ vanilla_button {
 }
 
 vanilla_button {
-  instance_identifier = 466306
-  is_hidden = true
-}
-
-vanilla_button {
-  instance_identifier = 466300
-  is_hidden = true
-}
-
-vanilla_button {
-  instance_identifier = 454306
-  is_hidden = true
-}
-
-vanilla_button {
-  instance_identifier = 454300
+  instance_identifier = 58970
   is_hidden = true
 }
 
@@ -283,7 +259,12 @@ vanilla_button {
 }
 
 vanilla_button {
-  instance_identifier = 47440
+  instance_identifier = 46640
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 34970
   is_hidden = true
 }
 
@@ -293,26 +274,6 @@ vanilla_button {
 }
 
 vanilla_button {
-  instance_identifier = 10500
-  is_hidden = true
-}
-
-vanilla_button {
-  instance_identifier = pause_advancements_button
-  is_hidden = true
-}
-
-vanilla_button {
-  instance_identifier = pause_report_bugs_button
-  is_hidden = true
-}
-
-vanilla_button {
-  instance_identifier = pause_send_feedback_button
-  is_hidden = true
-}
-
-vanilla_button {
-  instance_identifier = pause_stats_button
+  instance_identifier = 10970
   is_hidden = true
 }

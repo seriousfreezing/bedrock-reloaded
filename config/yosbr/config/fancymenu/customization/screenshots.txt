@@ -48,22 +48,20 @@ element {
 
 vanilla_button {
   instance_identifier = 804
-  is_hidden = false
   anchor_point = top-left
+  width = 126
+  height = 20
   x = 30
   y = 30
-  width = 126
-  height = 19
 }
 
 vanilla_button {
   instance_identifier = 9284
-  is_hidden = false
   anchor_point = top-right
-  x = -88
+  width = 60
+  height = 20
+  x = -90
   y = 30
-  width = 58
-  height = 19
 }
 
 vanilla_button {

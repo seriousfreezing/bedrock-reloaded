@@ -25,8 +25,8 @@ element {
   source = [source:location]fancymenu:textures/widget/header.png
 }
 
-element {
-  element_type = custom_button
+vanilla_button {
+  instance_identifier = 502597
   anchor_point = element
   anchor_point_element = 0
   width = 8
@@ -36,8 +36,6 @@ element {
   backgroundnormal = [source:location]fancymenu:textures/icon/back.png
   backgroundhovered = [source:location]fancymenu:textures/icon/back_highlight.png
   label = 
-  [executable_action_instance:0][action_type:mimicbutton] = edit_world_screen:502597
-  [executable_action_instance:1][action_type:opengui] = select_world_screen
 }
 
 element {
@@ -157,11 +155,6 @@ vanilla_button {
   nine_slice_border_x = 3
   nine_slice_border_y = 4
   label_hover_color = #4c4c4cFF
-}
-
-vanilla_button {
-  instance_identifier = 502597
-  is_hidden = true
 }
 
 vanilla_button {

@@ -1,13 +1,13 @@
 name = "Golden Age Combat"
-filename = "GoldenAgeCombat-v26.2.0-mc26.2.x-Fabric.jar"
+filename = "goldenagecombat-v26.3.1-mc26.3.x+fabric.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/U5I04KQ6/versions/weSmuBWh/GoldenAgeCombat-v26.2.0-mc26.2.x-Fabric.jar"
+url = "https://cdn.modrinth.com/data/U5I04KQ6/versions/xeWVjQkt/goldenagecombat-v26.3.1-mc26.3.x%2Bfabric.jar"
 hash-format = "sha512"
-hash = "3fa4a1382f03075dcdec5e2f114ea9d7d11f47bb4340af81b9ff8656e1d6a58ae5b79fa7a4aee620bd59f34dac8a362a2147bc0da4a4af27e428dc7f8ef94d78"
+hash = "0b1d9829b2dd4f6dbcb694a44dcc68bd057ca1465651fa5f460eb4cccc71ee11df9dd8fea1c2dd0d866df14a52515cd06e94d751f097ca490f93c14d7cdba7a5"
 
 [update]
 [update.modrinth]
 mod-id = "U5I04KQ6"
-version = "weSmuBWh"
+version = "xeWVjQkt"

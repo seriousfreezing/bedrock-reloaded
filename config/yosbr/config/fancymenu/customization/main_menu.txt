@@ -25,6 +25,17 @@ vanilla_button {
   y = 15
 }
 
+element {
+  element_type = custom_button
+  anchor_point = top-right
+  width = 80
+  height = 22
+  x = -84
+  y = 4
+  label = {"placeholder":"local","values":{"key":"bedrockreloaded.social"}}
+  [executable_action_instance:9][action_type:opengui] = net.minecraft.client.gui.screens.friends.FriendsOverlayScreen
+}
+
 vanilla_button {
   instance_identifier = mc_titlescreen_singleplayer_button
   anchor_point = mid-centered
@@ -52,8 +63,8 @@ vanilla_button {
   height = 30
   y = 31
   label = {"placeholder":"local","values":{"key":"key.category.minecraft.multiplayer"}}
-  backgroundnormal = [source:location]fancymenu:textures/widget/purple_button.png
-  backgroundhovered = [source:location]fancymenu:textures/widget/purple_button_highlighted.png
+  backgroundnormal = [source:location]minecraft:textures/gui/sprites/widget/realms_button.png
+  backgroundhovered = [source:location]minecraft:textures/gui/sprites/widget/realms_button_highlighted.png
   nine_slice_custom_background = true
   nine_slice_border_x = 3
   nine_slice_border_y = 3
@@ -132,15 +143,11 @@ element {
   source = [source:location]better_screenshots:textures/gui/sprites/icon/gallery.png
 }
 
-element {
-  element_type = custom_button
+vanilla_button {
+  instance_identifier = 620299
   anchor_point = bottom-right
-  width = 82
-  height = 25
-  x = -120
-  y = -64
-  label = {"placeholder":"local","values":{"key":"button.cosmetica.home"}}
-  [executable_action_instance:11][action_type:mimicbutton] = options_screen:fancymenu_options_button.cosmetica.home
+  x = -105
+  y = -145
 }
 
 element {
@@ -162,17 +169,17 @@ vanilla_button {
 element {
   element_type = shape
   anchor_point = element
-  anchor_point_element = 29
+  anchor_point_element = 8
   x = 2
   y = 1
   color = #00000090
 }
 
 element {
-  instance_identifier = 29
+  instance_identifier = 8
   element_type = text_v2
   anchor_point = bottom-right
-  x = -32
+  x = -31
   y = -13
   source = v{"placeholder":"mcversion"}
   source_mode = direct

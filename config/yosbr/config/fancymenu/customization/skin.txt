@@ -59,8 +59,6 @@ element {
   height = 25
   x = -77
   y = -30
-  [loading_requirement_container_meta:0] = [groups:][instances:1;]
-  [loading_requirement:fancymenu_loading_requirement_is_world_loaded][requirement_mode:if_not][req_id:1] = 
   label = {"placeholder":"local","values":{"key":"options.online"}}
   [executable_action_instance:0][action_type:opengui] = online_options_screen
 }
@@ -72,25 +70,8 @@ element {
   height = 25
   x = 2
   y = -30
-  element_loading_requirement_container_identifier = 2
-  [loading_requirement_container_meta:2] = [groups:][instances:3;]
-  [loading_requirement:fancymenu_loading_requirement_is_world_loaded][requirement_mode:if_not][req_id:3] = 
   label = {"placeholder":"local","values":{"key":"options.chat"}}
   [executable_action_instance:1][action_type:opengui] = chat_options_screen
-}
-
-element {
-  element_type = custom_button
-  anchor_point = bottom-centered
-  width = 75
-  height = 25
-  x = -37
-  y = -30
-  element_loading_requirement_container_identifier = 4
-  [loading_requirement_container_meta:4] = [groups:][instances:5;]
-  [loading_requirement:fancymenu_loading_requirement_is_world_loaded][requirement_mode:if][req_id:5] = 
-  label = {"placeholder":"local","values":{"key":"options.chat"}}
-  [executable_action_instance:2][action_type:opengui] = chat_options_screen
 }
 
 vanilla_button {

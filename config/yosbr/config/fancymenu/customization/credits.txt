@@ -72,9 +72,9 @@ element {
   anchor_point = element
   anchor_point_element = 1
   width = 200
-  height = 25
+  height = 26
   y = 132
-  source = ^^^%n%{"placeholder":"randomtext","values":{"path":"config/fancymenu/assets/credits.txt","interval":"5"}}%n%^^^
+  source = ^^^%n%{"placeholder":"randomtext","values":{"path":"config/fancymenu/assets/texts/appreciation.txt","interval":"5"}}%n%^^^
   source_mode = direct
   shadow = false
   scale = 2.0
@@ -152,10 +152,15 @@ element {
   width = 203
   height = 100
   y = 38
-  source = {"placeholder":"local","values":{"key":"selectWorld.version"}} v{"placeholder":"mcversion"}%n%{"placeholder":"local","values":{"key":"selectWorld.version"}} 42.0%n%{"placeholder":"loadername"}: {"placeholder":"loaderver"}
+  source = {"placeholder":"local","values":{"key":"selectWorld.version"}} v{"placeholder":"mcversion"}.0%n%{"placeholder":"local","values":{"key":"selectWorld.version"}} 43.0+alpha%n%{"placeholder":"loadername"}: {"placeholder":"loaderver"}
   source_mode = direct
   shadow = false
   enable_scrolling = false
+}
+
+vanilla_button {
+  instance_identifier = 48612
+  is_hidden = true
 }
 
 vanilla_button {

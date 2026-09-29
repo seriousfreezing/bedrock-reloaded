@@ -1,0 +1,13 @@
+name = "Paper Doll"
+filename = "paperdoll-v26.3.0-mc26.3.x+fabric.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/hD0W2Wde/versions/GdHKQeAi/paperdoll-v26.3.0-mc26.3.x%2Bfabric.jar"
+hash-format = "sha512"
+hash = "6641bdb6c4c44261282db79297ebfb27cff1d6d4180bd5f8596ed5637ee38d66b5bda9fffc8d9efeddb704caf15a146a662d27cecfc718c73d2df11f3c22eb54"
+
+[update]
+[update.modrinth]
+mod-id = "hD0W2Wde"
+version = "GdHKQeAi"

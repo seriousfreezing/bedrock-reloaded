@@ -43,7 +43,7 @@ element {
   anchor_point = top-centered
   stretch_x = true
   y = 70
-  source = ^^^%n%{"placeholder":"local","values":{"key":"bedrockreloaded.sleep"}}%n%^^^
+  source = ^^^%n%{"placeholder":"local","values":{"key":"sleep.skipping_night"}}%n%^^^
   source_mode = direct
   enable_scrolling = false
   fade_in_v2 = every_time

@@ -53,6 +53,11 @@ element {
 }
 
 vanilla_button {
+  instance_identifier = 47512
+  is_hidden = true
+}
+
+vanilla_button {
   instance_identifier = 45412
   is_hidden = true
 }

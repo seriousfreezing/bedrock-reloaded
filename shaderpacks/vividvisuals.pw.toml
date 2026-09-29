@@ -1,0 +1,13 @@
+name = "Vivid Visuals"
+filename = "VividVisuals_v1.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/9PW32iYb/versions/3c8Qknr2/VividVisuals_v1.zip"
+hash-format = "sha512"
+hash = "1abaecb1197137ebb056093397b1621f07685349bcb998c70506fbda7aea6f2a40b149898a9692615788c93f435441507c270c2e26239bf295b07c6cb8e76840"
+
+[update]
+[update.modrinth]
+mod-id = "9PW32iYb"
+version = "3c8Qknr2"

@@ -72,9 +72,6 @@ net.minecraft.client.gui.screens.worldselection.SelectWorldScreen {
 dev.terminalmc.commandkeys.gui.screen.MainOptionScreen {
 }
 
-com.mojang.realmsclient.gui.screens.AddRealmPopupScreen {
-}
-
 dev.gdlev.better_screenshots.client.ScreenshotGalleryScreen {
 }
 
@@ -91,9 +88,6 @@ net.minecraft.client.gui.screens.options.LanguageSelectScreen {
 }
 
 net.minecraft.client.gui.screens.options.SoundOptionsScreen {
-}
-
-net.minecraft.client.gui.screens.options.WorldOptionsScreen {
 }
 
 net.minecraft.client.gui.screens.options.controls.ControlsScreen {
@@ -189,16 +183,10 @@ net.minecraft.client.gui.screens.options.VideoSettingsScreen {
 net.minecraft.client.gui.screens.ManageServerScreen {
 }
 
-codes.atomys.advr.screens.AdvancementReloadedScreen {
-}
-
 net.minecraft.client.gui.screens.dialog.ServerLinksDialogScreen {
 }
 
 net.minecraft.client.gui.screens.inventory.SignEditScreen {
-}
-
-net.minecraft.client.gui.screens.MultiplayerOptionsScreen {
 }
 
 de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
@@ -210,15 +198,29 @@ net.minecraft.client.gui.screens.options.ChatOptionsScreen {
 net.minecraft.client.gui.screens.options.SkinCustomizationScreen {
 }
 
-net.minecraft.client.gui.screens.options.OptionsScreen {
+net.minecraft.client.gui.screens.TitleScreen {
 }
 
-com.seibel.distanthorizons.common.wrappers.gui.classicConfig.DhConfigScreen {
+net.minecraft.client.gui.screens.options.OptionsScreen {
 }
 
 net.minecraft.client.gui.screens.PauseScreen {
 }
 
-net.minecraft.client.gui.screens.TitleScreen {
+net.minecraft.client.gui.screens.WorldOptionsScreen {
 }
 
+dev.jfronny.libjf.config.impl.ui.tiny.TinyConfigScreen {
+}
+
+dev.jfronny.libjf.config.impl.ui.tiny.presets.PresetsScreen {
+}
+
+com.mojang.realmsclient.gui.screens.RealmsJoinRealmWithCodeScreen {
+}
+
+com.mojang.realmsclient.gui.screens.RealmsPdpScreen {
+}
+
+net.minecraft.client.gui.screens.LevelLoadingScreen {
+}

@@ -26,13 +26,13 @@ element {
   element_type = image
   anchor_point = top-centered
   width = 331
-  height = 192
+  height = 204
   x = -163
   y = 15
   source = [source:location]fancymenu:textures/widget/frame.png
   nine_slice_texture = true
   nine_slice_texture_border_x = 8
-  nine_slice_texture_border_y = 15
+  nine_slice_texture_border_y = 19
 }
 
 vanilla_button {
@@ -141,21 +141,16 @@ element {
   source_mode = direct
   case_mode = lower
   base_color = #a0a0a0
+  grabber_texture_normal = [source:location]minecraft:textures/gui/sprites/widget/slider_handle.png
+  grabber_texture_hover = [source:location]minecraft:textures/gui/sprites/widget/slider_handle_highlighted.png
 }
 
-element {
-  element_type = custom_button
+vanilla_button {
+  instance_identifier = 504382
   anchor_point = element
   anchor_point_element = 1
   width = 150
   height = 30
   x = 156
   y = 5
-  label = {"placeholder":"local","values":{"key":"gui.cancel"}}
-  [executable_action_instance:0][action_type:mimicbutton] = command_block_edit_screen:504382
-}
-
-vanilla_button {
-  instance_identifier = 504382
-  is_hidden = true
 }

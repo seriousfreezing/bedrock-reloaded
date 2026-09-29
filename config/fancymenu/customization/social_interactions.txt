@@ -22,7 +22,7 @@ element {
   nine_slice_custom_background = true
   nine_slice_border_x = 3
   nine_slice_border_y = 4
-  [executable_action_instance:0][action_type:back_to_last_screen] = 
+  [executable_action_instance:0][action_type:opengui] = pause_screen
 }
 
 element {
@@ -98,6 +98,11 @@ vanilla_button {
 
 vanilla_button {
   instance_identifier = 400974
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 45312
   is_hidden = true
 }
 

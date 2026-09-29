@@ -206,8 +206,8 @@ element {
   [loading_requirement:fancymenu_loading_requirement_is_world_loaded][requirement_mode:if][req_id:23] =
 }
 
-vanilla_button {
-  instance_identifier = 50429
+element {
+  element_type = custom_button
   anchor_point = element
   anchor_point_element = 21
   width = 110
@@ -219,29 +219,12 @@ vanilla_button {
   nine_slice_custom_background = true
   nine_slice_border_x = 3
   nine_slice_border_y = 4
+  label = {"placeholder":"local","values":{"key":"bedrockreloaded.multiplayer"}}
+  label_base_color = #FFFFFFFF
   element_loading_requirement_container_identifier = 12
   [loading_requirement_container_meta:12] = [groups:][instances:13;]
   [loading_requirement:fancymenu_loading_requirement_is_world_loaded][requirement_mode:if][req_id:13] =
-  label_base_color = #FFFFFFFF
-}
-
-element {
-  element_type = custom_button
-  anchor_point = element
-  anchor_point_element = 50429
-  width = 110
-  height = 30
-  y = 30
-  backgroundnormal = [source:location]fancymenu:textures/widget/options_button.png
-  backgroundhovered = [source:location]fancymenu:textures/widget/options_button_highlighted.png
-  nine_slice_custom_background = true
-  nine_slice_border_x = 3
-  nine_slice_border_y = 4
-  label = {"placeholder":"local","values":{"key":"bedrockreloaded.multiplayer"}}
-  [executable_action_instance:17][action_type:opengui] = share_to_lan_screen
-  [loading_requirement_container_meta:18] = [groups:][instances:19;]
-  [loading_requirement:fancymenu_loading_requirement_is_world_loaded][requirement_mode:if][req_id:19] =
-  label_base_color = #FFFFFFFF
+  [executable_action_instance:26][action_type:mimicbutton] = pause_screen:504330
 }
 
 element {
@@ -383,10 +366,13 @@ element {
 }
 
 vanilla_button {
-  instance_identifier = 31629
-  anchor_point = element
-  anchor_point_element = 13
-  x = 154
+  instance_identifier = fancymenu_options_options.online
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = fancymenu_options_options.title
+  is_hidden = true
 }
 
 vanilla_button {
@@ -401,11 +387,6 @@ vanilla_button {
 
 vanilla_button {
   instance_identifier = 34629
-  is_hidden = true
-}
-
-vanilla_button {
-  instance_identifier = 48012
   is_hidden = true
 }
 

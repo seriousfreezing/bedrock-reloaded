@@ -1,0 +1,13 @@
+name = "Held Item Tooltips"
+filename = "helditemtooltips-v26.3.0-mc26.3.x+fabric.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/3wWtgZGB/versions/3uxwamnO/helditemtooltips-v26.3.0-mc26.3.x%2Bfabric.jar"
+hash-format = "sha512"
+hash = "ba38d6663747b56865d97107d5ceb9b98ef76c09c2ab23dccf7ee2bd1bc60ce14003518f56393f746641fd4252081dba3348bd4073a3cc0349c390d6387c5048"
+
+[update]
+[update.modrinth]
+mod-id = "3wWtgZGB"
+version = "3uxwamnO"

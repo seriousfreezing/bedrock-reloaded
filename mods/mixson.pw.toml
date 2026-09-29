@@ -1,13 +1,13 @@
 name = "mixson"
-filename = "mixson-2.2.0-multiloader.jar"
+filename = "mixson-2.2.1-multiloader.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/EgugIDm8/versions/76WpeR5z/mixson-2.2.0-multiloader.jar"
+url = "https://cdn.modrinth.com/data/EgugIDm8/versions/yWpBBcpq/mixson-2.2.1-multiloader.jar"
 hash-format = "sha512"
-hash = "0add1efe32cc073e822e4069afd4b2d2cd9e7175362519da4f954e36ba2012acf46aae681582da9e905df240f8f2e26ae23cc1b13da3107e5bf1c31c86ea6381"
+hash = "653497a63372d41b7ec4801b0f6b7b4042020779977ac233ab655bb72ee46ad68f00719c8718655ff63cbd26b35c09bfe9056a94dade689e4a967d9f833b4cf2"
 
 [update]
 [update.modrinth]
 mod-id = "EgugIDm8"
-version = "76WpeR5z"
+version = "yWpBBcpq"

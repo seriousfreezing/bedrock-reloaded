@@ -70,8 +70,8 @@ element {
   anchor_point = top-centered
   width = 320
   height = 25
-  x = -163
-  y = 52
+  x = -158
+  y = 51
   interactable = false
   source = {"placeholder":"local","values":{"key":"selectWorld.experiments.info"}}
   source_mode = direct
@@ -96,6 +96,11 @@ vanilla_button {
 
 vanilla_button {
   instance_identifier = 46312
+  is_hidden = true
+}
+
+vanilla_button {
+  instance_identifier = 46012
   is_hidden = true
 }
 

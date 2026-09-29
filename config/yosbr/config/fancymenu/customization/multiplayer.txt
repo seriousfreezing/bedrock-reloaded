@@ -202,13 +202,3 @@ vanilla_button {
   instance_identifier = 346948
   is_hidden = true
 }
-
-vanilla_button {
-  instance_identifier = 48912
-  is_hidden = true
-}
-
-vanilla_button {
-  instance_identifier = 8975
-  is_hidden = true
-}

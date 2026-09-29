@@ -109,7 +109,7 @@ element {
   element_type = custom_button
   anchor_point = element
   anchor_point_element = 2
-  width = 166
+  width = 168
   height = 30
   x = 4
   y = 4
@@ -120,17 +120,30 @@ element {
   nine_slice_border_y = 4
   label = {"placeholder":"local","values":{"key":"menu.multiplayerOptions.button"}}
   label_hover_color = #4c4c4cFF
-  [executable_action_instance:2][action_type:opengui] = share_to_lan_screen
+  [executable_action_instance:2][action_type:mimicbutton] = pause_screen:504330
+}
+
+element {
+  instance_identifier = 6
+  element_type = image
+  anchor_point = element
+  anchor_point_element = 4
+  advanced_width = {"placeholder":"calc","values":{"decimal":"true","expression":"{"placeholder":"elementwidth","values":{"id":"4"}} + 6"}}
+  height = 2
+  x = -3
+  y = 36
+  source = [source:location]fancymenu:textures/widget/bar.png
 }
 
 element {
   instance_identifier = 5
   element_type = custom_button
   anchor_point = element
-  anchor_point_element = 4
-  width = 166
+  anchor_point_element = 6
+  width = 168
   height = 30
-  y = 46
+  x = 3
+  y = 8
   backgroundnormal = [source:location]fancymenu:textures/widget/gray_button.png
   backgroundhovered = [source:location]fancymenu:textures/widget/gray_button_highlighted.png
   nine_slice_custom_background = true
@@ -145,7 +158,7 @@ element {
   element_type = custom_button
   anchor_point = element
   anchor_point_element = 5
-  width = 166
+  width = 168
   height = 30
   y = 34
   backgroundnormal = [source:location]fancymenu:textures/widget/gray_button.png

@@ -9,6 +9,519 @@ customization {
   keepaspectratio = true
 }
 
+element {
+  instance_identifier = 0
+  element_type = image
+  anchor_point = mid-centered
+  width = 294
+  height = 95
+  x = -147
+  y = -42
+  source = [source:location]fancymenu:textures/widget/frame.png
+  nine_slice_texture = true
+  nine_slice_texture_border_x = 8
+  nine_slice_texture_border_y = 19
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 0
+  width = 294
+  height = 16
+  y = 4
+  source = ^^^%n%{"placeholder":"vanillabuttonlabel","values":{"locator":"level_loading_screen:downloading_terrain_text"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  enable_scrolling = false
+  base_color = #4c4c4cFF
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 0
+  width = 272
+  height = 36
+  x = 11
+  y = 24
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if_not][group:0][req_id:2] = bg_bg
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if_not][group:0][req_id:3] = cs_cz
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if_not][group:0][req_id:4] = da_dk
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if_not][group:0][req_id:5] = de_de
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if_not][group:0][req_id:6] = el_gr
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if_not][group:0][req_id:7] = en_gb
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if_not][group:0][req_id:8] = es_es
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if_not][group:0][req_id:9] = es_mx
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if_not][group:0][req_id:10] = fi_fl
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if_not][group:0][req_id:11] = fr_ca
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if_not][group:0][req_id:12] = fr_fr
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if_not][group:0][req_id:13] = hu_hu
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if_not][group:0][req_id:15] = id_id
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if_not][group:0][req_id:14] = it_it
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if_not][group:0][req_id:16] = ja_jp
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if_not][group:0][req_id:17] = ko_kr
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if_not][group:0][req_id:18] = nl_nl
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if_not][group:0][req_id:19] = no_no
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if_not][group:0][req_id:20] = pl_pl
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if_not][group:0][req_id:21] = pt_br
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if_not][group:0][req_id:22] = pt_pt
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if_not][group:0][req_id:23] = ru_ru
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if_not][group:0][req_id:24] = sk_sk
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if_not][group:0][req_id:25] = sv_se
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if_not][group:0][req_id:26] = tr_tr
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if_not][group:0][req_id:27] = uk_ua
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if_not][group:0][req_id:28] = zh_cn
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if_not][group:0][req_id:29] = zh_tw
+  source = ^^^%n%{"placeholder":"randomtext","values":{"source":"config/fancymenu/assets/texts/en_us.txt","interval":"5"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  enable_scrolling = false
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 0
+  width = 272
+  height = 36
+  x = 11
+  y = 24
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if][req_id:30] = bg_bg
+  source = ^^^%n%{"placeholder":"randomtext","values":{"source":"config/fancymenu/assets/texts/bg_bg.txt","interval":"5"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  enable_scrolling = false
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 0
+  width = 272
+  height = 36
+  x = 11
+  y = 24
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if][req_id:31] = cs_cz
+  source = ^^^%n%{"placeholder":"randomtext","values":{"source":"config/fancymenu/assets/texts/cs_cz.txt","interval":"5"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  enable_scrolling = false
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 0
+  width = 272
+  height = 36
+  x = 11
+  y = 24
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if][req_id:32] = da_dk
+  source = ^^^%n%{"placeholder":"randomtext","values":{"source":"config/fancymenu/assets/texts/da_dk.txt","interval":"5"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  enable_scrolling = false
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 0
+  width = 272
+  height = 36
+  x = 11
+  y = 24
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if][req_id:33] = de_de
+  source = ^^^%n%{"placeholder":"randomtext","values":{"source":"config/fancymenu/assets/texts/de_de.txt","interval":"5"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  enable_scrolling = false
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 0
+  width = 272
+  height = 36
+  x = 11
+  y = 24
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if][req_id:34] = el_gr
+  source = ^^^%n%{"placeholder":"randomtext","values":{"source":"config/fancymenu/assets/texts/el_gr.txt","interval":"5"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  enable_scrolling = false
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 0
+  width = 272
+  height = 36
+  x = 11
+  y = 24
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if][req_id:35] = en_gb
+  source = ^^^%n%{"placeholder":"randomtext","values":{"source":"config/fancymenu/assets/texts/en_gb.txt","interval":"5"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  enable_scrolling = false
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 0
+  width = 272
+  height = 36
+  x = 11
+  y = 24
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if][req_id:36] = es_es
+  source = ^^^%n%{"placeholder":"randomtext","values":{"source":"config/fancymenu/assets/texts/es_es.txt","interval":"5"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  enable_scrolling = false
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 0
+  width = 272
+  height = 36
+  x = 11
+  y = 24
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if][req_id:37] = es_mx
+  source = ^^^%n%{"placeholder":"randomtext","values":{"source":"config/fancymenu/assets/texts/es_mx.txt","interval":"5"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  enable_scrolling = false
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 0
+  width = 272
+  height = 36
+  x = 11
+  y = 24
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if][req_id:38] = fi_fl
+  source = ^^^%n%{"placeholder":"randomtext","values":{"source":"config/fancymenu/assets/texts/fi_fl.txt","interval":"5"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  enable_scrolling = false
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 0
+  width = 272
+  height = 36
+  x = 11
+  y = 24
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if][req_id:39] = fr_ca
+  source = ^^^%n%{"placeholder":"randomtext","values":{"source":"config/fancymenu/assets/texts/fr_ca.txt","interval":"5"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  enable_scrolling = false
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 0
+  width = 272
+  height = 36
+  x = 11
+  y = 24
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if][req_id:40] = fr_fr
+  source = ^^^%n%{"placeholder":"randomtext","values":{"source":"config/fancymenu/assets/texts/fr_fr.txt","interval":"5"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  enable_scrolling = false
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 0
+  width = 272
+  height = 36
+  x = 11
+  y = 24
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if][req_id:41] = hu_hu
+  source = ^^^%n%{"placeholder":"randomtext","values":{"source":"config/fancymenu/assets/texts/hu_hu.txt","interval":"5"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  enable_scrolling = false
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 0
+  width = 272
+  height = 36
+  x = 11
+  y = 24
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if][req_id:42] = id_id
+  source = ^^^%n%{"placeholder":"randomtext","values":{"source":"config/fancymenu/assets/texts/id_id.txt","interval":"5"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  enable_scrolling = false
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 0
+  width = 272
+  height = 36
+  x = 11
+  y = 24
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if][req_id:43] = it_it
+  source = ^^^%n%{"placeholder":"randomtext","values":{"source":"config/fancymenu/assets/texts/it_it.txt","interval":"5"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  enable_scrolling = false
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 0
+  width = 272
+  height = 36
+  x = 11
+  y = 24
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if][req_id:44] = ja_jp
+  source = ^^^%n%{"placeholder":"randomtext","values":{"source":"config/fancymenu/assets/texts/ja_jp.txt","interval":"5"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  enable_scrolling = false
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 0
+  width = 272
+  height = 36
+  x = 11
+  y = 24
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if][req_id:45] = ko_kr
+  source = ^^^%n%{"placeholder":"randomtext","values":{"source":"config/fancymenu/assets/texts/ko_kr.txt","interval":"5"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  enable_scrolling = false
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 0
+  width = 272
+  height = 36
+  x = 11
+  y = 24
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if][req_id:46] = nl_nl
+  source = ^^^%n%{"placeholder":"randomtext","values":{"source":"config/fancymenu/assets/texts/nl_nl.txt","interval":"5"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  enable_scrolling = false
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 0
+  width = 272
+  height = 36
+  x = 11
+  y = 24
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if][req_id:47] = no_no
+  source = ^^^%n%{"placeholder":"randomtext","values":{"source":"config/fancymenu/assets/texts/no_no.txt","interval":"5"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  enable_scrolling = false
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 0
+  width = 272
+  height = 36
+  x = 11
+  y = 24
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if][req_id:48] = pl_pl
+  source = ^^^%n%{"placeholder":"randomtext","values":{"source":"config/fancymenu/assets/texts/pl_pl.txt","interval":"5"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  enable_scrolling = false
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 0
+  width = 272
+  height = 36
+  x = 11
+  y = 24
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if][req_id:49] = pt_br
+  source = ^^^%n%{"placeholder":"randomtext","values":{"source":"config/fancymenu/assets/texts/pt_br.txt","interval":"5"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  enable_scrolling = false
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 0
+  width = 272
+  height = 36
+  x = 11
+  y = 24
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if][req_id:50] = pt_pt
+  source = ^^^%n%{"placeholder":"randomtext","values":{"source":"config/fancymenu/assets/texts/pt_pt.txt","interval":"5"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  enable_scrolling = false
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 0
+  width = 272
+  height = 36
+  x = 11
+  y = 24
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if][req_id:51] = ru_ru
+  source = ^^^%n%{"placeholder":"randomtext","values":{"source":"config/fancymenu/assets/texts/ru_ru.txt","interval":"5"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  enable_scrolling = false
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 0
+  width = 272
+  height = 36
+  x = 11
+  y = 24
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if][req_id:52] = sk_sk
+  source = ^^^%n%{"placeholder":"randomtext","values":{"source":"config/fancymenu/assets/texts/sk_sk.txt","interval":"5"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  enable_scrolling = false
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 0
+  width = 272
+  height = 36
+  x = 11
+  y = 24
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if][req_id:53] = sv_se
+  source = ^^^%n%{"placeholder":"randomtext","values":{"source":"config/fancymenu/assets/texts/sv_se.txt","interval":"5"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  enable_scrolling = false
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 0
+  width = 272
+  height = 36
+  x = 11
+  y = 24
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if][req_id:54] = tr_tr
+  source = ^^^%n%{"placeholder":"randomtext","values":{"source":"config/fancymenu/assets/texts/tr_tr.txt","interval":"5"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  enable_scrolling = false
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 0
+  width = 272
+  height = 36
+  x = 11
+  y = 24
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if][req_id:55] = uk_ua
+  source = ^^^%n%{"placeholder":"randomtext","values":{"source":"config/fancymenu/assets/texts/uk_ua.txt","interval":"5"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  enable_scrolling = false
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 0
+  width = 272
+  height = 36
+  x = 11
+  y = 24
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if][req_id:56] = zh_cn
+  source = ^^^%n%{"placeholder":"randomtext","values":{"source":"config/fancymenu/assets/texts/zh_cn.txt","interval":"5"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  enable_scrolling = false
+}
+
+element {
+  element_type = text_v2
+  anchor_point = element
+  anchor_point_element = 0
+  width = 272
+  height = 36
+  x = 11
+  y = 24
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if][req_id:57] = zh_tw
+  source = ^^^%n%{"placeholder":"randomtext","values":{"source":"config/fancymenu/assets/texts/zh_tw.txt","interval":"5"}}%n%^^^
+  source_mode = direct
+  shadow = false
+  enable_scrolling = false
+}
+
+element {
+  element_type = progress_bar
+  anchor_point = element
+  anchor_point_element = 0
+  width = 248
+  height = 5
+  x = 23
+  y = 63
+  bar_texture = [source:location]minecraft:textures/gui/sprites/hud/experience_bar_progress.png
+  bar_nine_slice = true
+  bar_nine_slice_border_top = 1
+  bar_nine_slice_border_right = 6
+  bar_nine_slice_border_bottom = 1
+  bar_nine_slice_border_left = 11
+  background_texture = [source:location]minecraft:textures/gui/sprites/hud/experience_bar_background.png
+  background_nine_slice = true
+  background_nine_slice_border_top = 1
+  background_nine_slice_border_right = 6
+  background_nine_slice_border_bottom = 1
+  background_nine_slice_border_left = 11
+  progress_source = {"placeholder":"world_load_progress"}
+}
+
 vanilla_button {
   instance_identifier = chunks
   is_hidden = true

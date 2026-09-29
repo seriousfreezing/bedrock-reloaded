@@ -41,4 +41,3 @@ variable {
   value = false
   reset_on_launch = true
 }
-

@@ -7,7 +7,7 @@ exclusiveFullscreen:false
 maxFps:260
 cloudRange:96
 simulationDistance:8
-resourcePacks:["srl_cm/Bedrocking.zip","file/bedrockflavor-11.0.0.zip","file/SodiumTranslations.zip"]
+resourcePacks:["srl_cm/Bedrocking.zip","file/bedrock-flavor-12.0.0.zip","file/SodiumTranslations.zip"]
 chatOpacity:0.7
 textBackgroundOpacity:0.60
 showAutosaveIndicator:false
@@ -22,9 +22,6 @@ key_key.advancements:key.keyboard.unknown
 key_key.better_screenshots.open_config:key.keyboard.unknown
 key_key.command:key.keyboard.keypad.divide
 key_key.commandkeys.main.edit:key.keyboard.unknown
-key_key.cosmetica.customise:key.keyboard.unknown
-key_key.cosmetica.select_outfit:key.keyboard.unknown
-key_key.cosmetica.snipe:key.keyboard.unknown
 key_key.friends:key.keyboard.f4
 key_key.jade.config:key.keyboard.unknown
 key_key.jade.narrate:key.keyboard.unknown

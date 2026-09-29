@@ -83,7 +83,6 @@ vanilla_button {
   nine_slice_border_x = 3
   nine_slice_border_y = 4
   label_base_color = #FFFFFFFF
-  label = {"placeholder":"local","values":{"key":"selectWorld.edit.save"}}
 }
 
 element {
@@ -93,18 +92,13 @@ element {
   height = 30
   x = -160
   y = -40
-  [executable_action_instance:12][action_type:opengui] = com.viaversion.viafabricplus.screen.impl.SettingsScreen
-  label = {"placeholder":"local","values":{"key":"bedrockreloaded.connect"}}
-  description = {"placeholder":"local","values":{"key":"bedrockreloaded.connect.tooltip"}}
   backgroundnormal = [source:location]fancymenu:textures/widget/gray_button.png
   backgroundhovered = [source:location]fancymenu:textures/widget/gray_button_highlighted.png
   nine_slice_custom_background = true
   nine_slice_border_x = 3
   nine_slice_border_y = 4
+  label = {"placeholder":"local","values":{"key":"bedrockreloaded.connect"}}
   label_hover_color = #4c4c4cFF
-}
-
-vanilla_button {
-  instance_identifier = 8975
-  is_hidden = true
+  description = {"placeholder":"local","values":{"key":"bedrockreloaded.connect.tooltip"}}
+  [executable_action_instance:12][action_type:opengui] = com.viaversion.viafabricplus.screen.impl.SettingsScreen
 }

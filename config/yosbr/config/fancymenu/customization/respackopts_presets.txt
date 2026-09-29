@@ -2,7 +2,6 @@ type = fancymenu_layout
 
 layout-meta {
   identifier = dev.jfronny.libjf.config.impl.ui.tiny.presets.PresetsScreen
-  render_custom_elements_behind_vanilla = false
 }
 
 customization {

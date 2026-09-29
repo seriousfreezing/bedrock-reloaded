@@ -1,0 +1,13 @@
+name = "ElytraCancel"
+filename = "ElytraCancel-1.5.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/s3Jo1jiI/versions/Nwv3oRWg/ElytraCancel-1.5.jar"
+hash-format = "sha512"
+hash = "ffa8a2dc882f18143d25f976d35ba07ffbccba6e8f4712e29ff986a3acd63357cbc302c64eece4e37869139ccd27145fbae20abed319f6aa40ab71886e226a7b"
+
+[update]
+[update.modrinth]
+mod-id = "s3Jo1jiI"
+version = "Nwv3oRWg"

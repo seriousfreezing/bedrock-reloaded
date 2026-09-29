@@ -1,0 +1,13 @@
+name = "Just Coordinates"
+filename = "justcoordinates-0.10.0+26.3-fabric.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/khlL1CoQ/versions/NmAWZXrF/justcoordinates-0.10.0%2B26.3-fabric.jar"
+hash-format = "sha512"
+hash = "72b775f3b37c33878d97472b6824291ab8c1c9455913a55686adffd85f5a88a6cf86e3a9203c537895ca9ab356b7412cea389d03fe15c22c4501bc661455e889"
+
+[update]
+[update.modrinth]
+mod-id = "khlL1CoQ"
+version = "NmAWZXrF"
