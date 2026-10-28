@@ -1,0 +1,21 @@
+no_projectile_immunity = false
+inflate_hitboxes = false
+sprint_attacks = true
+balanced_food_mechanics = true
+critical_hits_while_sprinting = true
+upwards_knockback = true
+min_hitbox_size = 0.0
+weak_attack_knock_back = false
+[shield]
+	shield_knockback = "CONSTANT"
+[items]
+	consume_interruption = "NONE"
+[cooldown]
+	hold_attack_button_delay = 5
+	fast_switching = true
+	hold_attack_button = false
+	min_attack_strength = 0.0
+[sweeping]
+	no_sweeping_when_sneaking = false
+	air_sweep_attack = false
+	require_sweeping_edge = false

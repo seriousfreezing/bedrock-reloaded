@@ -1,0 +1,13 @@
+name = "Wither's Wrath"
+filename = "[26.3]witherswrath-1.16.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qqIrLnDt/versions/ZvhrpnLk/%5B26.3%5Dwitherswrath-1.16.1.jar"
+hash-format = "sha512"
+hash = "f187a485321b60448eb56bcd86c90d077b9180383b92fb6e26526b150ef4cb53e4d7bc89ec64e6c4efeef341e8d700ea9101300271a9caa14567f1b8cdfa9315"
+
+[update]
+[update.modrinth]
+mod-id = "qqIrLnDt"
+version = "ZvhrpnLk"

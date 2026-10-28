@@ -1,7 +1,7 @@
-version = 1
-signTextCulling = false
-leavesCullingMode = "CHECK"
-includeMangroveRoots = true
-endGatewayCulling = true
+version=1
+signTextCulling=false
+leavesCullingMode="CHECK"
+includeMangroveRoots=true
+endGatewayCulling=true
 [modCompatibility]
-    bedrockify = true
+    bedrockify=true

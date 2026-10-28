@@ -1,0 +1,11 @@
+[shield]
+	remove_shield_delay = false
+	horizontal_blocking_angle = 90.0
+[items]
+	increase_stack_size = false
+	throwables_delay = false
+	fast_drinking = false
+[entity_attributes]
+	double_player_attack_strength = false
+[item_attributes]
+	additional_entity_interaction_range = false

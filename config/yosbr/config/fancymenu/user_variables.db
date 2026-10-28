@@ -7,37 +7,7 @@ variable {
 }
 
 variable {
-  name = main_menu
-  value = true
-  reset_on_launch = true
-}
-
-variable {
-  name = initial_player_rotation_y
-  value = 
-  reset_on_launch = true
-}
-
-variable {
-  name = player_rotation_y
-  value = 
-  reset_on_launch = true
-}
-
-variable {
-  name = skin
-  value = true
-  reset_on_launch = true
-}
-
-variable {
-  name = mouse_drag_start_x
-  value = 
-  reset_on_launch = true
-}
-
-variable {
-  name = is_dragging_player
-  value = false
-  reset_on_launch = true
+  name = modpack_ver
+  value = 44.0+beta
+  reset_on_launch = false
 }

@@ -173,61 +173,6 @@ element {
 }
 
 element {
-  instance_identifier = 20
-  element_type = text_v2
-  anchor_point = element
-  anchor_point_element = 6
-  width = 110
-  height = 15
-  x = 1
-  y = 34
-  source = {"placeholder":"local","values":{"key":"bedrockreloaded.world"}}
-  source_mode = direct
-  shadow = false
-  enable_scrolling = false
-  base_color = #d0d1d4
-  element_loading_requirement_container_identifier = 24
-  [loading_requirement_container_meta:24] = [groups:][instances:25;]
-  [loading_requirement:fancymenu_loading_requirement_is_world_loaded][requirement_mode:if][req_id:25] =
-}
-
-element {
-  instance_identifier = 21
-  element_type = image
-  anchor_point = element
-  anchor_point_element = 20
-  advanced_width = {"placeholder":"calc","values":{"decimal":"true","expression":"{"placeholder":"elementwidth","values":{"id":"20"}} + 4"}}
-  height = 2
-  x = -4
-  y = 15
-  source = [source:location]fancymenu:textures/widget/bar.png
-  element_loading_requirement_container_identifier = 22
-  [loading_requirement_container_meta:22] = [groups:][instances:23;]
-  [loading_requirement:fancymenu_loading_requirement_is_world_loaded][requirement_mode:if][req_id:23] =
-}
-
-element {
-  element_type = custom_button
-  anchor_point = element
-  anchor_point_element = 21
-  width = 110
-  height = 30
-  x = 3
-  y = 2
-  backgroundnormal = [source:location]fancymenu:textures/widget/options_button.png
-  backgroundhovered = [source:location]fancymenu:textures/widget/options_button_highlighted.png
-  nine_slice_custom_background = true
-  nine_slice_border_x = 3
-  nine_slice_border_y = 4
-  label = {"placeholder":"local","values":{"key":"bedrockreloaded.multiplayer"}}
-  label_base_color = #FFFFFFFF
-  element_loading_requirement_container_identifier = 12
-  [loading_requirement_container_meta:12] = [groups:][instances:13;]
-  [loading_requirement:fancymenu_loading_requirement_is_world_loaded][requirement_mode:if][req_id:13] =
-  [executable_action_instance:26][action_type:mimicbutton] = pause_screen:504330
-}
-
-element {
   instance_identifier = 8
   element_type = text_v2
   anchor_point = top-left

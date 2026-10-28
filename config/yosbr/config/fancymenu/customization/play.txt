@@ -131,7 +131,7 @@ vanilla_button {
   instance_identifier = 504948
   anchor_point = element
   anchor_point_element = 1
-  width = 110
+  width = 100
   height = 20
   x = -23
   y = 23
@@ -147,9 +147,9 @@ vanilla_button {
   instance_identifier = 504972
   anchor_point = element
   anchor_point_element = 504948
-  width = 75
+  width = 70
   height = 20
-  x = 114
+  x = 104
   backgroundnormal = [source:location]fancymenu:textures/widget/gray_button.png
   backgroundhovered = [source:location]fancymenu:textures/widget/gray_button_highlighted.png
   nine_slice_custom_background = true
@@ -162,9 +162,9 @@ vanilla_button {
   instance_identifier = 346972
   anchor_point = element
   anchor_point_element = 504972
-  width = 75
+  width = 80
   height = 20
-  x = 79
+  x = 74
   backgroundnormal = [source:location]fancymenu:textures/widget/gray_button.png
   backgroundhovered = [source:location]fancymenu:textures/widget/gray_button_highlighted.png
   nine_slice_custom_background = true
@@ -177,9 +177,9 @@ vanilla_button {
   instance_identifier = 425972
   anchor_point = element
   anchor_point_element = 346972
-  width = 75
+  width = 90
   height = 20
-  x = 79
+  x = 84
   backgroundnormal = [source:location]fancymenu:textures/widget/red_button.png
   backgroundhovered = [source:location]fancymenu:textures/widget/red_button_highlighted.png
   nine_slice_custom_background = true

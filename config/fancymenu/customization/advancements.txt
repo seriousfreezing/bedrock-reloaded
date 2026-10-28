@@ -1,7 +1,7 @@
 type = fancymenu_layout
 
 layout-meta {
-  identifier = advancements_screen
+  identifier = codes.atomys.advr.screens.AdvancementReloadedScreen
 }
 
 customization {
@@ -68,9 +68,9 @@ element {
   anchor_point_element = 2
   width = 136
   height = 24
-  x = 6
+  x = 42
   y = 8
-  source = ^^^%n%{"placeholder":"math_round","values":{"num":"{"placeholder":"calc","values":{"decimal":"true","expression":"{"placeholder":"game_time"}/72000"}}","decimals":"-1"}}{"placeholder":"crop_text","values":{"text":"{"placeholder":"local","values":{"key":"gui.hours"}}","remove_from_start":"16","remove_from_end":"0"}}%n%^^^
+  source = %n%{"placeholder":"math_round","values":{"num":"{"placeholder":"calc","values":{"decimal":"true","expression":"{"placeholder":"game_time"}/72000"}}","decimals":"-1"}}{"placeholder":"crop_text","values":{"text":"{"placeholder":"local","values":{"key":"gui.hours"}}","remove_from_start":"16","remove_from_end":"0"}}%n%
   source_mode = direct
   shadow = false
   enable_scrolling = false
@@ -78,22 +78,23 @@ element {
 
 element {
   element_type = custom_button
-  anchor_point = mid-centered
+  anchor_point = element
+  anchor_point_element = 0
   width = 9
   height = 9
-  x = 113
-  y = -66
-  backgroundnormal = [source:location]fancymenu:textures/icon/close.png
+  x = 127
+  y = 4
+  backgroundnormal = [source:location]fancymenu:textures/icon/close_alt.png
   backgroundhovered = [source:location]fancymenu:textures/icon/close_alt_highlighted.png
   [executable_action_instance:0][action_type:opengui] = pause_screen
 }
 
 vanilla_button {
-  instance_identifier = 400974
+  instance_identifier = 402979
   is_hidden = true
 }
 
 vanilla_button {
-  instance_identifier = 46012
+  instance_identifier = 9755
   is_hidden = true
 }

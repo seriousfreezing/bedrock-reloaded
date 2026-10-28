@@ -1,0 +1,13 @@
+name = "Stacknator"
+filename = "Stacknator-2.0.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/p1gQoY1Q/versions/lRb7HqKI/Stacknator-2.0.1.jar"
+hash-format = "sha512"
+hash = "73b3436c9342b489a39d0bd8042f72a187fc1001e212a653f2de1961fad940de8685fd70ab6b11ef630614aa58f9b2c7dc8e44a941087030e3b1c4b7a7330f36"
+
+[update]
+[update.modrinth]
+mod-id = "p1gQoY1Q"
+version = "lRb7HqKI"

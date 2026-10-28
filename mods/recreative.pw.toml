@@ -1,0 +1,13 @@
+name = "Recreative"
+filename = "recreative-3.0.0+26.3-fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/EBWdtRFr/versions/XsEaqoCN/recreative-3.0.0%2B26.3-fabric.jar"
+hash-format = "sha512"
+hash = "28ad3301b9e624410acc6e4f4a6c3437407607b7e2960ab10bf4fe4ef810e8ccea9fb05a20336793831caf598aacb268037a96a66b60ffd9e788bdb2d119a75d"
+
+[update]
+[update.modrinth]
+mod-id = "EBWdtRFr"
+version = "XsEaqoCN"

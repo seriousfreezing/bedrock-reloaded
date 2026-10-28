@@ -152,7 +152,7 @@ element {
   width = 203
   height = 100
   y = 38
-  source = {"placeholder":"local","values":{"key":"selectWorld.version"}} v{"placeholder":"mcversion"}.0%n%{"placeholder":"local","values":{"key":"selectWorld.version"}} 43.0+alpha%n%{"placeholder":"loadername"}: {"placeholder":"loaderver"}
+  source = {"placeholder":"local","values":{"key":"selectWorld.version"}} v{"placeholder":"mcversion"}.0%n%{"placeholder":"local","values":{"key":"selectWorld.version"}} {"placeholder":"getvariable","values":{"name":"modpack_ver"}}%n%{"placeholder":"loadername"}: {"placeholder":"loaderver"}
   source_mode = direct
   shadow = false
   enable_scrolling = false

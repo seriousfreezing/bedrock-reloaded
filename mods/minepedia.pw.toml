@@ -1,0 +1,13 @@
+name = "Minepedia"
+filename = "Minepedia-1.7.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/TL9TUXua/versions/AiedAVex/Minepedia-1.7.jar"
+hash-format = "sha512"
+hash = "5f984e25b975a72a33b13b037c93506f050a8ac21ba27c528fc5f8f07488094c45eb04dc88fb39842526fb2519e39ce92764f71ec02ed04d00def194e821b6b8"
+
+[update]
+[update.modrinth]
+mod-id = "TL9TUXua"
+version = "AiedAVex"

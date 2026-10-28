@@ -1,15 +1,15 @@
 name = "bedrock-reloaded"
 author = "SeriousFreezing"
-version = "43.0+alpha"
+version = "44.0+beta"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "b493e0d9c9a1983c24b61c3e9f6db0320d7aa2dbed67045e51b3e3815f4ee0c3"
+hash = "79303c72cdce4b9327e8d7755e39810b0048319c873885cce372c765ee4a20f2"
 
 [versions]
-fabric = "0.19.5"
+fabric = "0.20.1"
 minecraft = "26.3"
 
 [options]

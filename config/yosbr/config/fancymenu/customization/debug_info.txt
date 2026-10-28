@@ -1,0 +1,21 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = %fancymenu:universal_layout%
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+element {
+  element_type = text_v2
+  anchor_point = top-centered
+  stretch_x = true
+  source = ^^^%n%{"placeholder":"getvariable","values":{"name":"modpack_ver"}}, OpenGL: {"placeholder":"glver"}, {"placeholder":"osname"}, {"placeholder":"gpuinfo"} GPU, {"placeholder":"javaver"}%n%FPS: {"placeholder":"fps"}, Mem: {"placeholder":"usedram"}, Max: {"placeholder":"maxram"}, Free: {"placeholder":"calc","values":{"expression":"{"placeholder":"maxram"} - {"placeholder":"usedram"}","decimal":"false"}}, Env: Production, GUI Scale: {"placeholder":"guiscale"}.0%n%^^^
+  source_mode = direct
+  interactable = false
+  enable_scrolling = false
+  scale = 0.6
+}

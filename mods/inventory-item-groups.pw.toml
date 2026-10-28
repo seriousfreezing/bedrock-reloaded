@@ -1,13 +1,13 @@
 name = "Inventory Item Groups"
-filename = "inventory-item-groups-1.5.2-fabric+26.3.jar"
+filename = "inventory-item-groups-1.5.3-fabric+26.3.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/adriDDJt/versions/dvmdp2F9/inventory-item-groups-1.5.2-fabric%2B26.3.jar"
+url = "https://cdn.modrinth.com/data/adriDDJt/versions/3mtjAIrF/inventory-item-groups-1.5.3-fabric%2B26.3.jar"
 hash-format = "sha512"
-hash = "64f3b4226bbde6a4f9d711c5d4ee862eeef918d6d3264c1a24fb02dd61f15c411643a522b778777874e3823adc341d809e4ef17224b3f782d747e27b4f052be8"
+hash = "46ace0f7759695ef0d44f1e12171db50af9d9eaca1a361188637fead90e386fdce9a32048d4d3775149a8818d03b994d23165bb00eadc9beecdaed3bb20e3a30"
 
 [update]
 [update.modrinth]
 mod-id = "adriDDJt"
-version = "dvmdp2F9"
+version = "3mtjAIrF"

@@ -92,8 +92,8 @@ element {
   width = 24
   height = 24
   x = 32
-  description = {"placeholder":"local","values":{"key":"bedrockreloaded.howtoplay"}}
-  [executable_action_instance:0][action_type:openlink] = https://minecraft.wiki/
+  description = {"placeholder":"local","values":{"key":"screen.minepedia.how_to_play"}}
+  [executable_action_instance:0][action_type:opengui] = org.minepedia.screen.MinepediaIndexScreen
 }
 
 element {
@@ -105,7 +105,7 @@ element {
   height = 24
   x = 32
   description = {"placeholder":"local","values":{"key":"better_screenshots.menu.screenshot"}}
-  [executable_action_instance:4][action_type:mimicbutton] = pause_screen:58970
+  [executable_action_instance:4][action_type:mimicbutton] = pause_screen:970970
 }
 
 element {
@@ -199,6 +199,16 @@ vanilla_button {
 }
 
 vanilla_button {
+  instance_identifier = 504330
+  anchor_point = bottom-right
+  width = 80
+  height = 23
+  x = -125
+  y = -40
+  label = {"placeholder":"local","values":{"key":"menu.multiplayerOptions.button"}}
+}
+
+vanilla_button {
   instance_identifier = pause_advancements_button
   is_hidden = true
 }
@@ -224,17 +234,17 @@ vanilla_button {
 }
 
 vanilla_button {
+  instance_identifier = 970970
+  is_hidden = true
+}
+
+vanilla_button {
   instance_identifier = 526306
   is_hidden = true
 }
 
 vanilla_button {
   instance_identifier = 504348
-  is_hidden = true
-}
-
-vanilla_button {
-  instance_identifier = 504330
   is_hidden = true
 }
 

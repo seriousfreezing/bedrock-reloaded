@@ -224,3 +224,13 @@ com.mojang.realmsclient.gui.screens.RealmsPdpScreen {
 
 net.minecraft.client.gui.screens.LevelLoadingScreen {
 }
+
+codes.atomys.advr.screens.AdvancementReloadedScreen {
+}
+
+org.minepedia.screen.MinepediaIndexScreen {
+}
+
+org.minepedia.screen.MinepediaEncyclopediaScreen {
+}
+

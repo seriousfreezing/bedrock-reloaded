@@ -2,6 +2,7 @@
 projects/
 *.exe
 *.jar
+*.ini
 *.mrpack
 LICENSE
 README.md

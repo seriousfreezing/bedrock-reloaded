@@ -1,13 +1,13 @@
 name = "Bedrock Skins"
-filename = "BedrockSkins-26.3-2.1.0-fabric.jar"
+filename = "BedrockSkins-26.3-2.2.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/76lEgqhs/versions/xrvpajSt/BedrockSkins-26.3-2.1.0-fabric.jar"
+url = "https://cdn.modrinth.com/data/76lEgqhs/versions/sjXZNIyg/BedrockSkins-26.3-2.2.0.jar"
 hash-format = "sha512"
-hash = "5632688678fc37903cae091b8a9438985aa37bbf303a70897643ae1f6b12f8ffadfbb164788a4544aa1ce2ab2d53aad458abecb609a16ee62383a919e51bde17"
+hash = "59bc24a0e75a023a6e2fb09f1bdb04867fc61681b9d916dc4a4a432cbdd211252096bd3f1a7403c443f790d7edd10057921c735bb1f994866584266936f20322"
 
 [update]
 [update.modrinth]
 mod-id = "76lEgqhs"
-version = "xrvpajSt"
+version = "sjXZNIyg"
